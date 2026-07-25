@@ -1,0 +1,55 @@
+=== 2026-07-23 23:33:27 | STEP: fastp_SRR1039508 ===
+CMD: docker run --rm --cpus=4 --memory=4g     -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/data':/data -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/results/qc/fastp':/qc     quay.io/biocontainers/fastp:0.23.4--h5f740d0_0     fastp -i /data/SRR1039508_1.fastq.gz -I /data/SRR1039508_2.fastq.gz           -o /data/trimmed/SRR1039508_1.trimmed.fastq.gz -O /data/trimmed/SRR1039508_2.trimmed.fastq.gz           -h /qc/SRR1039508_fastp.html -j /qc/SRR1039508_fastp.json
+Unable to find image 'quay.io/biocontainers/fastp:0.23.4--h5f740d0_0' locally
+0.23.4--h5f740d0_0: Pulling from biocontainers/fastp
+c1a16a04cedd: Already exists
+4ca545ee6d5d: Already exists
+b563661fdac4: Pulling fs layer
+b563661fdac4: Verifying Checksum
+b563661fdac4: Download complete
+b563661fdac4: Pull complete
+Digest: sha256:b635334b6bb25eba14d0b8c240a45a51234984247d79715f8cd0b7959df850c2
+Status: Downloaded newer image for quay.io/biocontainers/fastp:0.23.4--h5f740d0_0
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Read1 before filtering:
+total reads: 22935521
+total bases: 1444937823
+Q20 bases: 1423168190(98.4934%)
+Q30 bases: 1392606209(96.3783%)
+
+Read2 before filtering:
+total reads: 22935521
+total bases: 1444937823
+Q20 bases: 1411220883(97.6665%)
+Q30 bases: 1383191056(95.7267%)
+
+Read1 after filtering:
+total reads: 22472992
+total bases: 1414647912
+Q20 bases: 1402234426(99.1225%)
+Q30 bases: 1373769897(97.1104%)
+
+Read2 after filtering:
+total reads: 22472992
+total bases: 1414647912
+Q20 bases: 1394732989(98.5922%)
+Q30 bases: 1368504935(96.7382%)
+
+Filtering result:
+reads passed filter: 44945984
+reads failed due to low quality: 806786
+reads failed due to too many N: 118272
+reads failed due to too short: 0
+reads with adapter trimmed: 181132
+bases trimmed due to adapters: 2332538
+
+Duplication rate: 7.29896%
+
+Insert size peak (evaluated by paired-end reads): 95
+
+JSON report: /qc/SRR1039508_fastp.json
+HTML report: /qc/SRR1039508_fastp.html
+
+fastp -i /data/SRR1039508_1.fastq.gz -I /data/SRR1039508_2.fastq.gz -o /data/trimmed/SRR1039508_1.trimmed.fastq.gz -O /data/trimmed/SRR1039508_2.trimmed.fastq.gz -h /qc/SRR1039508_fastp.html -j /qc/SRR1039508_fastp.json 
+fastp v0.23.4, time used: 105 seconds
+=== 2026-07-23 23:35:19 | END: fastp_SRR1039508 (exit=0) ===

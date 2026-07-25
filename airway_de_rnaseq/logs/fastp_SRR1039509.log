@@ -1,0 +1,45 @@
+=== 2026-07-23 23:35:19 | STEP: fastp_SRR1039509 ===
+CMD: docker run --rm --cpus=4 --memory=4g     -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/data':/data -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/results/qc/fastp':/qc     quay.io/biocontainers/fastp:0.23.4--h5f740d0_0     fastp -i /data/SRR1039509_1.fastq.gz -I /data/SRR1039509_2.fastq.gz           -o /data/trimmed/SRR1039509_1.trimmed.fastq.gz -O /data/trimmed/SRR1039509_2.trimmed.fastq.gz           -h /qc/SRR1039509_fastp.html -j /qc/SRR1039509_fastp.json
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Read1 before filtering:
+total reads: 21155707
+total bases: 1332809541
+Q20 bases: 1310127903(98.2982%)
+Q30 bases: 1281552413(96.1542%)
+
+Read2 before filtering:
+total reads: 21155707
+total bases: 1332809541
+Q20 bases: 1287302262(96.5856%)
+Q30 bases: 1255884610(94.2284%)
+
+Read1 after filtering:
+total reads: 20549417
+total bases: 1293477918
+Q20 bases: 1281480113(99.0724%)
+Q30 bases: 1255427910(97.0583%)
+
+Read2 after filtering:
+total reads: 20549417
+total bases: 1293477918
+Q20 bases: 1270406380(98.2163%)
+Q30 bases: 1241089539(95.9498%)
+
+Filtering result:
+reads passed filter: 41098834
+reads failed due to low quality: 1105550
+reads failed due to too many N: 107030
+reads failed due to too short: 0
+reads with adapter trimmed: 172682
+bases trimmed due to adapters: 2366604
+
+Duplication rate: 6.91635%
+
+Insert size peak (evaluated by paired-end reads): 95
+
+JSON report: /qc/SRR1039509_fastp.json
+HTML report: /qc/SRR1039509_fastp.html
+
+fastp -i /data/SRR1039509_1.fastq.gz -I /data/SRR1039509_2.fastq.gz -o /data/trimmed/SRR1039509_1.trimmed.fastq.gz -O /data/trimmed/SRR1039509_2.trimmed.fastq.gz -h /qc/SRR1039509_fastp.html -j /qc/SRR1039509_fastp.json 
+fastp v0.23.4, time used: 104 seconds
+=== 2026-07-23 23:37:04 | END: fastp_SRR1039509 (exit=0) ===

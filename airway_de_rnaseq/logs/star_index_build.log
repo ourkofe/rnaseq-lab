@@ -1,0 +1,32 @@
+=== 2026-07-24 00:00:30 | STEP: star_index_build ===
+CMD: docker run --rm --cpus=8 --memory=32g   -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/ref':/ref -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/index':/index   quay.io/biocontainers/star:2.7.11a--h0033a41_0   STAR --runMode genomeGenerate        --genomeDir /index        --genomeFastaFiles /ref/Homo_sapiens.GRCh38.dna.primary_assembly.fa        --sjdbGTFfile /ref/Homo_sapiens.GRCh38.110.gtf        --sjdbOverhang 100        --runThreadN 8
+Unable to find image 'quay.io/biocontainers/star:2.7.11a--h0033a41_0' locally
+2.7.11a--h0033a41_0: Pulling from biocontainers/star
+642efca944a0: Already exists
+bd9ddc54bea9: Already exists
+c283c8ae25a9: Pulling fs layer
+c283c8ae25a9: Verifying Checksum
+c283c8ae25a9: Download complete
+c283c8ae25a9: Pull complete
+Digest: sha256:91530a1e0a30d859645f075fbdb4bf73e2a92c3e2b890e154dfbee4b3f3356a4
+Status: Downloaded newer image for quay.io/biocontainers/star:2.7.11a--h0033a41_0
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+!!!!! WARNING: Could not move Log.out file from ./Log.out into /index/Log.out. Will keep ./Log.out
+
+	/usr/local/bin/STAR-avx2 --runMode genomeGenerate --genomeDir /index --genomeFastaFiles /ref/Homo_sapiens.GRCh38.dna.primary_assembly.fa --sjdbGTFfile /ref/Homo_sapiens.GRCh38.110.gtf --sjdbOverhang 100 --runThreadN 8
+	STAR version: 2.7.11a   compiled: 2023-09-15T02:58:53+0000 :/opt/conda/conda-bld/star_1694746407721/work/source
+Jul 23 15:00:49 ..... started STAR run
+Jul 23 15:00:49 ... starting to generate Genome files
+Jul 23 15:01:39 ..... processing annotations GTF
+Jul 23 15:02:20 ... starting to sort Suffix Array. This may take a long time...
+Jul 23 15:02:53 ... sorting Suffix Array chunks and saving them to disk...
+Jul 23 15:35:03 ... loading chunks from disk, packing SA...
+Jul 23 15:36:38 ... finished generating suffix array
+Jul 23 15:36:38 ... generating Suffix Array index
+Jul 23 15:40:26 ... completed Suffix Array index
+Jul 23 15:40:26 ..... inserting junctions into the genome indices
+Jul 23 15:44:35 ... writing Genome to disk ...
+Jul 23 15:44:58 ... writing Suffix Array to disk ...
+Jul 23 15:45:27 ... writing SAindex to disk
+Jul 23 15:45:30 ..... finished successfully
+=== 2026-07-24 00:45:31 | END: star_index_build (exit=0) ===

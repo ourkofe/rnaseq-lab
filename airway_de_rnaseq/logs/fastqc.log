@@ -1,0 +1,255 @@
+=== 2026-07-23 23:06:35 | STEP: fastqc ===
+CMD: docker run --rm --cpus=4 --memory=4g   -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/data':/data -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/results/qc/fastqc':/out   biocontainers/fastqc:v0.11.9_cv8   fastqc /data/*.fastq.gz -o /out
+Unable to find image 'biocontainers/fastqc:v0.11.9_cv8' locally
+v0.11.9_cv8: Pulling from biocontainers/fastqc
+9ff7e2e5f967: Pulling fs layer
+59856638ac9f: Pulling fs layer
+6f317d6d954b: Pulling fs layer
+a9dde5e2a643: Pulling fs layer
+675cac559d07: Pulling fs layer
+0e6dd20ee818: Pulling fs layer
+374c558e71da: Pulling fs layer
+0df3c64bb19a: Pulling fs layer
+e936d7784cf9: Pulling fs layer
+4dfd8d164cc5: Pulling fs layer
+473490461998: Pulling fs layer
+8f5e491552e6: Pulling fs layer
+a66ab3a674d9: Pulling fs layer
+18f922275a6f: Pulling fs layer
+dbd67cd33317: Pulling fs layer
+c86651a97b9e: Pulling fs layer
+0e6dd20ee818: Waiting
+0df3c64bb19a: Waiting
+a66ab3a674d9: Waiting
+374c558e71da: Waiting
+675cac559d07: Waiting
+a9dde5e2a643: Waiting
+4dfd8d164cc5: Waiting
+8f5e491552e6: Waiting
+473490461998: Waiting
+e936d7784cf9: Waiting
+c86651a97b9e: Waiting
+18f922275a6f: Waiting
+6f317d6d954b: Download complete
+59856638ac9f: Verifying Checksum
+59856638ac9f: Download complete
+a9dde5e2a643: Verifying Checksum
+a9dde5e2a643: Download complete
+675cac559d07: Verifying Checksum
+675cac559d07: Download complete
+374c558e71da: Verifying Checksum
+374c558e71da: Download complete
+0df3c64bb19a: Verifying Checksum
+0df3c64bb19a: Download complete
+9ff7e2e5f967: Verifying Checksum
+9ff7e2e5f967: Download complete
+e936d7784cf9: Verifying Checksum
+e936d7784cf9: Download complete
+4dfd8d164cc5: Verifying Checksum
+4dfd8d164cc5: Download complete
+9ff7e2e5f967: Pull complete
+59856638ac9f: Pull complete
+6f317d6d954b: Pull complete
+a9dde5e2a643: Pull complete
+675cac559d07: Pull complete
+8f5e491552e6: Verifying Checksum
+8f5e491552e6: Download complete
+473490461998: Verifying Checksum
+473490461998: Download complete
+a66ab3a674d9: Verifying Checksum
+dbd67cd33317: Verifying Checksum
+dbd67cd33317: Download complete
+0e6dd20ee818: Verifying Checksum
+0e6dd20ee818: Download complete
+0e6dd20ee818: Pull complete
+18f922275a6f: Verifying Checksum
+18f922275a6f: Download complete
+374c558e71da: Pull complete
+0df3c64bb19a: Pull complete
+e936d7784cf9: Pull complete
+4dfd8d164cc5: Pull complete
+473490461998: Pull complete
+8f5e491552e6: Pull complete
+a66ab3a674d9: Pull complete
+c86651a97b9e: Verifying Checksum
+c86651a97b9e: Download complete
+18f922275a6f: Pull complete
+dbd67cd33317: Pull complete
+c86651a97b9e: Pull complete
+Digest: sha256:82e5fa413d275a72c3de76e400a3d12a93ebdb4e1ef5391d7f7e9ce686671d8d
+Status: Downloaded newer image for biocontainers/fastqc:v0.11.9_cv8
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Skipping '/data/*.fastq.gz' which didn't exist, or couldn't be read
+=== 2026-07-23 23:07:12 | END: fastqc (exit=0) ===
+=== 2026-07-23 23:11:03 | STEP: fastqc ===
+CMD: docker run --rm --cpus=4 --memory=4g   -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/data':/data -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/results/qc/fastqc':/out   biocontainers/fastqc:v0.11.9_cv8   sh -c 'fastqc /data/*.fastq.gz -o /out'
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Started analysis of SRR1039508_1.fastq.gz
+Approx 5% complete for SRR1039508_1.fastq.gz
+Approx 10% complete for SRR1039508_1.fastq.gz
+Approx 15% complete for SRR1039508_1.fastq.gz
+Approx 20% complete for SRR1039508_1.fastq.gz
+Approx 25% complete for SRR1039508_1.fastq.gz
+Approx 30% complete for SRR1039508_1.fastq.gz
+Approx 35% complete for SRR1039508_1.fastq.gz
+Approx 40% complete for SRR1039508_1.fastq.gz
+Approx 45% complete for SRR1039508_1.fastq.gz
+Approx 50% complete for SRR1039508_1.fastq.gz
+Approx 55% complete for SRR1039508_1.fastq.gz
+Approx 60% complete for SRR1039508_1.fastq.gz
+Approx 65% complete for SRR1039508_1.fastq.gz
+Approx 70% complete for SRR1039508_1.fastq.gz
+Approx 75% complete for SRR1039508_1.fastq.gz
+Approx 80% complete for SRR1039508_1.fastq.gz
+Approx 85% complete for SRR1039508_1.fastq.gz
+Approx 90% complete for SRR1039508_1.fastq.gz
+Approx 95% complete for SRR1039508_1.fastq.gz
+Analysis complete for SRR1039508_1.fastq.gz
+Started analysis of SRR1039508_2.fastq.gz
+Approx 5% complete for SRR1039508_2.fastq.gz
+Approx 10% complete for SRR1039508_2.fastq.gz
+Approx 15% complete for SRR1039508_2.fastq.gz
+Approx 20% complete for SRR1039508_2.fastq.gz
+Approx 25% complete for SRR1039508_2.fastq.gz
+Approx 30% complete for SRR1039508_2.fastq.gz
+Approx 35% complete for SRR1039508_2.fastq.gz
+Approx 40% complete for SRR1039508_2.fastq.gz
+Approx 45% complete for SRR1039508_2.fastq.gz
+Approx 50% complete for SRR1039508_2.fastq.gz
+Approx 55% complete for SRR1039508_2.fastq.gz
+Approx 60% complete for SRR1039508_2.fastq.gz
+Approx 65% complete for SRR1039508_2.fastq.gz
+Approx 70% complete for SRR1039508_2.fastq.gz
+Approx 75% complete for SRR1039508_2.fastq.gz
+Approx 80% complete for SRR1039508_2.fastq.gz
+Approx 85% complete for SRR1039508_2.fastq.gz
+Approx 90% complete for SRR1039508_2.fastq.gz
+Approx 95% complete for SRR1039508_2.fastq.gz
+Analysis complete for SRR1039508_2.fastq.gz
+Started analysis of SRR1039509_1.fastq.gz
+Approx 5% complete for SRR1039509_1.fastq.gz
+Approx 10% complete for SRR1039509_1.fastq.gz
+Approx 15% complete for SRR1039509_1.fastq.gz
+Approx 20% complete for SRR1039509_1.fastq.gz
+Approx 25% complete for SRR1039509_1.fastq.gz
+Approx 30% complete for SRR1039509_1.fastq.gz
+Approx 35% complete for SRR1039509_1.fastq.gz
+Approx 40% complete for SRR1039509_1.fastq.gz
+Approx 45% complete for SRR1039509_1.fastq.gz
+Approx 50% complete for SRR1039509_1.fastq.gz
+Approx 55% complete for SRR1039509_1.fastq.gz
+Approx 60% complete for SRR1039509_1.fastq.gz
+Approx 65% complete for SRR1039509_1.fastq.gz
+Approx 70% complete for SRR1039509_1.fastq.gz
+Approx 75% complete for SRR1039509_1.fastq.gz
+Approx 80% complete for SRR1039509_1.fastq.gz
+Approx 85% complete for SRR1039509_1.fastq.gz
+Approx 90% complete for SRR1039509_1.fastq.gz
+Approx 95% complete for SRR1039509_1.fastq.gz
+Analysis complete for SRR1039509_1.fastq.gz
+Started analysis of SRR1039509_2.fastq.gz
+Approx 5% complete for SRR1039509_2.fastq.gz
+Approx 10% complete for SRR1039509_2.fastq.gz
+Approx 15% complete for SRR1039509_2.fastq.gz
+Approx 20% complete for SRR1039509_2.fastq.gz
+Approx 25% complete for SRR1039509_2.fastq.gz
+Approx 30% complete for SRR1039509_2.fastq.gz
+Approx 35% complete for SRR1039509_2.fastq.gz
+Approx 40% complete for SRR1039509_2.fastq.gz
+Approx 45% complete for SRR1039509_2.fastq.gz
+Approx 50% complete for SRR1039509_2.fastq.gz
+Approx 55% complete for SRR1039509_2.fastq.gz
+Approx 60% complete for SRR1039509_2.fastq.gz
+Approx 65% complete for SRR1039509_2.fastq.gz
+Approx 70% complete for SRR1039509_2.fastq.gz
+Approx 75% complete for SRR1039509_2.fastq.gz
+Approx 80% complete for SRR1039509_2.fastq.gz
+Approx 85% complete for SRR1039509_2.fastq.gz
+Approx 90% complete for SRR1039509_2.fastq.gz
+Approx 95% complete for SRR1039509_2.fastq.gz
+Analysis complete for SRR1039509_2.fastq.gz
+Started analysis of SRR1039512_1.fastq.gz
+Approx 5% complete for SRR1039512_1.fastq.gz
+Approx 10% complete for SRR1039512_1.fastq.gz
+Approx 15% complete for SRR1039512_1.fastq.gz
+Approx 20% complete for SRR1039512_1.fastq.gz
+Approx 25% complete for SRR1039512_1.fastq.gz
+Approx 30% complete for SRR1039512_1.fastq.gz
+Approx 35% complete for SRR1039512_1.fastq.gz
+Approx 40% complete for SRR1039512_1.fastq.gz
+Approx 45% complete for SRR1039512_1.fastq.gz
+Approx 50% complete for SRR1039512_1.fastq.gz
+Approx 55% complete for SRR1039512_1.fastq.gz
+Approx 60% complete for SRR1039512_1.fastq.gz
+Approx 65% complete for SRR1039512_1.fastq.gz
+Approx 70% complete for SRR1039512_1.fastq.gz
+Approx 75% complete for SRR1039512_1.fastq.gz
+Approx 80% complete for SRR1039512_1.fastq.gz
+Approx 85% complete for SRR1039512_1.fastq.gz
+Approx 90% complete for SRR1039512_1.fastq.gz
+Approx 95% complete for SRR1039512_1.fastq.gz
+Analysis complete for SRR1039512_1.fastq.gz
+Started analysis of SRR1039512_2.fastq.gz
+Approx 5% complete for SRR1039512_2.fastq.gz
+Approx 10% complete for SRR1039512_2.fastq.gz
+Approx 15% complete for SRR1039512_2.fastq.gz
+Approx 20% complete for SRR1039512_2.fastq.gz
+Approx 25% complete for SRR1039512_2.fastq.gz
+Approx 30% complete for SRR1039512_2.fastq.gz
+Approx 35% complete for SRR1039512_2.fastq.gz
+Approx 40% complete for SRR1039512_2.fastq.gz
+Approx 45% complete for SRR1039512_2.fastq.gz
+Approx 50% complete for SRR1039512_2.fastq.gz
+Approx 55% complete for SRR1039512_2.fastq.gz
+Approx 60% complete for SRR1039512_2.fastq.gz
+Approx 65% complete for SRR1039512_2.fastq.gz
+Approx 70% complete for SRR1039512_2.fastq.gz
+Approx 75% complete for SRR1039512_2.fastq.gz
+Approx 80% complete for SRR1039512_2.fastq.gz
+Approx 85% complete for SRR1039512_2.fastq.gz
+Approx 90% complete for SRR1039512_2.fastq.gz
+Approx 95% complete for SRR1039512_2.fastq.gz
+Analysis complete for SRR1039512_2.fastq.gz
+Started analysis of SRR1039513_1.fastq.gz
+Approx 5% complete for SRR1039513_1.fastq.gz
+Approx 10% complete for SRR1039513_1.fastq.gz
+Approx 15% complete for SRR1039513_1.fastq.gz
+Approx 20% complete for SRR1039513_1.fastq.gz
+Approx 25% complete for SRR1039513_1.fastq.gz
+Approx 30% complete for SRR1039513_1.fastq.gz
+Approx 35% complete for SRR1039513_1.fastq.gz
+Approx 40% complete for SRR1039513_1.fastq.gz
+Approx 45% complete for SRR1039513_1.fastq.gz
+Approx 50% complete for SRR1039513_1.fastq.gz
+Approx 55% complete for SRR1039513_1.fastq.gz
+Approx 60% complete for SRR1039513_1.fastq.gz
+Approx 65% complete for SRR1039513_1.fastq.gz
+Approx 70% complete for SRR1039513_1.fastq.gz
+Approx 75% complete for SRR1039513_1.fastq.gz
+Approx 80% complete for SRR1039513_1.fastq.gz
+Approx 85% complete for SRR1039513_1.fastq.gz
+Approx 90% complete for SRR1039513_1.fastq.gz
+Approx 95% complete for SRR1039513_1.fastq.gz
+Analysis complete for SRR1039513_1.fastq.gz
+Started analysis of SRR1039513_2.fastq.gz
+Approx 5% complete for SRR1039513_2.fastq.gz
+Approx 10% complete for SRR1039513_2.fastq.gz
+Approx 15% complete for SRR1039513_2.fastq.gz
+Approx 20% complete for SRR1039513_2.fastq.gz
+Approx 25% complete for SRR1039513_2.fastq.gz
+Approx 30% complete for SRR1039513_2.fastq.gz
+Approx 35% complete for SRR1039513_2.fastq.gz
+Approx 40% complete for SRR1039513_2.fastq.gz
+Approx 45% complete for SRR1039513_2.fastq.gz
+Approx 50% complete for SRR1039513_2.fastq.gz
+Approx 55% complete for SRR1039513_2.fastq.gz
+Approx 60% complete for SRR1039513_2.fastq.gz
+Approx 65% complete for SRR1039513_2.fastq.gz
+Approx 70% complete for SRR1039513_2.fastq.gz
+Approx 75% complete for SRR1039513_2.fastq.gz
+Approx 80% complete for SRR1039513_2.fastq.gz
+Approx 85% complete for SRR1039513_2.fastq.gz
+Approx 90% complete for SRR1039513_2.fastq.gz
+Approx 95% complete for SRR1039513_2.fastq.gz
+Analysis complete for SRR1039513_2.fastq.gz
+=== 2026-07-23 23:24:01 | END: fastqc (exit=0) ===

@@ -1,0 +1,24 @@
+=== 2026-07-24 04:10:41 | STEP: star_align_SRR1039509 ===
+CMD: docker run --rm --cpus=8 --memory=16g     --user 1041:1049     -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/index':/index -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/data/trimmed':/data -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/align':/align     quay.io/biocontainers/star:2.7.11a--h0033a41_0     STAR --genomeDir /index          --readFilesIn /data/SRR1039509_1.trimmed.fastq.gz /data/SRR1039509_2.trimmed.fastq.gz          --readFilesCommand zcat          --outSAMtype BAM SortedByCoordinate          --outFileNamePrefix /align/SRR1039509_          --runThreadN 8
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+	/usr/local/bin/STAR-avx2 --genomeDir /index --readFilesIn /data/SRR1039509_1.trimmed.fastq.gz /data/SRR1039509_2.trimmed.fastq.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /align/SRR1039509_ --runThreadN 8
+	STAR version: 2.7.11a   compiled: 2023-09-15T02:58:53+0000 :/opt/conda/conda-bld/star_1694746407721/work/source
+Jul 23 19:10:42 ..... started STAR run
+Jul 23 19:10:42 ..... loading genome
+Jul 23 19:11:44 ..... started mapping
+Jul 23 22:03:28 ..... finished mapping
+Jul 23 22:03:33 ..... started sorting BAM
+Jul 23 22:04:31 ..... finished successfully
+=== 2026-07-24 07:04:33 | END: star_align_SRR1039509 (exit=0) ===
+=== 2026-07-25 19:21:04 | STEP: star_align_SRR1039509 ===
+CMD: docker run --rm --cpus=8 --memory=32g     --user 1041:1049     -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/index':/index -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/data/trimmed':/data -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/align':/align     quay.io/biocontainers/star:2.7.11a--h0033a41_0     STAR --genomeDir /index          --readFilesIn /data/SRR1039509_1.trimmed.fastq.gz /data/SRR1039509_2.trimmed.fastq.gz          --readFilesCommand zcat          --outSAMtype BAM SortedByCoordinate          --outFileNamePrefix /align/SRR1039509_          --runThreadN 8
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+	/usr/local/bin/STAR-avx2 --genomeDir /index --readFilesIn /data/SRR1039509_1.trimmed.fastq.gz /data/SRR1039509_2.trimmed.fastq.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --outFileNamePrefix /align/SRR1039509_ --runThreadN 8
+	STAR version: 2.7.11a   compiled: 2023-09-15T02:58:53+0000 :/opt/conda/conda-bld/star_1694746407721/work/source
+Jul 25 10:21:05 ..... started STAR run
+Jul 25 10:21:05 ..... loading genome
+Jul 25 10:27:17 ..... started mapping
+Jul 25 10:30:59 ..... finished mapping
+Jul 25 10:31:03 ..... started sorting BAM
+Jul 25 10:33:21 ..... finished successfully
+=== 2026-07-25 19:33:24 | END: star_align_SRR1039509 (exit=0) ===
