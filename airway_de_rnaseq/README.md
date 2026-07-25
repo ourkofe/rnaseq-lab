@@ -54,15 +54,15 @@ samtools, MultiQC은 원래 계획엔 없었는데 도커 실습 겸 QC 습관 �
 ## 지금까지 진행 상황
 
 - [x] SRA fastq 다운로드 완료
-- [ ] 레퍼런스 게놈 다운로드
-- [ ] QC (FastQC)
-- [ ] 트리밍 (fastp)
-- [ ] STAR 인덱스 빌드 + 정렬
-- [ ] BAM 후처리/QC (samtools)
-- [ ] featureCounts 정량
-- [ ] MultiQC 통합 리포트
-- [ ] DESeq2 발현차이분석
-- [ ] 논문/airway 패키지 결과와 비교
+- [x] 레퍼런스 게놈 다운로드
+- [x] QC (FastQC)
+- [x] 트리밍 (fastp)
+- [x] STAR 인덱스 빌드 + 정렬
+- [x] BAM 후처리/QC (samtools)
+- [x] featureCounts 정량
+- [x] MultiQC 통합 리포트
+- [x] DESeq2 발현차이분석
+- [x] 논문/airway 패키지 결과와 비교
 
 ## 폴더
 
