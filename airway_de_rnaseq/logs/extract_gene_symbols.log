@@ -1,0 +1,12 @@
+=== 2026-07-25 22:18:40 | STEP: extract_gene_symbols ===
+CMD: awk -F'\t' '$3=="gene"' '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/ref/Homo_sapiens.GRCh38.110.gtf' |   sed -E 's/.*gene_id "([^"]+)".*gene_name "([^"]+)".*/\1\t\2/'   > '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/ref/gene_id_to_symbol.tsv'
+=== 2026-07-25 22:18:54 | END: extract_gene_symbols (exit=0) ===
+=== 2026-07-25 22:23:16 | STEP: extract_gene_symbols ===
+CMD: awk -F'\t' '$3=="gene"' '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/ref/Homo_sapiens.GRCh38.110.gtf' |   awk -F'\t' '{
+    match($9, /gene_id "([^"]+)"/, gid);
+    match($9, /gene_name "([^"]+)"/, gname);
+    id = gid[1];
+    name = (gname[1] != "") ? gname[1] : gid[1];
+    print id "\t" name;
+  }' > '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/ref/gene_id_to_symbol.tsv'
+=== 2026-07-25 22:23:19 | END: extract_gene_symbols (exit=0) ===

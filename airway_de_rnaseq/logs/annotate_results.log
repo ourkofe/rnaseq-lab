@@ -1,0 +1,19 @@
+=== 2026-07-25 22:19:47 | STEP: annotate_results ===
+CMD: docker run --rm --cpus=2 --memory=4g   --user 1041:1049   -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq':/work -w /work   quay.io/biocontainers/bioconductor-deseq2:1.42.0--r43hf17093f_2   Rscript scripts/11_annotate_results.R
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Error in read.table(file = file, header = header, sep = sep, quote = quote,  : 
+  more columns than column names
+Calls: read.delim -> read.table
+Execution halted
+=== 2026-07-25 22:24:49 | STEP: annotate_results ===
+CMD: docker run --rm --cpus=2 --memory=4g   --user 1041:1049   -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq':/work -w /work   quay.io/biocontainers/bioconductor-deseq2:1.42.0--r43hf17093f_2   Rscript scripts/11_annotate_results.R
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+=== 논문 핵심 유전자 확인 ===
+      gene_symbol log2FoldChange         padj
+2776     CRISPLD2       2.859785 9.621273e-37
+5008        DUSP1       2.878356 1.257415e-23
+2052        FKBP5       4.235591 5.472796e-76
+11155       KLF15       4.465138 3.797492e-37
+14600        PER1       3.332263 2.243920e-22
+10102     TSC22D3       3.542051 3.902773e-62
+=== 2026-07-25 22:24:52 | END: annotate_results (exit=0) ===

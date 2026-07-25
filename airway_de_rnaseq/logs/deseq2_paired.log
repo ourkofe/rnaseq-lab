@@ -1,0 +1,131 @@
+=== 2026-07-25 23:04:21 | STEP: deseq2_paired ===
+CMD: docker run --rm --cpus=4 --memory=8g   --user 1041:1049   -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq':/work -w /work   quay.io/biocontainers/bioconductor-deseq2:1.42.0--r43hf17093f_2   Rscript scripts/deseq2_paired/09_deseq2_paired.R
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Loading required package: S4Vectors
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, sort,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+
+Attaching package: ‘S4Vectors’
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+estimating size factors
+estimating dispersions
+gene-wise dispersion estimates
+mean-dispersion relationship
+final dispersion estimates
+fitting model and testing
+=== paired design (~cell_line + condition) 결과 ===
+padj < 0.05 유의 유전자 수: 1379 
+(논문 보고값: 316개, 단순 design 결과는 results/deseq2_simple/ 참고)
+There were 18 warnings (use warnings() to see them)
+null device 
+          1 
+using ntop=500 top features by variance
+null device 
+          1 
+Warning messages:
+1: In title(...) :
+  conversion failure on 'Dex vs Untreated (paired) - STAR/DESeq2 재분석' in 'mbcsToSbcs': dot substituted for <ec>
+2: In title(...) :
+  conversion failure on 'Dex vs Untreated (paired) - STAR/DESeq2 재분석' in 'mbcsToSbcs': dot substituted for <9e>
+3: In title(...) :
+  conversion failure on 'Dex vs Untreated (paired) - STAR/DESeq2 재분석' in 'mbcsToSbcs': dot substituted for <ac>
+4: In title(...) :
+  conversion failure on 'Dex vs Untreated (paired) - STAR/DESeq2 재분석' in 'mbcsToSbcs': dot substituted for <eb>
+5: In title(...) :
+  conversion failure on 'Dex vs Untreated (paired) - STAR/DESeq2 재분석' in 'mbcsToSbcs': dot substituted for <b6>
+6: In title(...) :
+  conversion failure on 'Dex vs Untreated (paired) - STAR/DESeq2 재분석' in 'mbcsToSbcs': dot substituted for <84>
+7: In title(...) :
+  conversion failure on 'Dex vs Untreated (paired) - STAR/DESeq2 재분석' in 'mbcsToSbcs': dot substituted for <ec>
+8: In title(...) :
+  conversion failure on 'Dex vs Untreated (paired) - STAR/DESeq2 재분석' in 'mbcsToSbcs': dot substituted for <84>
+9: In title(...) :
+  conversion failure on 'Dex vs Untreated (paired) - STAR/DESeq2 재분석' in 'mbcsToSbcs': dot substituted for <9d>
+10: In title(...) :
+  conversion failure on 'Dex vs Untreated (paired) - STAR/DESeq2 재분석' in 'mbcsToSbcs': dot substituted for <ec>
+11: In title(...) :
+  conversion failure on 'Dex vs Untreated (paired) - STAR/DESeq2 재분석' in 'mbcsToSbcs': dot substituted for <9e>
+12: In title(...) :
+  conversion failure on 'Dex vs Untreated (paired) - STAR/DESeq2 재분석' in 'mbcsToSbcs': dot substituted for <ac>
+13: In title(...) :
+  conversion failure on 'Dex vs Untreated (paired) - STAR/DESeq2 재분석' in 'mbcsToSbcs': dot substituted for <eb>
+14: In title(...) :
+  conversion failure on 'Dex vs Untreated (paired) - STAR/DESeq2 재분석' in 'mbcsToSbcs': dot substituted for <b6>
+15: In title(...) :
+  conversion failure on 'Dex vs Untreated (paired) - STAR/DESeq2 재분석' in 'mbcsToSbcs': dot substituted for <84>
+16: In title(...) :
+  conversion failure on 'Dex vs Untreated (paired) - STAR/DESeq2 재분석' in 'mbcsToSbcs': dot substituted for <ec>
+17: In title(...) :
+  conversion failure on 'Dex vs Untreated (paired) - STAR/DESeq2 재분석' in 'mbcsToSbcs': dot substituted for <84>
+18: In title(...) :
+  conversion failure on 'Dex vs Untreated (paired) - STAR/DESeq2 재분석' in 'mbcsToSbcs': dot substituted for <9d>
+=== 2026-07-25 23:04:45 | END: deseq2_paired (exit=0) ===

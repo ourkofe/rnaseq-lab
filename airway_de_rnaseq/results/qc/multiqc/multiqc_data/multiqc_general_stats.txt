@@ -1,0 +1,13 @@
+Sample	featureCounts_mqc-generalstats-featurecounts-percent_assigned	featureCounts_mqc-generalstats-featurecounts-Assigned	STAR_mqc-generalstats-star-uniquely_mapped_percent	STAR_mqc-generalstats-star-uniquely_mapped	fastp_mqc-generalstats-fastp-pct_duplication	fastp_mqc-generalstats-fastp-after_filtering_q30_rate	fastp_mqc-generalstats-fastp-after_filtering_q30_bases	fastp_mqc-generalstats-fastp-filtering_result_passed_filter_reads	fastp_mqc-generalstats-fastp-after_filtering_gc_content	fastp_mqc-generalstats-fastp-pct_surviving	fastp_mqc-generalstats-fastp-pct_adapter	FastQC_mqc-generalstats-fastqc-percent_duplicates	FastQC_mqc-generalstats-fastqc-percent_gc	FastQC_mqc-generalstats-fastqc-avg_sequence_length	FastQC_mqc-generalstats-fastqc-median_sequence_length	FastQC_mqc-generalstats-fastqc-percent_fails	FastQC_mqc-generalstats-fastqc-total_sequences
+SRR1039508	78.84468910526108	18972448	94.36	21205935.0													
+SRR1039508_1					7.29896	0.969243	2742274832.0	44945984.0	0.499312	97.98335080332382	0.3948722158960331	49.43880235259176	50.0	63.0	63	0.0	22935521.0
+SRR1039508_2												47.02512132250818	50.0	63.0	63	9.090909090909092	22935521.0
+SRR1039509	80.23124225950068	17304576	93.99	19314942.0													
+SRR1039509_1					6.91635	0.965041	2496517449.0	41098834.0	0.49622	97.13415391884564	0.4081215532054779	48.61260139736518	49.0	63.0	63	0.0	21155707.0
+SRR1039509_2												45.40341769166414	49.0	63.0	63	9.090909090909092	21155707.0
+SRR1039512	80.81528135042879	23304179	95.56	25988763.0													
+SRR1039512_1					12.0547	0.957887	3280352523.0	54392548.0	0.495635	96.65908949874756	0.2954939106737699	55.284056263731166	49.0	63.0	63	9.090909090909092	28136282.0
+SRR1039512_2												54.455737709271446	49.0	63.0	63	9.090909090909092	28136282.0
+SRR1039513	81.80053723922049	13896245	95.62	15387476.0													
+SRR1039513_1					7.60074	0.942816	1910337314.0	32183760.0	0.484281	95.65354469999801	0.3001292033900078	47.36155929750626	48.0	63.0	63	0.0	16823088.0
+SRR1039513_2												46.28804757208592	48.0	63.0	63	0.0	16823088.0

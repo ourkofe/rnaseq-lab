@@ -1,0 +1,15 @@
+Status	/align/SRR1039508_Aligned.sortedByCoord.out.bam	/align/SRR1039509_Aligned.sortedByCoord.out.bam	/align/SRR1039512_Aligned.sortedByCoord.out.bam	/align/SRR1039513_Aligned.sortedByCoord.out.bam
+Assigned	18972448	17304576	23304179	13896245
+Unassigned_Unmapped	0	0	0	0
+Unassigned_Read_Type	0	0	0	0
+Unassigned_Singleton	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0
+Unassigned_Chimera	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0
+Unassigned_Duplicate	0	0	0	0
+Unassigned_MultiMapping	2857129	2253434	2847589	1600487
+Unassigned_Secondary	0	0	0	0
+Unassigned_NonSplit	0	0	0	0
+Unassigned_NoFeatures	878718	786717	1122665	568426
+Unassigned_Overlapping_Length	0	0	0	0
+Unassigned_Ambiguity	1354769	1223649	1561919	922805

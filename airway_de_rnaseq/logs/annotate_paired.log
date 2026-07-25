@@ -1,0 +1,12 @@
+=== 2026-07-25 23:19:48 | STEP: annotate_paired ===
+CMD: docker run --rm --cpus=2 --memory=4g   --user 1041:1049   -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq':/work -w /work   quay.io/biocontainers/bioconductor-deseq2:1.42.0--r43hf17093f_2   Rscript scripts/deseq2_paired/10_annotate_paired.R
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+=== 논문 핵심 유전자 확인 (paired design) ===
+      gene_symbol log2FoldChange          padj
+2776     CRISPLD2       2.869593  3.058133e-63
+5008        DUSP1       2.904639  2.511388e-64
+2052        FKBP5       4.242076 1.206847e-138
+11155       KLF15       4.466559  2.970461e-72
+14600        PER1       3.337669  2.170381e-54
+10102     TSC22D3       3.546073  2.053593e-92
+=== 2026-07-25 23:19:51 | END: annotate_paired (exit=0) ===

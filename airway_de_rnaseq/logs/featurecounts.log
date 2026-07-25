@@ -1,0 +1,86 @@
+=== 2026-07-25 20:16:56 | STEP: featurecounts ===
+CMD: docker run --rm --cpus=4 --memory=4g   --user 1041:1049   -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/ref':/ref -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/align':/align -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/results/counts':/out   quay.io/biocontainers/subread:2.0.6--he4a0461_2   featureCounts -T 4 -p --countReadPairs     -a /ref/Homo_sapiens.GRCh38.110.gtf     -o /out/gene_counts.tsv     /align/SRR1039508_Aligned.sortedByCoord.out.bam /align/SRR1039509_Aligned.sortedByCoord.out.bam /align/SRR1039512_Aligned.sortedByCoord.out.bam /align/SRR1039513_Aligned.sortedByCoord.out.bam
+Unable to find image 'quay.io/biocontainers/subread:2.0.6--he4a0461_2' locally
+2.0.6--he4a0461_2: Pulling from biocontainers/subread
+ca7680d1025d: Already exists
+bd9ddc54bea9: Already exists
+32da9fa595d3: Pulling fs layer
+32da9fa595d3: Verifying Checksum
+32da9fa595d3: Download complete
+32da9fa595d3: Pull complete
+Digest: sha256:114390a783c77f7739d86e474bedfa5a4e65309a2f71d4db430803fb04601f5d
+Status: Downloaded newer image for quay.io/biocontainers/subread:2.0.6--he4a0461_2
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.6
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 4 BAM files                                      ||
+||                                                                            ||
+||                           SRR1039508_Aligned.sortedByCoord.out.bam         ||
+||                           SRR1039509_Aligned.sortedByCoord.out.bam         ||
+||                           SRR1039512_Aligned.sortedByCoord.out.bam         ||
+||                           SRR1039513_Aligned.sortedByCoord.out.bam         ||
+||                                                                            ||
+||             Output file : gene_counts.tsv                                  ||
+||                 Summary : gene_counts.tsv.summary                          ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : yes                                              ||
+||              Annotation : Homo_sapiens.GRCh38.110.gtf (GTF)                ||
+||      Dir for temp files : /out                                             ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.110.gtf ...                       ||
+||    Features : 1649677                                                      ||
+||    Meta-features : 62754                                                   ||
+||    Chromosomes/contigs : 47                                                ||
+||                                                                            ||
+|| Process BAM file SRR1039508_Aligned.sortedByCoord.out.bam...               ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 24063064                                             ||
+||    Successfully assigned alignments : 18972448 (78.8%)                     ||
+||    Running time : 0.27 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR1039509_Aligned.sortedByCoord.out.bam...               ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 21568376                                             ||
+||    Successfully assigned alignments : 17304576 (80.2%)                     ||
+||    Running time : 0.24 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR1039512_Aligned.sortedByCoord.out.bam...               ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 28836352                                             ||
+||    Successfully assigned alignments : 23304179 (80.8%)                     ||
+||    Running time : 0.36 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR1039513_Aligned.sortedByCoord.out.bam...               ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 16987963                                             ||
+||    Successfully assigned alignments : 13896245 (81.8%)                     ||
+||    Running time : 0.19 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/out/gene_counts.tsv.su  ||
+|| mmary"                                                                     ||
+||                                                                            ||
+\\============================================================================//
+
+=== 2026-07-25 20:18:37 | END: featurecounts (exit=0) ===

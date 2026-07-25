@@ -1,0 +1,1184 @@
+=== 2026-07-25 20:35:15 | STEP: deseq2 ===
+CMD: docker run --rm --cpus=4 --memory=8g   --user 1041:1049   -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq':/work -w /work   bioconductor/bioconductor_docker:RELEASE_3_18   Rscript scripts/08_deseq2.R
+Unable to find image 'bioconductor/bioconductor_docker:RELEASE_3_18' locally
+RELEASE_3_18: Pulling from bioconductor/bioconductor_docker
+3c645031de29: Pulling fs layer
+4c421a7f72f8: Pulling fs layer
+3245a851c0d2: Pulling fs layer
+1197903f4d57: Pulling fs layer
+9eef819ff518: Pulling fs layer
+86eb508296e0: Pulling fs layer
+ba56bb566429: Pulling fs layer
+cce765249cc1: Pulling fs layer
+e51677eb9cfd: Pulling fs layer
+ba56bb566429: Waiting
+86eb508296e0: Waiting
+1197903f4d57: Waiting
+cce765249cc1: Waiting
+4c421a7f72f8: Verifying Checksum
+4c421a7f72f8: Download complete
+1197903f4d57: Verifying Checksum
+1197903f4d57: Download complete
+3c645031de29: Verifying Checksum
+3c645031de29: Download complete
+3c645031de29: Pull complete
+4c421a7f72f8: Pull complete
+9eef819ff518: Verifying Checksum
+9eef819ff518: Download complete
+ba56bb566429: Verifying Checksum
+ba56bb566429: Download complete
+cce765249cc1: Verifying Checksum
+cce765249cc1: Download complete
+3245a851c0d2: Verifying Checksum
+3245a851c0d2: Download complete
+3245a851c0d2: Pull complete
+1197903f4d57: Pull complete
+9eef819ff518: Pull complete
+86eb508296e0: Verifying Checksum
+86eb508296e0: Download complete
+86eb508296e0: Pull complete
+ba56bb566429: Pull complete
+cce765249cc1: Pull complete
+e51677eb9cfd: Verifying Checksum
+e51677eb9cfd: Download complete
+e51677eb9cfd: Pull complete
+Digest: sha256:8c131494af2c1a4a8ff16656ac486e72fd0d1b135d4c06e54f17bf63cd3b86a3
+Status: Downloaded newer image for bioconductor/bioconductor_docker:RELEASE_3_18
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Error in library(DESeq2) : there is no package called ‘DESeq2’
+Execution halted
+=== 2026-07-25 20:45:29 | STEP: deseq2 ===
+CMD: docker run --rm --cpus=4 --memory=8g   --user 1041:1049   -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq':/work -w /work   bioconductor/bioconductor_docker:RELEASE_3_18   Rscript -e 'if (!requireNamespace("DESeq2", quietly=TRUE)) BiocManager::install("DESeq2", update=FALSE, ask=FALSE); source("scripts/08_deseq2.R")'
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/2024-04-23
+Bioconductor version 3.18 (BiocManager 1.30.23), R 4.3.3 (2024-02-29)
+Installing package(s) 'DESeq2'
+Warning in install.packages(...) :
+  'lib = "/usr/local/lib/R/site-library"' is not writable
+Error in install.packages(...) : unable to install packages
+Calls: <Anonymous> ... tryCatchList -> tryCatchOne -> <Anonymous> -> .inet_error
+Execution halted
+=== 2026-07-25 20:58:07 | STEP: deseq2 ===
+CMD: docker run --rm --cpus=4 --memory=8g   --user 1041:1049   -e R_LIBS_USER=/rlibs   -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq':/work -w /work   -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/.rlibs':/rlibs   bioconductor/bioconductor_docker:RELEASE_3_18   Rscript -e '.libPaths(c("/rlibs", .libPaths())); if (!requireNamespace("DESeq2", quietly=TRUE)) BiocManager::install("DESeq2", update=FALSE, ask=FALSE, lib="/rlibs"); source("scripts/08_deseq2.R")'
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/2024-04-23
+Bioconductor version 3.18 (BiocManager 1.30.23), R 4.3.3 (2024-02-29)
+Installing package(s) 'DESeq2'
+also installing the dependencies ‘bitops’, ‘formatR’, ‘colorspace’, ‘RCurl’, ‘GenomeInfoDbData’, ‘zlibbioc’, ‘abind’, ‘SparseArray’, ‘lambda.r’, ‘futile.options’, ‘farver’, ‘labeling’, ‘munsell’, ‘RColorBrewer’, ‘viridisLite’, ‘GenomeInfoDb’, ‘XVector’, ‘S4Arrays’, ‘DelayedArray’, ‘futile.logger’, ‘snow’, ‘BH’, ‘gtable’, ‘isoband’, ‘scales’, ‘S4Vectors’, ‘IRanges’, ‘GenomicRanges’, ‘SummarizedExperiment’, ‘BiocGenerics’, ‘Biobase’, ‘BiocParallel’, ‘matrixStats’, ‘locfit’, ‘ggplot2’, ‘MatrixGenerics’, ‘RcppArmadillo’
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/bitops_1.0-7.tar.gz'
+Content type 'binary/octet-stream' length 24854 bytes (24 KB)
+==================================================
+downloaded 24 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/formatR_1.14.tar.gz'
+Content type 'binary/octet-stream' length 150679 bytes (147 KB)
+==================================================
+downloaded 147 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/colorspace_2.1-0.tar.gz'
+Content type 'binary/octet-stream' length 2593119 bytes (2.5 MB)
+==================================================
+downloaded 2.5 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/RCurl_1.98-1.14.tar.gz'
+Content type 'binary/octet-stream' length 1064570 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/GenomeInfoDbData_1.2.11.tar.gz'
+Content type 'application/gzip' length 12284235 bytes (11.7 MB)
+==================================================
+downloaded 11.7 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/zlibbioc_1.48.2.tar.gz'
+Content type 'application/gzip' length 382668 bytes (373 KB)
+==================================================
+downloaded 373 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/abind_1.4-5.tar.gz'
+Content type 'binary/octet-stream' length 61326 bytes (59 KB)
+==================================================
+downloaded 59 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/SparseArray_1.2.4.tar.gz'
+Content type 'application/gzip' length 367778 bytes (359 KB)
+==================================================
+downloaded 359 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/lambda.r_1.2.4.tar.gz'
+Content type 'binary/octet-stream' length 109833 bytes (107 KB)
+==================================================
+downloaded 107 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/futile.options_1.0.1.tar.gz'
+Content type 'binary/octet-stream' length 18118 bytes (17 KB)
+==================================================
+downloaded 17 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/farver_2.1.1.tar.gz'
+Content type 'binary/octet-stream' length 1457375 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/labeling_0.4.3.tar.gz'
+Content type 'binary/octet-stream' length 60041 bytes (58 KB)
+==================================================
+downloaded 58 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/munsell_0.5.1.tar.gz'
+Content type 'binary/octet-stream' length 243864 bytes (238 KB)
+==================================================
+downloaded 238 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/RColorBrewer_1.1-3.tar.gz'
+Content type 'binary/octet-stream' length 53114 bytes (51 KB)
+==================================================
+downloaded 51 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/viridisLite_0.4.2.tar.gz'
+Content type 'binary/octet-stream' length 1296749 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/GenomeInfoDb_1.38.8.tar.gz'
+Content type 'application/gzip' length 3581806 bytes (3.4 MB)
+==================================================
+downloaded 3.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/XVector_0.42.0.tar.gz'
+Content type 'application/gzip' length 67825 bytes (66 KB)
+==================================================
+downloaded 66 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/S4Arrays_1.2.1.tar.gz'
+Error in download.file(url, destfile, method, mode = "wb", ...) : 
+  cannot open URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/S4Arrays_1.2.1.tar.gz'
+In addition: Warning messages:
+1: In download.file(url, destfile, method, mode = "wb", ...) :
+  downloaded length 0 != reported length 0
+2: In download.file(url, destfile, method, mode = "wb", ...) :
+  cannot open URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/S4Arrays_1.2.1.tar.gz': HTTP status was '504 Gateway Timeout'
+Warning in download.packages(pkgs, destdir = tmpd, available = available,  :
+  download of package ‘S4Arrays’ failed
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/DelayedArray_0.28.0.tar.gz'
+Content type 'application/gzip' length 624166 bytes (609 KB)
+==================================================
+downloaded 609 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/futile.logger_1.4.3.tar.gz'
+Content type 'binary/octet-stream' length 94161 bytes (91 KB)
+==================================================
+downloaded 91 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/snow_0.4-4.tar.gz'
+Content type 'binary/octet-stream' length 95667 bytes (93 KB)
+==================================================
+downloaded 93 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/BH_1.84.0-0.tar.gz'
+Content type 'binary/octet-stream' length 13030741 bytes (12.4 MB)
+==================================================
+downloaded 12.4 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/gtable_0.3.5.tar.gz'
+Content type 'binary/octet-stream' length 216070 bytes (211 KB)
+==================================================
+downloaded 211 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/isoband_0.2.7.tar.gz'
+Content type 'binary/octet-stream' length 1642393 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/scales_1.3.0.tar.gz'
+Content type 'binary/octet-stream' length 698096 bytes (681 KB)
+==================================================
+downloaded 681 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/S4Vectors_0.40.2.tar.gz'
+Content type 'application/gzip' length 838187 bytes (818 KB)
+==================================================
+downloaded 818 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/IRanges_2.36.0.tar.gz'
+Content type 'application/gzip' length 481055 bytes (469 KB)
+==================================================
+downloaded 469 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/GenomicRanges_1.54.1.tar.gz'
+Content type 'application/gzip' length 1140246 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/SummarizedExperiment_1.32.0.tar.gz'
+Content type 'application/gzip' length 686052 bytes (669 KB)
+==================================================
+downloaded 669 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/BiocGenerics_0.48.1.tar.gz'
+Content type 'application/gzip' length 49546 bytes (48 KB)
+==================================================
+downloaded 48 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/Biobase_2.62.0.tar.gz'
+Content type 'application/gzip' length 1795862 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/BiocParallel_1.36.0.tar.gz'
+Content type 'application/gzip' length 997117 bytes (973 KB)
+==================================================
+downloaded 973 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/matrixStats_1.3.0.tar.gz'
+Content type 'binary/octet-stream' length 475007 bytes (463 KB)
+==================================================
+downloaded 463 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/locfit_1.5-9.9.tar.gz'
+Content type 'binary/octet-stream' length 531830 bytes (519 KB)
+==================================================
+downloaded 519 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/ggplot2_3.5.0.tar.gz'
+Content type 'binary/octet-stream' length 4809007 bytes (4.6 MB)
+==================================================
+downloaded 4.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/MatrixGenerics_1.14.0.tar.gz'
+Content type 'application/gzip' length 31230 bytes (30 KB)
+==================================================
+downloaded 30 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/2024-04-23/src/contrib/RcppArmadillo_0.12.8.2.1.tar.gz'
+Content type 'binary/octet-stream' length 1075947 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/DESeq2_1.42.1.tar.gz'
+Content type 'application/gzip' length 2098789 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+* installing *binary* package ‘bitops’ ...
+* DONE (bitops)
+* installing *binary* package ‘formatR’ ...
+* DONE (formatR)
+* installing *binary* package ‘colorspace’ ...
+* DONE (colorspace)
+* installing *source* package ‘GenomeInfoDbData’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (GenomeInfoDbData)
+* installing *source* package ‘zlibbioc’ ...
+** using staged installation
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+mkdir -p "/rlibs/00LOCK-zlibbioc/00new/zlibbioc/include"
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_zlibbioc.c -o R_init_zlibbioc.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o zlibbioc.so R_init_zlibbioc.o -L/usr/local/lib/R/lib -lR
+installing to /rlibs/00LOCK-zlibbioc/00new/zlibbioc/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (zlibbioc)
+* installing *binary* package ‘abind’ ...
+* DONE (abind)
+* installing *binary* package ‘futile.options’ ...
+* DONE (futile.options)
+* installing *binary* package ‘farver’ ...
+* DONE (farver)
+* installing *binary* package ‘labeling’ ...
+* DONE (labeling)
+* installing *binary* package ‘RColorBrewer’ ...
+* DONE (RColorBrewer)
+* installing *binary* package ‘viridisLite’ ...
+* DONE (viridisLite)
+* installing *binary* package ‘snow’ ...
+* DONE (snow)
+* installing *binary* package ‘BH’ ...
+* DONE (BH)
+* installing *binary* package ‘gtable’ ...
+* DONE (gtable)
+* installing *binary* package ‘isoband’ ...
+* DONE (isoband)
+* installing *source* package ‘BiocGenerics’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘aperm’ in package ‘BiocGenerics’
+Creating a new generic function for ‘append’ in package ‘BiocGenerics’
+Creating a new generic function for ‘as.data.frame’ in package ‘BiocGenerics’
+Creating a new generic function for ‘cbind’ in package ‘BiocGenerics’
+Creating a new generic function for ‘rbind’ in package ‘BiocGenerics’
+Creating a new generic function for ‘do.call’ in package ‘BiocGenerics’
+Creating a new generic function for ‘duplicated’ in package ‘BiocGenerics’
+Creating a new generic function for ‘anyDuplicated’ in package ‘BiocGenerics’
+Creating a new generic function for ‘eval’ in package ‘BiocGenerics’
+Creating a new generic function for ‘pmax’ in package ‘BiocGenerics’
+Creating a new generic function for ‘pmin’ in package ‘BiocGenerics’
+Creating a new generic function for ‘pmax.int’ in package ‘BiocGenerics’
+Creating a new generic function for ‘pmin.int’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Reduce’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Filter’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Find’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Map’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Position’ in package ‘BiocGenerics’
+Creating a new generic function for ‘get’ in package ‘BiocGenerics’
+Creating a new generic function for ‘mget’ in package ‘BiocGenerics’
+Creating a new generic function for ‘grep’ in package ‘BiocGenerics’
+Creating a new generic function for ‘grepl’ in package ‘BiocGenerics’
+Creating a new generic function for ‘is.unsorted’ in package ‘BiocGenerics’
+Creating a new generic function for ‘lapply’ in package ‘BiocGenerics’
+Creating a new generic function for ‘sapply’ in package ‘BiocGenerics’
+Creating a new generic function for ‘mapply’ in package ‘BiocGenerics’
+Creating a new generic function for ‘match’ in package ‘BiocGenerics’
+Creating a new generic function for ‘order’ in package ‘BiocGenerics’
+Creating a new generic function for ‘paste’ in package ‘BiocGenerics’
+Creating a new generic function for ‘rank’ in package ‘BiocGenerics’
+Creating a new generic function for ‘rownames’ in package ‘BiocGenerics’
+Creating a new generic function for ‘colnames’ in package ‘BiocGenerics’
+Creating a new generic function for ‘union’ in package ‘BiocGenerics’
+Creating a new generic function for ‘intersect’ in package ‘BiocGenerics’
+Creating a new generic function for ‘setdiff’ in package ‘BiocGenerics’
+Creating a new generic function for ‘sort’ in package ‘BiocGenerics’
+Creating a new generic function for ‘table’ in package ‘BiocGenerics’
+Creating a new generic function for ‘tapply’ in package ‘BiocGenerics’
+Creating a new generic function for ‘unique’ in package ‘BiocGenerics’
+Creating a new generic function for ‘unsplit’ in package ‘BiocGenerics’
+Creating a new generic function for ‘var’ in package ‘BiocGenerics’
+Creating a new generic function for ‘sd’ in package ‘BiocGenerics’
+Creating a new generic function for ‘which.min’ in package ‘BiocGenerics’
+Creating a new generic function for ‘which.max’ in package ‘BiocGenerics’
+Creating a new generic function for ‘IQR’ in package ‘BiocGenerics’
+Creating a new generic function for ‘mad’ in package ‘BiocGenerics’
+Creating a new generic function for ‘xtabs’ in package ‘BiocGenerics’
+Creating a new generic function for ‘basename’ in package ‘BiocGenerics’
+Creating a new generic function for ‘dirname’ in package ‘BiocGenerics’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (BiocGenerics)
+* installing *binary* package ‘matrixStats’ ...
+* DONE (matrixStats)
+* installing *binary* package ‘locfit’ ...
+* DONE (locfit)
+* installing *binary* package ‘RcppArmadillo’ ...
+* DONE (RcppArmadillo)
+* installing *binary* package ‘RCurl’ ...
+* DONE (RCurl)
+* installing *binary* package ‘lambda.r’ ...
+* DONE (lambda.r)
+* installing *binary* package ‘munsell’ ...
+* DONE (munsell)
+* installing *source* package ‘S4Vectors’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c AEbufs.c -o AEbufs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DataFrame_class.c -o DataFrame_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Hits_class.c -o Hits_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c LLint_class.c -o LLint_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c List_class.c -o List_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_S4Vectors.c -o R_init_S4Vectors.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rle_class.c -o Rle_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rle_utils.c -o Rle_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SEXP_utils.c -o SEXP_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SimpleList_class.c -o SimpleList_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c anyMissing.c -o anyMissing.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c character_utils.c -o character_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c eval_utils.c -o eval_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hash_utils.c -o hash_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c integer_utils.c -o integer_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c logical_utils.c -o logical_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c map_ranges_to_runs.c -o map_ranges_to_runs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c raw_utils.c -o raw_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c safe_arithm.c -o safe_arithm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sort_utils.c -o sort_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c subsetting_utils.c -o subsetting_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c vector_utils.c -o vector_utils.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o S4Vectors.so AEbufs.o DataFrame_class.o Hits_class.o LLint_class.o List_class.o R_init_S4Vectors.o Rle_class.o Rle_utils.o SEXP_utils.o SimpleList_class.o anyMissing.o character_utils.o eval_utils.o hash_utils.o integer_utils.o logical_utils.o map_ranges_to_runs.o raw_utils.o safe_arithm.o sort_utils.o subsetting_utils.o vector_utils.o -L/usr/local/lib/R/lib -lR
+installing to /rlibs/00LOCK-S4Vectors/00new/S4Vectors/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘normalizeSingleBracketReplacementValue’ with signature ‘"List"’: no definition for class “List”
+Creating a new generic function for ‘unname’ in package ‘S4Vectors’
+Creating a new generic function for ‘expand.grid’ in package ‘S4Vectors’
+Creating a new generic function for ‘findMatches’ in package ‘S4Vectors’
+Creating a generic function for ‘setequal’ from package ‘base’ in package ‘S4Vectors’
+in method for ‘coerce’ with signature ‘"Hits","DFrame"’: no definition for class “DFrame”
+Creating a generic function for ‘as.factor’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘tabulate’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘cov’ from package ‘stats’ in package ‘S4Vectors’
+Creating a generic function for ‘cor’ from package ‘stats’ in package ‘S4Vectors’
+Creating a generic function for ‘smoothEnds’ from package ‘stats’ in package ‘S4Vectors’
+Creating a generic function for ‘runmed’ from package ‘stats’ in package ‘S4Vectors’
+Creating a generic function for ‘nchar’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘substr’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘substring’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘chartr’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘tolower’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘toupper’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘sub’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘gsub’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘nlevels’ from package ‘base’ in package ‘S4Vectors’
+in method for ‘coerce’ with signature ‘"data.table","DFrame"’: no definition for class “data.table”
+Creating a generic function for ‘complete.cases’ from package ‘stats’ in package ‘S4Vectors’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (S4Vectors)
+* installing *source* package ‘Biobase’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rinit.c -o Rinit.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c anyMissing.c -o anyMissing.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c envir.c -o envir.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c matchpt.c -o matchpt.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowMedians.c -o rowMedians.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sublist_extract.c -o sublist_extract.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o Biobase.so Rinit.o anyMissing.o envir.o matchpt.o rowMedians.o sublist_extract.o -L/usr/local/lib/R/lib -lR
+installing to /rlibs/00LOCK-Biobase/00new/Biobase/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (Biobase)
+* installing *source* package ‘MatrixGenerics’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+Creating a new generic function for ‘rowAlls’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colAlls’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowAnyNAs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colAnyNAs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowAnys’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colAnys’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowAvgsPerColSet’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colAvgsPerRowSet’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCollapse’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCollapse’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCounts’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCounts’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCummaxs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCummaxs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCummins’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCummins’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCumprods’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCumprods’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCumsums’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCumsums’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowIQRDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colIQRDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowIQRs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colIQRs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowLogSumExps’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colLogSumExps’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMadDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMadDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMads’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMads’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMaxs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMaxs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMeans2’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMeans2’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMedians’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMedians’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMins’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMins’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowOrderStats’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colOrderStats’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowProds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colProds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowQuantiles’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colQuantiles’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowRanges’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colRanges’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowRanks’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colRanks’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowSdDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colSdDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowSds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colSds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowSums2’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colSums2’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowTabulates’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colTabulates’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowVarDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colVarDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowVars’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colVars’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowWeightedMads’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colWeightedMads’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowWeightedMeans’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colWeightedMeans’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowWeightedMedians’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colWeightedMedians’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowWeightedSds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colWeightedSds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowWeightedVars’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colWeightedVars’ in package ‘MatrixGenerics’
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (MatrixGenerics)
+* installing *binary* package ‘futile.logger’ ...
+* DONE (futile.logger)
+* installing *binary* package ‘scales’ ...
+* DONE (scales)
+* installing *source* package ‘IRanges’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c CompressedAtomicList_utils.c -o CompressedAtomicList_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c CompressedIRangesList_class.c -o CompressedIRangesList_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c CompressedList_class.c -o CompressedList_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Grouping_class.c -o Grouping_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IPosRanges_comparison.c -o IPosRanges_comparison.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_class.c -o IRanges_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_constructor.c -o IRanges_constructor.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c NCList.c -o NCList.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_IRanges.c -o R_init_IRanges.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Ranges_class.c -o Ranges_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RleViews_utils.c -o RleViews_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SimpleIRangesList_class.c -o SimpleIRangesList_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c coverage_methods.c -o coverage_methods.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extractListFragments.c -o extractListFragments.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inter_range_methods.c -o inter_range_methods.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o IRanges.so CompressedAtomicList_utils.o CompressedIRangesList_class.o CompressedList_class.o Grouping_class.o IPosRanges_comparison.o IRanges_class.o IRanges_constructor.o NCList.o R_init_IRanges.o Ranges_class.o RleViews_utils.o S4Vectors_stubs.o SimpleIRangesList_class.o coverage_methods.o extractListFragments.o inter_range_methods.o -L/usr/local/lib/R/lib -lR
+installing to /rlibs/00LOCK-IRanges/00new/IRanges/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘drop’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘runmed’ from package ‘stats’ in package ‘IRanges’
+Creating a generic function for ‘chartr’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘toupper’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘tolower’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘sub’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘gsub’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘startsWith’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘endsWith’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘smoothEnds’ from package ‘stats’ in package ‘IRanges’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (IRanges)
+* installing *source* package ‘GenomeInfoDb’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (GenomeInfoDb)
+* installing *source* package ‘XVector’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Ocopy_byteblocks.c -o Ocopy_byteblocks.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RDS_random_access.c -o RDS_random_access.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_XVector.c -o R_init_XVector.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SharedDouble_class.c -o SharedDouble_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SharedInteger_class.c -o SharedInteger_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SharedRaw_class.c -o SharedRaw_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SharedVector_class.c -o SharedVector_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XDouble_class.c -o XDouble_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XInteger_class.c -o XInteger_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XRawList_comparison.c -o XRawList_comparison.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XRaw_class.c -o XRaw_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVectorList_class.c -o XVectorList_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVector_class.c -o XVector_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c io_utils.c -o io_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c slice_methods.c -o slice_methods.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c vector_copy.c -o vector_copy.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c view_summarization_methods.c -o view_summarization_methods.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o XVector.so IRanges_stubs.o Ocopy_byteblocks.o RDS_random_access.o R_init_XVector.o S4Vectors_stubs.o SharedDouble_class.o SharedInteger_class.o SharedRaw_class.o SharedVector_class.o XDouble_class.o XInteger_class.o XRawList_comparison.o XRaw_class.o XVectorList_class.o XVector_class.o io_utils.o slice_methods.o vector_copy.o view_summarization_methods.o -lz -L/usr/local/lib/R/lib -lR
+installing to /rlibs/00LOCK-XVector/00new/XVector/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (XVector)
+* installing *source* package ‘BiocParallel’ ...
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether g++ -std=gnu++17 accepts -g... yes
+checking for g++ -std=gnu++17 option to enable C++11 features... none needed
+checking for library containing shm_open... none required
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for sys/mman.h... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/BH/include' -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cpp11.cpp -o cpp11.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/BH/include' -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ipcmutex.cpp -o ipcmutex.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o BiocParallel.so cpp11.o ipcmutex.o -L/usr/local/lib/R/lib -lR
+installing to /rlibs/00LOCK-BiocParallel/00new/BiocParallel/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (BiocParallel)
+* installing *binary* package ‘ggplot2’ ...
+* DONE (ggplot2)
+ERROR: dependency ‘S4Arrays’ is not available for package ‘SparseArray’
+* removing ‘/rlibs/SparseArray’
+* installing *source* package ‘GenomicRanges’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_GenomicRanges.c -o R_init_GenomicRanges.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/rlibs/S4Vectors/include' -I'/rlibs/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c transcript_utils.c -o transcript_utils.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o GenomicRanges.so IRanges_stubs.o R_init_GenomicRanges.o S4Vectors_stubs.o transcript_utils.o -L/usr/local/lib/R/lib -lR
+installing to /rlibs/00LOCK-GenomicRanges/00new/GenomicRanges/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (GenomicRanges)
+ERROR: dependencies ‘S4Arrays’, ‘SparseArray’ are not available for package ‘DelayedArray’
+* removing ‘/rlibs/DelayedArray’
+ERROR: dependencies ‘S4Arrays’, ‘DelayedArray’ are not available for package ‘SummarizedExperiment’
+* removing ‘/rlibs/SummarizedExperiment’
+ERROR: dependency ‘SummarizedExperiment’ is not available for package ‘DESeq2’
+* removing ‘/rlibs/DESeq2’
+
+The downloaded source packages are in
+	‘/tmp/RtmpI52etf/downloaded_packages’
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘SparseArray’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘DelayedArray’ had non-zero exit status
+3: In install.packages(...) :
+  installation of package ‘SummarizedExperiment’ had non-zero exit status
+4: In install.packages(...) :
+  installation of package ‘DESeq2’ had non-zero exit status
+Error in library(DESeq2) : there is no package called ‘DESeq2’
+Calls: source -> withVisible -> eval -> eval -> library
+Execution halted
+=== 2026-07-25 21:38:36 | STEP: deseq2 ===
+CMD: docker run --rm --cpus=4 --memory=8g   --user 1041:1049   -e R_LIBS_USER=/rlibs   -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq':/work -w /work   -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq/.rlibs':/rlibs   bioconductor/bioconductor_docker:RELEASE_3_18   Rscript -e '.libPaths(c("/rlibs", .libPaths())); options(timeout=600); if (!requireNamespace("DESeq2", quietly=TRUE)) BiocManager::install("DESeq2", update=FALSE, ask=FALSE, lib="/rlibs"); source("scripts/08_deseq2.R")'
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/2024-04-23
+Bioconductor version 3.18 (BiocManager 1.30.23), R 4.3.3 (2024-02-29)
+Installing package(s) 'DESeq2'
+also installing the dependencies ‘SparseArray’, ‘S4Arrays’, ‘DelayedArray’, ‘SummarizedExperiment’
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/SparseArray_1.2.4.tar.gz'
+Content type 'application/gzip' length 367778 bytes (359 KB)
+==================================================
+downloaded 359 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/S4Arrays_1.2.1.tar.gz'
+Error in download.file(url, destfile, method, mode = "wb", ...) : 
+  cannot open URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/S4Arrays_1.2.1.tar.gz'
+In addition: Warning messages:
+1: In download.file(url, destfile, method, mode = "wb", ...) :
+  downloaded length 0 != reported length 0
+2: In download.file(url, destfile, method, mode = "wb", ...) :
+  cannot open URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/S4Arrays_1.2.1.tar.gz': HTTP status was '504 Gateway Timeout'
+Warning in download.packages(pkgs, destdir = tmpd, available = available,  :
+  download of package ‘S4Arrays’ failed
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/DelayedArray_0.28.0.tar.gz'
+Content type 'application/gzip' length 624166 bytes (609 KB)
+==================================================
+downloaded 609 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/SummarizedExperiment_1.32.0.tar.gz'
+Content type 'application/gzip' length 686052 bytes (669 KB)
+==================================================
+downloaded 669 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/DESeq2_1.42.1.tar.gz'
+Content type 'application/gzip' length 2098789 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+ERROR: dependency ‘S4Arrays’ is not available for package ‘SparseArray’
+* removing ‘/rlibs/SparseArray’
+ERROR: dependencies ‘S4Arrays’, ‘SparseArray’ are not available for package ‘DelayedArray’
+* removing ‘/rlibs/DelayedArray’
+ERROR: dependencies ‘S4Arrays’, ‘DelayedArray’ are not available for package ‘SummarizedExperiment’
+* removing ‘/rlibs/SummarizedExperiment’
+ERROR: dependency ‘SummarizedExperiment’ is not available for package ‘DESeq2’
+* removing ‘/rlibs/DESeq2’
+
+The downloaded source packages are in
+	‘/tmp/RtmpB2x5Nv/downloaded_packages’
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘SparseArray’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘DelayedArray’ had non-zero exit status
+3: In install.packages(...) :
+  installation of package ‘SummarizedExperiment’ had non-zero exit status
+4: In install.packages(...) :
+  installation of package ‘DESeq2’ had non-zero exit status
+Error in library(DESeq2) : there is no package called ‘DESeq2’
+Calls: source -> withVisible -> eval -> eval -> library
+Execution halted
+=== 2026-07-25 21:52:25 | STEP: deseq2 ===
+CMD: docker run --rm --cpus=4 --memory=8g   --user 1041:1049   -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq':/work -w /work   quay.io/biocontainers/bioconductor-deseq2:1.42.0--r43hf17093f_2   Rscript scripts/08_deseq2.R
+Unable to find image 'quay.io/biocontainers/bioconductor-deseq2:1.42.0--r43hf17093f_2' locally
+1.42.0--r43hf17093f_2: Pulling from biocontainers/bioconductor-deseq2
+ca7680d1025d: Already exists
+bd9ddc54bea9: Already exists
+7988571b2d45: Pulling fs layer
+7988571b2d45: Verifying Checksum
+7988571b2d45: Download complete
+7988571b2d45: Pull complete
+Digest: sha256:2d299c5f045c65879e8da189bba17857963d50703af5410003e7e84883deef13
+Status: Downloaded newer image for quay.io/biocontainers/bioconductor-deseq2:1.42.0--r43hf17093f_2
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Loading required package: S4Vectors
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, sort,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+
+Attaching package: ‘S4Vectors’
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Error in SummarizedExperiment(assays = SimpleList(counts = countData),  : 
+  the rownames and colnames of the supplied assay(s) must be NULL or
+  identical to those of the SummarizedExperiment object (or derivative)
+  to construct
+Calls: DESeqDataSetFromMatrix -> SummarizedExperiment
+Execution halted
+=== 2026-07-25 21:56:58 | STEP: deseq2 ===
+CMD: docker run --rm --cpus=4 --memory=8g   --user 1041:1049   -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq':/work -w /work   quay.io/biocontainers/bioconductor-deseq2:1.42.0--r43hf17093f_2   Rscript scripts/08_deseq2.R
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Loading required package: S4Vectors
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, sort,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+
+Attaching package: ‘S4Vectors’
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Error in `.rowNamesDF<-`(x, value = value) : 
+  duplicate 'row.names' are not allowed
+Calls: rownames<- ... row.names<- -> row.names<-.data.frame -> .rowNamesDF<-
+In addition: Warning message:
+non-unique values when setting 'row.names':  
+Execution halted
+=== 2026-07-25 21:59:59 | STEP: deseq2 ===
+CMD: docker run --rm --cpus=4 --memory=8g   --user 1041:1049   -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq':/work -w /work   quay.io/biocontainers/bioconductor-deseq2:1.42.0--r43hf17093f_2   Rscript scripts/08_deseq2.R
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Loading required package: S4Vectors
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, sort,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+
+Attaching package: ‘S4Vectors’
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+=== counts_mat 컬럼명 ===
+[1] "X.align.SRR1039508" "X.align.SRR1039509" "X.align.SRR1039512"
+[4] "X.align.SRR1039513"
+=== samples.tsv의 run 컬럼 ===
+[1] "SRR1039508" "SRR1039509" "SRR1039512" "SRR1039513"
+Error in `.rowNamesDF<-`(x, value = value) : 
+  duplicate 'row.names' are not allowed
+Calls: rownames<- ... row.names<- -> row.names<-.data.frame -> .rowNamesDF<-
+In addition: Warning message:
+non-unique values when setting 'row.names':  
+Execution halted
+=== 2026-07-25 22:02:26 | STEP: deseq2 ===
+CMD: docker run --rm --cpus=4 --memory=8g   --user 1041:1049   -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq':/work -w /work   quay.io/biocontainers/bioconductor-deseq2:1.42.0--r43hf17093f_2   Rscript scripts/08_deseq2.R
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Loading required package: S4Vectors
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, sort,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+
+Attaching package: ‘S4Vectors’
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+=== counts_mat 컬럼명 ===
+[1] "SRR1039508" "SRR1039509" "SRR1039512" "SRR1039513"
+=== samples.tsv의 run 컬럼 ===
+[1] "SRR1039508" "SRR1039509" "SRR1039512" "SRR1039513"
+estimating size factors
+estimating dispersions
+gene-wise dispersion estimates
+mean-dispersion relationship
+final dispersion estimates
+fitting model and testing
+padj < 0.05 유의 유전자 수: 786 
+(논문 보고값: 316개)
+There were 18 warnings (use warnings() to see them)
+null device 
+          1 
+=== 2026-07-25 22:03:30 | END: deseq2 (exit=0) ===

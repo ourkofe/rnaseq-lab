@@ -1,0 +1,40 @@
+=== 2026-07-25 22:09:27 | STEP: multiqc ===
+CMD: docker run --rm --cpus=2 --memory=2g   --user 1041:1049   -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/airway_de_rnaseq':/work -w /work   quay.io/biocontainers/multiqc:1.19--pyhdfd78af_0   multiqc results/ align/ -o results/qc/multiqc
+Unable to find image 'quay.io/biocontainers/multiqc:1.19--pyhdfd78af_0' locally
+1.19--pyhdfd78af_0: Pulling from biocontainers/multiqc
+93e509ffbdaf: Pulling fs layer
+820c67f471a9: Pulling fs layer
+bd9ddc54bea9: Pulling fs layer
+1d3e40e109f2: Pulling fs layer
+1d3e40e109f2: Waiting
+bd9ddc54bea9: Verifying Checksum
+bd9ddc54bea9: Download complete
+93e509ffbdaf: Verifying Checksum
+93e509ffbdaf: Download complete
+93e509ffbdaf: Pull complete
+820c67f471a9: Verifying Checksum
+820c67f471a9: Download complete
+820c67f471a9: Pull complete
+bd9ddc54bea9: Pull complete
+1d3e40e109f2: Verifying Checksum
+1d3e40e109f2: Download complete
+1d3e40e109f2: Pull complete
+Digest: sha256:6487aad25c1d232abb98e7b23236606205ce39882a3de22b20e6d12b3d3e69af
+Status: Downloaded newer image for quay.io/biocontainers/multiqc:1.19--pyhdfd78af_0
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+
+  /// MultiQC 🔍 | v1.19
+
+|           multiqc | MultiQC Version v1.35 now available!
+|           multiqc | Search path : /work/results
+|           multiqc | Search path : /work/align
+|         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 51/51  
+Matplotlib created a temporary cache directory at /tmp/matplotlib-zrz63f0r because the default path (/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+|    feature_counts | Found 4 reports
+|              star | Found 4 reports
+|             fastp | Found 4 reports
+|            fastqc | Found 8 reports
+|           multiqc | Report      : results/qc/multiqc/multiqc_report.html
+|           multiqc | Data        : results/qc/multiqc/multiqc_data
+|           multiqc | MultiQC complete
+=== 2026-07-25 22:10:25 | END: multiqc (exit=0) ===
