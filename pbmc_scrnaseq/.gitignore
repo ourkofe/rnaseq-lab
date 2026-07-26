@@ -38,3 +38,6 @@ tools/refdata*/
 
 # Cell Ranger 출력 전체 (내부 작업 디렉토리 + outs 모두 무거움)
 results/pbmc_1k_v3_count/
+
+# Seurat object 무거움 (203MB)
+results/seurat/*.rds

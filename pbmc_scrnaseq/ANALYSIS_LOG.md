@@ -69,3 +69,42 @@
   - cell_types/Azimuth/cell_types.csv (자동 세포타입 주석)
   - cloupe.cloupe (Loupe Browser용)
 
+## 07. Seurat 분석 (QC ~ 클러스터링 ~ 마커 유전자)
+- 입력: results/pbmc_1k_v3_count/outs/filtered_feature_bc_matrix.h5
+- QC 필터링: nFeature_RNA 200~6000, percent.mt < 15
+  - 필터링 전 1,195 세포 (Cell Ranger의 1,221과 살짝 다름, Seurat min.cells/min.features
+    기본 필터가 먼저 적용된 영향으로 추정)
+  - 필터링 후 1,135 세포
+- PCA dims 1:10, FindClusters resolution 0.5 -> 클러스터 11개
+
+### 클러스터별 마커 유전자 + 세포 타입 매칭
+
+| 클러스터 | 검출된 마커 | 추정 세포 타입 |
+|---|---|---|
+| 0 | IL7R, CD3D, CD3E, CD3G, TRAC, CD2, CD28 | CD4 T세포 |
+| 1 | CD14 (매우 강함, p=6.8e-109) | CD14+ 단핵구 |
+| 2 | IL7R | T세포 (서브타입) |
+| 3 | MS4A1 (log2FC 4.0) | B세포 |
+| 4 | CD14 | CD14+ 단핵구 (서브그룹) |
+| 5 | FCGR3A, FCER1A, MS4A14 | FCGR3A+ 단핵구/수지상세포 |
+| 6 | IL7R, CD8A | CD8 T세포 |
+| 7 | MS4A1 | B세포 (서브타입) |
+| 8 | GNLY (log2FC 6.5), FCGR3A | NK세포 |
+| 9 | GNLY, CD8A | NK/CD8 T세포 경계 |
+| 10 | PPBP (log2FC 12.1, 극단적으로 강함) | 혈소판 |
+
+- 검증 기준으로 세웠던 8개 세포 타입(CD4T, CD8T, B, NK, 단핵구 2종, 수지상세포, 혈소판)
+  전부 특정 클러스터 마커로 확인됨. 일부는 세부 서브클러스터로 더 쪼개짐.
+- PBMC 특성(다양한 면역세포 혼합)상 이상적인 결과로 판단.
+
+### 결과 파일
+- results/seurat/qc_violin_plot.pdf
+- results/seurat/umap_clusters.pdf
+- results/seurat/umap_markers.pdf
+- results/seurat/marker_genes.csv
+- results/seurat/pbmc_seurat_object.rds (203MB, git 제외 대상)
+
+## 결론
+- Cell Ranger + Seurat 조합(gold standard)으로 PBMC 1k 데이터 처리
+- 클러스터링 결과가 알려진 PBMC 면역세포 마커 유전자로 잘 설명됨
+- 이번 실습 목표(세포 타입별 클러스터링 + 마커 검증) 달성
