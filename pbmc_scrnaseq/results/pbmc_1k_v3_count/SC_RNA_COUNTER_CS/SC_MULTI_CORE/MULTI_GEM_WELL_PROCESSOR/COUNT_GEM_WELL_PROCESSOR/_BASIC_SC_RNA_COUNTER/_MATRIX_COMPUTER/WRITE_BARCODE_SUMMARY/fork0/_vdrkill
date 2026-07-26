@@ -1,0 +1,19 @@
+{
+    "timestamp": "2026-07-26T13:00:06.735949155+09:00",
+    "paths": [
+        "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/WRITE_BARCODE_SUMMARY/fork0/join-u4e7f6584da/files/barcode_summary.h5"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2026-07-26T12:54:02.375140548+09:00",
+            "DeltaBytes": 2825289
+        },
+        {
+            "Timestamp": "2026-07-26T13:00:06.735949155+09:00",
+            "DeltaBytes": -2811178
+        }
+    ],
+    "count": 1,
+    "size": 2811178
+}

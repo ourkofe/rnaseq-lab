@@ -1,0 +1,28 @@
+{
+    "timestamp": "2026-07-26T12:56:46.057650892+09:00",
+    "paths": [
+        "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/ANNOTATE_CELLS/_ANNOTATE_CELLS/CALL_CELL_TYPES/CALL_AZIMUTH_CELL_TYPES/fork0/chnk0-u4e7f658577/files/cell_types_csv.csv",
+        "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/ANNOTATE_CELLS/_ANNOTATE_CELLS/CALL_CELL_TYPES/CALL_AZIMUTH_CELL_TYPES/fork0/chnk0-u4e7f658577/files/chunk_fbm.h5"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2026-07-26T12:56:36.868523817+09:00",
+            "DeltaBytes": 6127
+        },
+        {
+            "Timestamp": "2026-07-26T12:56:39.715608183+09:00",
+            "DeltaBytes": 6412104
+        },
+        {
+            "Timestamp": "2026-07-26T12:56:44.58450996+09:00",
+            "DeltaBytes": 157752
+        },
+        {
+            "Timestamp": "2026-07-26T12:56:46.057650892+09:00",
+            "DeltaBytes": -6404497
+        }
+    ],
+    "count": 2,
+    "size": 6404497
+}

@@ -1,0 +1,7 @@
+{
+    "__mem_gb": 1,
+    "__threads": 1,
+    "__vmem_gb": 4,
+    "cell_types_in": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/ANNOTATE_CELLS/_ANNOTATE_CELLS/CALL_CELL_TYPES/CELL_TYPING_MULTIPLEXER/fork0/chnk0-u4e7f65857e/files/cell_types.csv",
+    "metacell_json": null
+}

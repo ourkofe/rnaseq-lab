@@ -1,0 +1,30 @@
+{
+    "timestamp": "2026-07-26T12:56:34.712161458+09:00",
+    "paths": [
+        "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_PCA/fork0/chnk0-u4e7f658561/files/pca_csv",
+        "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_PCA/fork0/chnk0-u4e7f658561/files/pca_h5.h5",
+        "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_PCA/fork0/join-u4e7f658560/files/pca_csv",
+        "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_PCA/fork0/join-u4e7f658560/files/pca_h5.h5"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2026-07-26T12:56:17.008157778+09:00",
+            "DeltaBytes": 14566442
+        },
+        {
+            "Timestamp": "2026-07-26T12:56:21.064252277+09:00",
+            "DeltaBytes": 6841781
+        },
+        {
+            "Timestamp": "2026-07-26T12:56:21.147451489+09:00",
+            "DeltaBytes": -14555207
+        },
+        {
+            "Timestamp": "2026-07-26T12:56:34.712161458+09:00",
+            "DeltaBytes": -6835583
+        }
+    ],
+    "count": 16,
+    "size": 21390790
+}

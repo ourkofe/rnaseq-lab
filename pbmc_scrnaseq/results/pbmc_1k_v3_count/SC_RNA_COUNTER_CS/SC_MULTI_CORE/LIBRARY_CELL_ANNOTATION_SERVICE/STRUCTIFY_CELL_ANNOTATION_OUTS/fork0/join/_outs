@@ -1,0 +1,84 @@
+{
+    "cell_annotation_analysis_metrics": {
+        "Azimuth": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/STRUCTIFY_CELL_ANNOTATION_OUTS/fork0/chnk0-u4e7f65858b/files/Azimuth_cell_annotation_analysis_metrics.json",
+        "10x_Cloud": null
+    },
+    "cell_annotation_metrics": {
+        "Azimuth": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/STRUCTIFY_CELL_ANNOTATION_OUTS/fork0/chnk0-u4e7f65858b/files/Azimuth_cell_annotation_metrics.json",
+        "10x_Cloud": null
+    },
+    "cell_types_all_methods": {
+        "cell_types": {
+            "Azimuth": {
+                "cell_annotation_differential_expression": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/STRUCTIFY_CELL_ANNOTATION_OUTS/fork0/chnk0-u4e7f65858b/files/Azimuth_cell_annotation_differential_expression_cas_diffexp_csv.csv",
+                "cell_annotation_results": null,
+                "cell_types": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/STRUCTIFY_CELL_ANNOTATION_OUTS/fork0/chnk0-u4e7f65858b/files/Azimuth_cell_types_cell_types.csv"
+            },
+            "10x_Cloud": {
+                "cell_annotation_differential_expression": null,
+                "cell_annotation_results": null,
+                "cell_types": null
+            }
+        }
+    },
+    "loupe_file_inputs": [
+        {
+            "model_name": "Azimuth",
+            "cell_annotation_cloupe_name": "Cell Types (beta)",
+            "cloupe_cas_types": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/STRUCTIFY_CELL_ANNOTATION_OUTS/fork0/chnk0-u4e7f65858b/files/Azimuth_cloupe_cas_types.json"
+        },
+        {
+            "model_name": "10x_Cloud",
+            "cell_annotation_cloupe_name": null,
+            "cloupe_cas_types": null
+        }
+    ],
+    "websummary_inputs": {
+        "cell_type_websummary_bundles": {
+            "Azimuth": {
+                "aggregate_and_annotate": null,
+                "cell_annotation_metadata": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/STRUCTIFY_CELL_ANNOTATION_OUTS/fork0/chnk0-u4e7f65858b/files/Azimuth_cell_annotation_metadata_metadata.json",
+                "cell_annotation_metrics": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/STRUCTIFY_CELL_ANNOTATION_OUTS/fork0/chnk0-u4e7f65858b/files/Azimuth_cell_annotation_metrics_cell_annotation_metrics.json",
+                "cell_annotation_model_family": "Azimuth",
+                "cell_type_info": {
+                    "cas_frac_returned_bcs": 1.0,
+                    "cas_success": true,
+                    "cell_annotation_model": "Azimuth v1",
+                    "disable_cas_ws": false,
+                    "disable_differential_expression": false
+                },
+                "cell_type_interactive_bar_chart": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/STRUCTIFY_CELL_ANNOTATION_OUTS/fork0/chnk0-u4e7f65858b/files/Azimuth_cell_type_interactive_bar_chart_cell_type_interactive_bar_chart.json",
+                "cell_type_pd_plots": {
+                    "cell_type_bar_chart": null,
+                    "spatial_cell_types_chart": null
+                },
+                "cell_type_spatial_plot": null,
+                "cell_types_box_plot": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/STRUCTIFY_CELL_ANNOTATION_OUTS/fork0/chnk0-u4e7f65858b/files/Azimuth_cell_types_box_plot_cell_types_box_plot.json",
+                "cell_types_umap_plot": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/STRUCTIFY_CELL_ANNOTATION_OUTS/fork0/chnk0-u4e7f65858b/files/Azimuth_cell_types_umap_plot_cell_types_umap_plot.json",
+                "diffexp": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/STRUCTIFY_CELL_ANNOTATION_OUTS/fork0/chnk0-u4e7f65858b/files/Azimuth_diffexp_diffexp.json"
+            },
+            "10x_Cloud": {
+                "aggregate_and_annotate": null,
+                "cell_annotation_metadata": null,
+                "cell_annotation_metrics": null,
+                "cell_annotation_model_family": "10x_Cloud",
+                "cell_type_info": {
+                    "cas_frac_returned_bcs": 0.0,
+                    "cas_success": false,
+                    "cell_annotation_model": null,
+                    "disable_cas_ws": null,
+                    "disable_differential_expression": null
+                },
+                "cell_type_interactive_bar_chart": null,
+                "cell_type_pd_plots": {
+                    "cell_type_bar_chart": null,
+                    "spatial_cell_types_chart": null
+                },
+                "cell_type_spatial_plot": null,
+                "cell_types_box_plot": null,
+                "cell_types_umap_plot": null,
+                "diffexp": null
+            }
+        }
+    }
+}

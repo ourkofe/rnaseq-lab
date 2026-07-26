@@ -1,0 +1,14 @@
+{
+    "cas_success": true,
+    "cell_type_results": {
+        "cell_types": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/ANNOTATE_CELLS/_ANNOTATE_CELLS/CALL_CELL_TYPES/CALL_AZIMUTH_CELL_TYPES/fork0/join-u4e7f658574/files/cell_types.csv",
+        "results": null,
+        "metadata": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/ANNOTATE_CELLS/_ANNOTATE_CELLS/CALL_CELL_TYPES/CALL_AZIMUTH_CELL_TYPES/fork0/join-u4e7f658574/files/metadata.json",
+        "frac_returned_bcs": 1.0,
+        "model_used": "Azimuth v1",
+        "skip_downstream": false
+    },
+    "disable_cas_ws": false,
+    "disable_summarize": false,
+    "summary": null
+}

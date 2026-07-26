@@ -1,0 +1,151 @@
+{
+    "name": "ID.pbmc_1k_v3_count.SC_RNA_COUNTER_CS.SC_MULTI_CORE.MULTI_GEM_WELL_PROCESSOR.COUNT_GEM_WELL_PROCESSOR._BASIC_SC_RNA_COUNTER._MATRIX_COMPUTER.WRITE_BARCODE_SUMMARY.fork0",
+    "type": "local",
+    "cwd": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/WRITE_BARCODE_SUMMARY/fork0/join-u4e7f6584da/files",
+    "rusage": {
+        "self": {
+            "ru_maxrss": 28232,
+            "ru_ixrss": 0,
+            "ru_idrss": 0,
+            "ru_minflt": 585,
+            "ru_majflt": 0,
+            "ru_nswap": 0,
+            "ru_utime": 0,
+            "ru_stime": 0.008476,
+            "ru_inblock": 0,
+            "ru_oublock": 40,
+            "ru_msgsnd": 0,
+            "ru_msgrcv": 0,
+            "ru_nsignals": 0,
+            "ru_nivcsw": 1
+        },
+        "children": {
+            "ru_maxrss": 75072,
+            "ru_ixrss": 0,
+            "ru_idrss": 0,
+            "ru_minflt": 36924,
+            "ru_majflt": 20,
+            "ru_nswap": 0,
+            "ru_utime": 2.157704,
+            "ru_stime": 0.084524,
+            "ru_inblock": 2584,
+            "ru_oublock": 5528,
+            "ru_msgsnd": 0,
+            "ru_msgrcv": 0,
+            "ru_nsignals": 0,
+            "ru_nivcsw": 218
+        }
+    },
+    "used_bytes": {
+        "rss": 82440192,
+        "shared": 18321408,
+        "vmem": 1780092928,
+        "text": 23941120,
+        "stack": 184311808,
+        "proc_count": 1
+    },
+    "io": {
+        "total": {
+            "read": {
+                "sysc": 2035,
+                "bytes": 753664
+            },
+            "write": {
+                "sysc": 8,
+                "bytes": 0
+            }
+        },
+        "max": {
+            "read": {
+                "sysc": 4047.507199034877,
+                "bytes": 1502689.8845583356
+            },
+            "write": {
+                "sysc": 15.950767286836953,
+                "bytes": 0
+            }
+        },
+        "dev": {
+            "read": {
+                "sysc": 161.0487692854976,
+                "bytes": 109870.06548520237
+            },
+            "write": {
+                "sysc": 1.1662498459281618,
+                "bytes": 0
+            }
+        }
+    },
+    "wallclock": {
+        "start": "2026-07-26T12:54:02.563112433+09:00",
+        "end": "2026-07-26T12:54:05.113203273+09:00",
+        "duration_seconds": 2.55009079
+    },
+    "profile_mode": "disable",
+    "stackvars_flag": "disable",
+    "monitor_flag": "disable",
+    "invocation": {
+        "call": "SC_RNA_COUNTER_CS",
+        "args": {
+            "aligner": null,
+            "cell_annotation_model": null,
+            "check_library_compatibility": true,
+            "chemistry": "auto",
+            "disable_ab_aggregate_detection": false,
+            "emptydrops_minimum_umis": null,
+            "enable_tsne": false,
+            "feature_reference": null,
+            "filter_probes": null,
+            "force_cells": null,
+            "global_minimum_umis": null,
+            "include_introns": true,
+            "max_mito_percent": null,
+            "min_crispr_umi_threshold": 3,
+            "minimap_preset": null,
+            "no_bam": false,
+            "no_secondary_analysis": false,
+            "r1_length": null,
+            "r2_length": null,
+            "recovered_cells": null,
+            "reference_path": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/ref/refdata-gex-GRCh38-2024-A",
+            "sample_def": [
+                {
+                    "fastq_id": null,
+                    "fastq_mode": "ILMN_BCL2FASTQ",
+                    "gem_group": null,
+                    "lanes": null,
+                    "library_type": "Gene Expression",
+                    "r1_length": null,
+                    "r2_length": null,
+                    "read_path": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/data/pbmc_1k_v3_fastqs",
+                    "sample_indices": [
+                        "any"
+                    ],
+                    "sample_names": [
+                        "pbmc_1k_v3"
+                    ],
+                    "subsample_rate": null
+                }
+            ],
+            "sample_desc": "",
+            "sample_id": "pbmc_1k_v3_count",
+            "skip_cell_annotation": false,
+            "target_set": null,
+            "target_set_name": null,
+            "targeting_method": null,
+            "tenx_cloud_token_path": null,
+            "trim_polya_min_score": 20,
+            "trim_tso_min_score": 20
+        },
+        "mro_file": "rna/sc_rna_counter_cs.mro"
+    },
+    "version": {
+        "martian": "v4.0.15",
+        "pipelines": "10.1.0"
+    },
+    "host": "Ops",
+    "pid": 614538,
+    "threads": 1,
+    "memGB": 2,
+    "vmemGB": 5
+}

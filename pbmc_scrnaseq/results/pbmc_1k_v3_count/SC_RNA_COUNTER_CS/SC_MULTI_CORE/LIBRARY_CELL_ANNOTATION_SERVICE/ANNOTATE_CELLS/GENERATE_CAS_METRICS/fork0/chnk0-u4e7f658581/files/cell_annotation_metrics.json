@@ -1,0 +1,12 @@
+{
+    "cell_annotation_model": "Azimuth v1",
+    "cell_annotation_tree_version_used": "PanHuman",
+    "cell_annotation_display_map_version_used": "NOT FOUND",
+    "cell_annotation_frac_returned_bcs": 1.0,
+    "cell_annotation_success": true,
+    "cell_annotation_differential_expression": false,
+    "cell_annotation_beta_model": true,
+    "cell_annotation_model_developer": "Satija Lab",
+    "pipeline_version": "10.1.0",
+    "aggregate_and_annotate": null
+}

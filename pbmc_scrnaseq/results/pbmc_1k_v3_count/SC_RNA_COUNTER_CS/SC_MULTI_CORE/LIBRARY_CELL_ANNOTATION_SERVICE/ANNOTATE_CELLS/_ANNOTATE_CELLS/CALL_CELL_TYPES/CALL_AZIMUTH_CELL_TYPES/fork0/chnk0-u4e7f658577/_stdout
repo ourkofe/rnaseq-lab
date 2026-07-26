@@ -1,0 +1,35 @@
+[stdout]
+Integer counts detected by panhumanpy.ANNotate : True
+Log-normalization performed by panhumanpy.ANNotate: True
+To override log-normalization, set normalization_override=False
+Query object:
+    Total number of cells: 1221
+    Total number of features: 38584
+    Overlap w. feature reference: 4889 (~96%)
+
+Splitting query data into 5 evaluation batches.
+
+Running model:
+Splitting softmax outputs into 5 batches.
+
+Splitting softmax outputs into 5 batches.
+
+Splitting softmax outputs into 5 batches.
+
+Splitting softmax outputs into 5 batches.
+
+Splitting softmax outputs into 5 batches.
+
+Splitting softmax outputs into 5 batches.
+
+Splitting softmax outputs into 5 batches.
+
+Splitting softmax outputs into 5 batches.
+
+Interpreting label predictions for consistent granularity at broad level.
+
+Interpreting label predictions for consistent granularity at medium level.
+
+Interpreting label predictions for consistent granularity at fine level.
+
+frac_returned_bcs=1.0

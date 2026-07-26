@@ -1,0 +1,19 @@
+{
+    "timestamp": "2026-07-26T13:00:06.734702688+09:00",
+    "paths": [
+        "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/MERGE_ANNOTATION_ANALYSIS_METRICS/fork0/chnk0-u4e7f65858b/files/summary.json"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2026-07-26T12:56:59.364174061+09:00",
+            "DeltaBytes": 8299
+        },
+        {
+            "Timestamp": "2026-07-26T13:00:06.734702688+09:00",
+            "DeltaBytes": -2737
+        }
+    ],
+    "count": 1,
+    "size": 2737
+}

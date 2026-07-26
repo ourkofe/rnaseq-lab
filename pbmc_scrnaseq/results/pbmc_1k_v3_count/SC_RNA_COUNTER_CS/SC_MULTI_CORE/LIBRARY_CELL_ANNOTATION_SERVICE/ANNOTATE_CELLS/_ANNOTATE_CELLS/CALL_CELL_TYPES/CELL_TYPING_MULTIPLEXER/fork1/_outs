@@ -1,0 +1,14 @@
+{
+    "cas_success": false,
+    "cell_type_results": {
+        "cell_types": null,
+        "results": null,
+        "metadata": null,
+        "frac_returned_bcs": 0.0,
+        "model_used": null,
+        "skip_downstream": true
+    },
+    "disable_cas_ws": null,
+    "disable_summarize": true,
+    "summary": null
+}

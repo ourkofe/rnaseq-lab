@@ -1,0 +1,8 @@
+@include "rna/_basic_sc_rna_counter_stages.mro"
+
+call DISABLE_STAGES(
+    no_bam               = false,
+    disable_multi        = true,
+    is_visium_hd         = false,
+    probe_barcode_counts = null,
+)

@@ -1,0 +1,31 @@
+@include "rna/_cr_lib_stages.mro"
+
+call GENERATE_CAS_WEBSUMMARY(
+    sample_id                    = "pbmc_1k_v3_count",
+    sample_desc                  = "",
+    alert_string                 = null,
+    cell_type_websummary_bundle  = {
+        aggregate_and_annotate:          null,
+        cell_annotation_metadata:        "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/ANNOTATE_CELLS/_ANNOTATE_CELLS/CALL_CELL_TYPES/CELL_TYPING_MULTIPLEXER/fork0/chnk0-u4e7f65857e/files/metadata.json",
+        cell_annotation_metrics:         "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/ANNOTATE_CELLS/GENERATE_CAS_METRICS/fork0/chnk0-u4e7f658581/files/cell_annotation_metrics.json",
+        cell_annotation_model_family:    "Azimuth",
+        cell_type_info: {
+            cas_frac_returned_bcs:           1,
+            cas_success:                     true,
+            cell_annotation_model:           "Azimuth v1",
+            disable_cas_ws:                  false,
+            disable_differential_expression: false,
+        },
+        cell_type_interactive_bar_chart: "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/ANNOTATE_CELLS/_ANNOTATE_CELLS/SUMMARIZE_CELL_TYPES/GET_CELL_TYPES_BARCHART/fork0/chnk0-u4e7f658581/files/cell_type_interactive_bar_chart.json",
+        cell_type_pd_plots: {
+            cell_type_bar_chart:      null,
+            spatial_cell_types_chart: null,
+        },
+        cell_type_spatial_plot:          null,
+        cell_types_box_plot:             "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/ANNOTATE_CELLS/_ANNOTATE_CELLS/SUMMARIZE_CELL_TYPES/GET_CELL_TYPES_BOX_PLOT/fork0/join-u4e7f658581/files/cell_types_box_plot.json",
+        cell_types_umap_plot:            "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/ANNOTATE_CELLS/_ANNOTATE_CELLS/SUMMARIZE_CELL_TYPES/GET_CELL_TYPES_UMAP_PLOT/fork0/chnk0-u4e7f658581/files/cell_types_umap_plot.json",
+        diffexp:                         "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/ANNOTATE_CELLS/_ANNOTATE_CELLS/SUMMARIZE_CELL_TYPES/CELL_TYPE_DIFF_EXP/TIDY_CELLTYPE_DIFFEXP/fork0/chnk0-u4e7f658589/files/diffexp.json",
+    },
+    cell_type_websummary_bundles = null,
+    pipestance_type              = "SC_MULTI_CORE_LIBRARY",
+)

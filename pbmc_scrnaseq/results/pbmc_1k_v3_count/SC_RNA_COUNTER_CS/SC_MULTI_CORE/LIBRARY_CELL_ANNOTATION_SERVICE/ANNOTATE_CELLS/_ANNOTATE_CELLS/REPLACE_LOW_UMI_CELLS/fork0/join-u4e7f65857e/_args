@@ -1,0 +1,7 @@
+{
+    "__mem_gb": 3.1,
+    "__threads": 1,
+    "__vmem_gb": 6.2,
+    "cell_types": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/ANNOTATE_CELLS/_ANNOTATE_CELLS/REMOVE_META_CELLS_FROM_CELL_TYPES/fork0/join-u4e7f65857e/files/cell_types.csv",
+    "filtered_matrix": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/FILTER_BARCODES/fork0/join-u4e7f658505/files/filtered_matrices_h5.h5"
+}

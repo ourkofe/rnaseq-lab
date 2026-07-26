@@ -1,0 +1,5 @@
+2026-07-26 12:56:37 [time] __start__
+2026-07-26 12:56:37 [monitor] cgroup memory limit of 9223372036854771712 bytes detected
+2026-07-26 12:56:38 [info] Computing the number of non-zero GEX entries!
+2026-07-26 12:56:39 [info] non-zero GEX entries = 4099222
+2026-07-26 12:56:40 [time] __end__

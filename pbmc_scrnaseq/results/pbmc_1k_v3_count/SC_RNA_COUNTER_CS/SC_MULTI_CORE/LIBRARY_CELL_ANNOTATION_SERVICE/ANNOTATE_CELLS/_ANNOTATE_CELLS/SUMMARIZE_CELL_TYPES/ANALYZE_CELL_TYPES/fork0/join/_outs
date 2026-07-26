@@ -1,0 +1,5 @@
+{
+    "cell_annotation_analysis_metrics": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/ANNOTATE_CELLS/_ANNOTATE_CELLS/SUMMARIZE_CELL_TYPES/ANALYZE_CELL_TYPES/fork0/chnk0-u4e7f658581/files/cell_annotation_analysis_metrics.json",
+    "cell_type_bar_chart": null,
+    "spatial_cell_types_chart": null
+}

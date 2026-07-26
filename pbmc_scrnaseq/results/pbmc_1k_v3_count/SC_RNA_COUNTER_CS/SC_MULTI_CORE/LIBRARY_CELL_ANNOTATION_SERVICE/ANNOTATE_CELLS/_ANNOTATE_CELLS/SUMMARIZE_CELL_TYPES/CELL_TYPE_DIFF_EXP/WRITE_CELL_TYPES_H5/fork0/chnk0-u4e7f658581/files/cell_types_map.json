@@ -1,0 +1,13 @@
+{
+    "B cell": 1,
+    "Coarse Not Confidently Annotated": 2,
+    "Cycling T/NK cell": 3,
+    "Dendritic cell": 4,
+    "HSC": 5,
+    "ILC": 6,
+    "Monocyte": 7,
+    "NK cell": 8,
+    "Platelet": 9,
+    "T cell": 10,
+    "Unassigned": 11
+}

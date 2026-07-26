@@ -1,0 +1,5 @@
+@include "rna/cell_annotation_service.mro"
+
+call GET_CLOUPE_CELL_TYPES(
+    cell_types = "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/ANNOTATE_CELLS/_ANNOTATE_CELLS/REPLACE_LOW_UMI_CELLS/fork0/join-u4e7f65857e/files/cell_types.csv",
+)

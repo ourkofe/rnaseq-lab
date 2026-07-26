@@ -1,0 +1,32 @@
+{
+    "timestamp": "2026-07-26T12:59:59.954062275+09:00",
+    "paths": [
+        "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/_CELLS_REPORTER/SUBSAMPLE_READS/fork0/chnk0-u4e7f65855c/files/metrics.pickle.gz",
+        "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/_CELLS_REPORTER/SUBSAMPLE_READS/fork0/join-u4e7f65855a/files/summary.json"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2026-07-26T12:56:10.760366864+09:00",
+            "DeltaBytes": 24683
+        },
+        {
+            "Timestamp": "2026-07-26T12:56:12.582668463+09:00",
+            "DeltaBytes": 3255721
+        },
+        {
+            "Timestamp": "2026-07-26T12:59:52.060831479+09:00",
+            "DeltaBytes": 65420
+        },
+        {
+            "Timestamp": "2026-07-26T12:59:53.647579222+09:00",
+            "DeltaBytes": -3224087
+        },
+        {
+            "Timestamp": "2026-07-26T12:59:59.954062275+09:00",
+            "DeltaBytes": -41793
+        }
+    ],
+    "count": 2,
+    "size": 3265880
+}

@@ -1,0 +1,18 @@
+{
+    "__mem_gb": 5,
+    "__threads": 4,
+    "__vmem_gb": 8,
+    "feature_type": "Gene Expression",
+    "graphclust_init": null,
+    "input_pcs": null,
+    "matrix_h5": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/PREPROCESS_MATRIX/fork0/join-u4e7f65855b/files/preprocessed_matrix_h5.h5",
+    "neighbor_a": null,
+    "neighbor_b": null,
+    "num_neighbors": null,
+    "parallel_clustering": false,
+    "pca_h5": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_PCA/fork0/join-u4e7f658560/files/pca_h5.h5",
+    "random_seed": null,
+    "resolution": null,
+    "sketch": false,
+    "threads": 4
+}

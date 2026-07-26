@@ -1,0 +1,31 @@
+{
+    "aggregate_barcodes": null,
+    "analysis": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/outs/analysis",
+    "cell_types": {
+        "10x_Cloud": {
+            "cell_annotation_differential_expression": null,
+            "cell_annotation_results": null,
+            "cell_types": null
+        },
+        "Azimuth": {
+            "cell_annotation_differential_expression": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/outs/cell_types/Azimuth/cell_annotation_differential_expression.csv",
+            "cell_annotation_results": null,
+            "cell_types": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/outs/cell_types/Azimuth/cell_types.csv"
+        }
+    },
+    "cloupe": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/outs/cloupe.cloupe",
+    "crispr_analysis": null,
+    "feature_reference": null,
+    "filtered_feature_bc_matrix": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/outs/filtered_feature_bc_matrix",
+    "filtered_feature_bc_matrix_h5": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/outs/filtered_feature_bc_matrix.h5",
+    "metrics_summary": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/outs/metrics_summary.csv",
+    "molecule_info": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/outs/molecule_info.h5",
+    "possorted_genome_bai_index": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/outs/possorted_genome_bam.bam.bai",
+    "possorted_genome_bam": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/outs/possorted_genome_bam.bam",
+    "possorted_genome_csi_index": null,
+    "probe_set": null,
+    "raw_feature_bc_matrix": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/outs/raw_feature_bc_matrix",
+    "raw_feature_bc_matrix_h5": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/outs/raw_feature_bc_matrix.h5",
+    "target_panel": null,
+    "web_summary": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/outs/web_summary.html"
+}

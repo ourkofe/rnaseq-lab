@@ -1,0 +1,12 @@
+[
+    {
+        "chunk_id": 0,
+        "feature_reference_binary": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/MAKE_SHARD/fork0/split-u4e7f657ffd/files/feature_reference.frf.bincode",
+        "use_multithread_bgzf": true
+    },
+    {
+        "chunk_id": 1,
+        "feature_reference_binary": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/MAKE_SHARD/fork0/split-u4e7f657ffd/files/feature_reference.frf.bincode",
+        "use_multithread_bgzf": true
+    }
+]

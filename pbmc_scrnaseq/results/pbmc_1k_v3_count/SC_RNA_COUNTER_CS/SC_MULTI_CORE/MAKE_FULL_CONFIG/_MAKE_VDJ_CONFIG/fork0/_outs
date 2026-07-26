@@ -1,0 +1,7 @@
+{
+    "count_is_enabled": true,
+    "disable_vdj_b": true,
+    "disable_vdj_t": true,
+    "disable_vdj_t_gd": true,
+    "has_no_vdj_ref": true
+}

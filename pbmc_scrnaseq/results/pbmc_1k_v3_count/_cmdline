@@ -1,0 +1,1 @@
+/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/tools/cellranger-10.1.0/cellranger count --id=pbmc_1k_v3_count --transcriptome=/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/ref/refdata-gex-GRCh38-2024-A --fastqs=/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/data/pbmc_1k_v3_fastqs --sample=pbmc_1k_v3 --create-bam=true --localcores=16 --localmem=64

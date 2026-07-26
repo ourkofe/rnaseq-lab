@@ -1,0 +1,13 @@
+{
+    "analysis": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/SUMMARIZE_ANALYSIS/fork0/chnk0-u4e7f658572/files/analysis",
+    "cas_frac_returned_bcs": 1.0,
+    "cas_model_used": "Azimuth v1",
+    "cas_success": true,
+    "cell_types": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/ANNOTATE_CELLS/_ANNOTATE_CELLS/REPLACE_LOW_UMI_CELLS/fork0/join-u4e7f65857e/files/cell_types.csv",
+    "is_pd": false,
+    "metadata": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/ANNOTATE_CELLS/_ANNOTATE_CELLS/CALL_CELL_TYPES/CELL_TYPING_MULTIPLEXER/fork0/chnk0-u4e7f65857e/files/metadata.json",
+    "pipestance_type": "SC_MULTI_CORE_LIBRARY",
+    "scale_factors": null,
+    "tissue_lowres_image": null,
+    "tissue_positions": null
+}

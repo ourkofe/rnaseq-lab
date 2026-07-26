@@ -1,0 +1,23 @@
+@include "rna/_cell_annotation_common_stages.mro"
+
+call CELL_TYPING_MULTIPLEXER(
+    disable_cloud_cell_types   = false,
+    disable_azimuth_cell_types = true,
+    cloud_cell_type_results    = {
+        cell_types:        null,
+        frac_returned_bcs: 0,
+        metadata:          null,
+        model_used:        null,
+        results:           null,
+        skip_downstream:   true,
+    },
+    cloud_cas_success          = false,
+    cloud_disable_cas_ws       = null,
+    cloud_disable_summarize    = true,
+    cloud_summary              = null,
+    azimuth_cell_type_results  = null,
+    azimuth_cas_success        = null,
+    azimuth_disable_cas_ws     = null,
+    azimuth_disable_summarize  = null,
+    azimuth_summary            = null,
+)

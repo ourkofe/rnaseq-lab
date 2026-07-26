@@ -1,0 +1,1222 @@
+barcode,broad_cell_type,coarse_cell_type,fine_cell_type,full_hierarchical_labels,final_level_softmax_prob,coarse_cell_type_unfiltered,umi_count
+AAACCCAAGGAGAGTA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9965114,Monocyte,12958
+AAACGCTTCAGCCCAG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9409142,B cell,9527
+AAAGAACAGACGACTG-1,Immune cell,T cell,GZMB CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.99732226,T cell,6601
+AAAGAACCAATGGCAG-1,Immune cell,T cell,GZMB CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMB CD8 T cell,0.75840914,T cell,4419
+AAAGAACGTCTGCAAT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.67167014,T cell,10004
+AAAGGATAGTAGACAT-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9568314,B cell,12245
+AAAGGATCACCGGCTA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.96503854,B cell,8269
+AAAGGATTCAGCTTGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9970162,Monocyte,18876
+AAAGGATTCCGTTTCG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99703765,Monocyte,24530
+AAAGGGCTCATGCCCT-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.97106344,T cell,10478
+AAAGGGCTCCGTAGGC-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9966307,T cell,8415
+AAAGGTACAACTGCTA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.51944965,Monocyte,15855
+AAAGTCCAGCGGGTTA-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.8279572,T cell,10295
+AAAGTCCAGTCAACAA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.81839645,T cell,4265
+AAAGTCCCACCAGCCA-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9808621,B cell,25334
+AAAGTGATCGTACACA-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.99686736,NK cell,8361
+AAATGGAAGCCGCTTG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.97127783,Monocyte,20647
+AAATGGACAATGCTCA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9486608,Monocyte,20224
+AAATGGAGTACCGCGT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell,0.9999342,T cell,25050
+AAATGGATCCTATTTG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.97305715,B cell,8100
+AACAAAGGTGATGAAT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.89074737,T cell,11327
+AACAACCAGTAGTCCT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9939845,Monocyte,4334
+AACAACCCACGCTATA-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.90715057,T cell,9824
+AACAAGAGTTATAGAG-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.76709193,Monocyte,17191
+AACAGGGGTGGGAGAG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9229424,T cell,8733
+AACCAACAGCTTGTTG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9458042,T cell,7660
+AACCCAACAACTGATC-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMB CD8 T cell,0.53829026,Coarse Not Confidently Annotated,7494
+AACCCAAGTGGGCTTC-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.79064757,B cell,9939
+AACCCAATCTTACCGC-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9986866,NK cell,7766
+AACCTGACATCCTATT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99788743,Monocyte,18662
+AACCTTTGTTTCGGCG-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9959484,NK cell,4303
+AACGAAAAGGTTGGTG-1,Immune cell,Platelet,Platelet,Immune cell|Erythrocyte/Megakaryocyte|Megakaryocyte,0.9993812,Platelet,5828
+AACGAAACAATGTCTG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9292508,T cell,1278
+AACGAAACAGCGTTTA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9983948,Monocyte,5657
+AACGAAATCCATTTAC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.6749484,T cell,5775
+AACGGGAGTCGCTCGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.998099,Monocyte,25563
+AACGTCAAGACGCCCT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9989235,Monocyte,14910
+AAGAACAAGACCATTC-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9730709,T cell,8202
+AAGAACAAGCCTCAGC-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.637701,Monocyte,25323
+AAGAACATCTTGCAAG-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.9336354,T cell,12284
+AAGACAACACTTCAGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99708146,Monocyte,20622
+AAGACAACAGATCACT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.69806963,Monocyte,35192
+AAGACAATCCGCGAGT-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.9571324,T cell,10555
+AAGACTCGTGACGTCC-1,Unassigned,Unassigned,Unassigned,Unassigned,0.99103856,Unassigned,827
+AAGCATCAGGTCCGAA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9975502,T cell,9843
+AAGCATCCAGTCTTCC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9495974,Monocyte,25495
+AAGCGTTCACTGATTG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.75248444,Monocyte,24840
+AAGCGTTTCGCTATTT-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.95729613,B cell,12925
+AAGGTAAAGGAAGTAG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9584637,T cell,8077
+AAGGTAAAGGCCACCT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.9130758,T cell,12776
+AAGGTAAGTCCTTAAG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.94255453,T cell,10481
+AAGTACCAGCGCCTTG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9974172,T cell,9129
+AAGTACCAGCTCCATA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9963386,T cell,9726
+AAGTACCCAAAGAACT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99750656,T cell,11431
+AAGTGAACATCAGCAT-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.93406844,T cell,9064
+AAGTGAATCGGAAGGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.6626418,Monocyte,21999
+AAGTTCGAGGATACAT-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.9705705,T cell,10488
+AAGTTCGGTCAACACT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9953525,Monocyte,19723
+AATCACGAGGCTCTAT-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|B cell|Plasma cell|abT (entry) cell,0.84858596,Coarse Not Confidently Annotated,1504
+AATCGACAGTATGTAG-1,Immune cell,T cell,abT (entry) cell,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell,0.7965779,T cell,3584
+AATCGACGTGAGACGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99587965,Monocyte,13881
+AATGAAGCAGTATGAA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.809743,T cell,7950
+AATGACCGTGTCATCA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99349856,Monocyte,26917
+AATGGAACACTCATAG-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.98946244,B cell,16119
+AATGGAATCTGATGGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9963982,Monocyte,16632
+AATGGCTAGGACGGAG-1,Immune cell,T cell,abT (entry) cell,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell,0.5441706,T cell,3723
+AATTCCTTCCATTGGA-1,Immune cell,Monocyte,CD14/CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD14/CD16 monocyte,0.69051266,Monocyte,24537
+ACAAAGAAGCCTCAAT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9988411,Monocyte,16857
+ACAAAGAGTTCCATTT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.9719215,T cell,9247
+ACAACCATCTATCCAT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99336845,T cell,5631
+ACAACCATCTGCCCTA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.94315845,T cell,13726
+ACAAGCTGTAGGTCAG-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.99709535,T cell,10223
+ACACCAAAGAGTCAGC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9975261,T cell,10470
+ACACGCGGTGTTGCCG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.96338105,Monocyte,13152
+ACACGCGTCACCTCGT-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9280212,NK cell,7026
+ACACGCGTCGCCGTGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9982595,Monocyte,7845
+ACACTGATCACTGATG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99709165,Monocyte,8321
+ACACTGATCTTTCCGG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.95272434,T cell,8595
+ACAGAAAAGTATTAGG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.96075255,Monocyte,10612
+ACAGAAACACCAGCGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9988292,Monocyte,9910
+ACAGCCGTCGCTGTTC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9380437,B cell,7382
+ACATCCCCACAAATGA-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.82873726,T cell,4154
+ACATCCCGTAAGATTG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9943106,Monocyte,11957
+ACATCGATCTAAGAAG-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9977519,NK cell,9376
+ACATCGATCTGAGAGG-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMK CD8 T cell,0.717471,T cell,7206
+ACATCGATCTTGGGCG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99879277,Monocyte,12206
+ACATGCAGTTGCTTGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9965726,Monocyte,8216
+ACATTTCGTGCCGAAA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99845254,T cell,8758
+ACATTTCGTTTCTTAC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.8093419,B cell,10930
+ACCACAAAGGCCTTGC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9973189,Monocyte,12889
+ACCACAAAGGTTAGTA-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell,0.5019008,Coarse Not Confidently Annotated,1057
+ACCACAAGTCTGTGGC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9223922,B cell,7609
+ACCATTTCATTGGGAG-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.99395645,T cell,9377
+ACCCAAAAGCCACAAG-1,Unassigned,Unassigned,Unassigned,Unassigned,0.99753004,Unassigned,670
+ACCCAAAGTTGGGAAC-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Myeloid cell|Dendritic cell|cDC|cDC1,0.5146431,Coarse Not Confidently Annotated,11725
+ACCCTTGGTATCGTAC-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.8209743,T cell,13513
+ACCCTTGTCATTTCGT-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.92899835,T cell,10776
+ACCTACCCAACGGTAG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.98912185,T cell,10388
+ACCTGAACATGAGAAT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.95548826,T cell,12911
+ACCTGTCTCAAGTCTG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99842024,T cell,11321
+ACCTGTCTCTCAACGA-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.98721224,Monocyte,28199
+ACGATCAGTCGTTCAA-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9945868,T cell,10891
+ACGATCATCCACGGAC-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.91637504,T cell,9070
+ACGATCATCCGTTGGG-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.9237906,T cell,11021
+ACGCACGAGAGAGTGA-1,Immune cell,ILC,ILC,Immune cell|Lymphoid cell|T/NK cell|ILC,0.95258725,ILC,5110
+ACGGTCGTCACTACGA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.7826875,T cell,10802
+ACGGTTAAGTGCTCAT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.96435016,B cell,9446
+ACGTAACAGGTGCTTT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.62139535,T cell,11501
+ACGTAACTCATATGGC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9101528,B cell,7912
+ACGTAACTCTTCGATT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9772884,Monocyte,7880
+ACGTACAAGCTGTTCA-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.7061847,T cell,8304
+ACGTACACAAAGCTCT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9389467,Monocyte,25795
+ACGTACACAGACGATG-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.995698,NK cell,8071
+ACGTAGTCACGCCACA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9480396,B cell,9196
+ACGTAGTCATTAGGAA-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.99431217,T cell,7302
+ACGTTCCGTGGGTCAA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9992605,Monocyte,5776
+ACTATCTGTGTGTACT-1,Immune cell,NK cell,CD56 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD56 NK cell,0.559481,NK cell,12867
+ACTATGGAGAAATCCA-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.99022174,B cell,16698
+ACTCCCAAGGTTGGTG-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.99907947,NK cell,8910
+ACTCCCATCGTCCTCA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.90411776,T cell,11795
+ACTGATGAGCAGCGAT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.578253,B cell,7894
+ACTGATGCACCAGCCA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.8969941,B cell,9976
+ACTGTGACAACTCGAT-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.98789006,T cell,13958
+ACTTATCTCTAAGGAA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte|MHCII high CD14 monocyte,0.7977423,Monocyte,25172
+ACTTCGCAGAACCGCA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.5298823,T cell,9718
+ACTTCGCGTACTCCGG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.85995513,B cell,8890
+ACTTTCAAGTATGACA-1,Immune cell,T cell,GZMB CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMB CD8 T cell,0.89488155,T cell,7032
+ACTTTCACAAGCGAAC-1,Immune cell,T cell,abT (entry) cell,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell,0.9025548,T cell,2850
+ACTTTCAGTACGCGTC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.7290235,T cell,13784
+AGAAATGTCATTCGTT-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.3906953,Monocyte,10545
+AGAAGCGGTCTAGATC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.85855275,T cell,12349
+AGAAGCGTCTGCGTCT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.63867,T cell,15278
+AGACAAAGTAGCTTGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9965274,Monocyte,19354
+AGACACTCAAGTCGTT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.88510364,T cell,5439
+AGACCATCATTACTCT-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.98837566,T cell,8166
+AGACTCATCAACGCTA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.92382956,T cell,14324
+AGACTCATCAGAGCGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9982287,Monocyte,20103
+AGAGAATAGAGGGTCT-1,Immune cell,T cell,GZMB CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMB CD8 T cell,0.8076173,T cell,8519
+AGAGAATCACCCAACG-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.9502572,T cell,13047
+AGAGAGCAGTTGTCGT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.76869607,B cell,7126
+AGAGCAGGTCATAAAG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99029505,Monocyte,6855
+AGAGCAGGTTGAGTCT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99671304,T cell,8391
+AGAGCAGTCGCGCTGA-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.900758,T cell,8499
+AGAGCCCGTCACTCGG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9990963,T cell,10732
+AGATAGAGTGACACGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9981363,Monocyte,10410
+AGATCGTCAGGACTTT-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.7899297,T cell,9435
+AGATGAACAGGCACAA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.9756211,T cell,9022
+AGATGCTGTACGGTTT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9957689,Monocyte,6380
+AGATGCTGTGTGGTCC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9968694,T cell,8299
+AGCATCAGTCGGTGTC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9950722,Monocyte,17722
+AGCATCAGTGGTCCGT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9986419,T cell,9486
+AGCCAATAGTCCCTAA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.91022766,T cell,15975
+AGCCACGCAGGTTCGC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9988482,T cell,10182
+AGCCACGGTTCCGCGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99399734,Monocyte,17028
+AGCCACGTCCGAGAAG-1,Immune cell,T cell,GZMB CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMB CD8 T cell,0.8116027,T cell,5267
+AGCCAGCGTAATGCGG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9342659,T cell,9401
+AGCCAGCGTAGTTAGA-1,Immune cell,Dendritic cell,pDC,Immune cell|Myeloid cell|Dendritic cell|pDC,0.9997025,Dendritic cell,19228
+AGCGTATCATATGCGT-1,Unassigned,Unassigned,Unassigned,Unassigned,0.9738365,Unassigned,980
+AGCGTATTCAGTGGGA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9883967,B cell,6619
+AGCGTCGCATTGACCA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.501562,T cell,7515
+AGCGTCGTCCTTATCA-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Erythrocyte/Megakaryocyte|Red blood cell|T cell|abT (entry) cell,0.3834744,Coarse Not Confidently Annotated,514
+AGCTACACAGTCGGAA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.9296146,T cell,9731
+AGCTACAGTCGTTTCC-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.98805165,T cell,7246
+AGGAAATTCACCATGA-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.553827,Monocyte,17567
+AGGAATACAAACTCGT-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.995002,T cell,11680
+AGGAATATCATTACGG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9987895,T cell,9336
+AGGACGAAGACCTTTG-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9943303,NK cell,9466
+AGGACGAAGATTAGTG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.7451094,T cell,11508
+AGGACGATCACTGATG-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.83634883,T cell,14336
+AGGACGATCCAGTACA-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.9977598,T cell,11102
+AGGACTTTCCTACCAC-1,Immune cell,T cell,GZMB CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMB CD8 T cell,0.9632144,T cell,7470
+AGGAGGTAGGTCACAG-1,Immune cell,T cell,abT (entry) cell,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell,0.8368522,T cell,1967
+AGGATAAAGAACAAGG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9969644,T cell,10525
+AGGCCACAGGGCCAAT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9950718,B cell,24271
+AGGCTGCAGGGCTTCC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.88460714,B cell,9466
+AGGCTGCGTGTGTGTT-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.7389195,B cell,6655
+AGGGAGTCACCATTCC-1,Unassigned,Unassigned,Unassigned,Unassigned,0.9665172,Unassigned,782
+AGGGAGTGTGTCGCTG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99455655,T cell,8075
+AGGGCTCCAATACGCT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9848044,Monocyte,9324
+AGGGTCCCAGGACATG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9989779,Monocyte,6162
+AGGGTCCCAGTAGTTC-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|gdT cell|Memory CD8 T cell,0.5008837,Coarse Not Confidently Annotated,7746
+AGGGTTTCAGCGTGCT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9967055,Monocyte,14528
+AGGTAGGAGGAAGTAG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9223429,B cell,10402
+AGGTAGGCAAAGCGTG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9976445,Monocyte,19341
+AGGTCATTCAAGTCGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.97245884,Monocyte,6896
+AGGTGTTAGCAATTAG-1,Immune cell,Platelet,Platelet,Immune cell|Erythrocyte/Megakaryocyte|Megakaryocyte,0.99786526,Platelet,554
+AGGTGTTCATTAAGCC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9954814,Monocyte,15823
+AGGTGTTGTCGATTAC-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.75858486,T cell,8970
+AGGTGTTTCAATGCAC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9959895,T cell,9343
+AGGTGTTTCGTTACCC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.968082,Monocyte,10481
+AGGTTACAGGTGCGAT-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.957208,T cell,11564
+AGGTTACGTCTGATAC-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.99736625,Monocyte,18132
+AGTAACCCAAGCTCTA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99306047,Monocyte,7534
+AGTAACCTCGTTGTAG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99820256,T cell,9053
+AGTACCAGTGGGTCAA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99927944,Monocyte,17626
+AGTACCATCAGCTTGA-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.98772395,NK cell,9217
+AGTAGCTAGGAGTACC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.6396502,B cell,10439
+AGTAGCTCACTGCTTC-1,Immune cell,T cell,abT (entry) cell,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell,0.8370551,T cell,2067
+AGTAGCTCAGGCACTC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9970607,Monocyte,7802
+AGTAGCTGTTAGAAAC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99615556,Monocyte,13246
+AGTAGTCGTATGACAA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.8704104,T cell,13357
+AGTCAACAGTCATGCT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9956761,Monocyte,16220
+AGTCAACGTACACGCC-1,Immune cell,Dendritic cell,pDC,Immune cell|Myeloid cell|Dendritic cell|pDC,0.9998516,Dendritic cell,19227
+AGTCACATCTCCCATG-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMK CD8 T cell,0.7141276,T cell,2051
+AGTCTCCCAACCGTGC-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9950997,B cell,12276
+AGTCTCCGTGAGTCAG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.88436407,T cell,8739
+AGTGCCGCATCTGGGC-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9879274,T cell,10007
+AGTTAGCAGTCAGGGT-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9824837,T cell,8032
+AGTTAGCGTACCATAC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.8199365,B cell,10480
+AGTTAGCGTTCATCGA-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9709452,T cell,8332
+AGTTCCCCAAACAGGC-1,Immune cell,T cell,GZMB CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.9897933,T cell,8873
+AGTTCCCGTTACACTG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9943895,T cell,8537
+AGTTCGAGTATGCGTT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.95154333,B cell,6796
+ATACCGACACACGGTC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.70695573,T cell,11889
+ATACTTCGTACGACTT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9979784,Monocyte,23056
+ATACTTCGTTCGGTAT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9980636,T cell,9191
+ATACTTCTCAGCTGAT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.69120806,T cell,14183
+ATACTTCTCGCCGTGA-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9906378,B cell,8119
+ATAGACCTCCGCTTAC-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9909971,NK cell,7382
+ATAGGCTGTGTTACAC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99692804,Monocyte,10051
+ATATCCTGTATGAGCG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9849363,B cell,8172
+ATCACAGAGACGTCCC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9986082,Monocyte,22140
+ATCACAGCATGACGTT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9960368,Monocyte,14388
+ATCACGATCCGCAACG-1,Immune cell,T cell,GZMB CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMB CD8 T cell,0.68812466,T cell,6873
+ATCACTTGTGGCTGCT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99652654,Monocyte,28018
+ATCCACCCAGCAGTGA-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9779287,NK cell,8832
+ATCCACCCATGTCTAG-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9974927,NK cell,9104
+ATCCACCGTTTGTTGG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9983833,Monocyte,23355
+ATCCATTAGACGCAGT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.94079405,B cell,8523
+ATCCCTGCAATTTCTC-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.92094713,T cell,10637
+ATCCGTCCAACTCCCT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9019999,B cell,10670
+ATCCTATGTCTGTGCG-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.99724305,B cell,6454
+ATCGATGCAACGGCTC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.96991235,B cell,9944
+ATCGATGGTCAATCTG-1,Immune cell,NK cell,CD56 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD56 NK cell,0.62325996,NK cell,10526
+ATCGGATAGGAAAGGT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.94329125,T cell,10828
+ATCGGCGAGTCCTACA-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.46653795,Coarse Not Confidently Annotated,5206
+ATCGTAGCATCGGAGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte|MHCII high CD14 monocyte,0.7591303,Monocyte,5869
+ATCGTCCAGCCTGAAG-1,Immune cell,Monocyte,CD14/CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD14/CD16 monocyte,0.6489366,Monocyte,20699
+ATCGTCCGTATGAGGC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99883574,Monocyte,14789
+ATCGTCCTCGGAGCAA-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.9954725,Monocyte,16154
+ATCGTGAAGCAGATAT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9978929,Monocyte,7205
+ATCTCTACAAGAAACT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9828293,Monocyte,23332
+ATCTCTAGTCGTGGTC-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.91712385,T cell,7537
+ATCTTCAAGAAGAGCA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9966377,Monocyte,6801
+ATCTTCACATACTGAC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99855083,Monocyte,10798
+ATCTTCAGTCTCTCCA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99713635,Monocyte,9877
+ATCTTCATCTCATAGG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.99244666,T cell,9188
+ATGAAAGTCCTTATGT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.737162,T cell,13722
+ATGACCAAGGCTAACG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.96023345,Monocyte,17926
+ATGACCACAATATCCG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.86422753,T cell,11815
+ATGAGTCTCCAGTTCC-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9355038,B cell,10821
+ATGATCGGTCGAACAG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.95828396,B cell,7782
+ATGCGATGTGCTCTTC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9329475,B cell,7519
+ATGCGATGTTGTAGCT-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.9023484,T cell,8001
+ATGGAGGGTGTTTACG-1,Immune cell,T cell,abT (entry) cell,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell,0.5841172,T cell,4035
+ATGGATCGTAGATTGA-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.98894286,B cell,14575
+ATGGATCTCGACCTAA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.67042065,T cell,6280
+ATGGGAGAGACGTCCC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.93920565,T cell,10751
+ATGGGAGCACTCCGGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.6876253,Monocyte,30057
+ATGGGAGTCCACTGAA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9954216,Monocyte,11943
+ATGGGAGTCCCATACC-1,Immune cell,T cell,abT (entry) cell,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell,0.7184647,T cell,2871
+ATGGTTGTCACGGAGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9986298,Monocyte,17328
+ATGTCCCCAGGAATCG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9414074,B cell,6868
+ATGTCCCCATAGGTTC-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.96317613,B cell,12153
+ATGTCCCGTCCTACGG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9969484,Monocyte,18927
+ATTACTCCAGCTTTGA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.87616235,T cell,10319
+ATTACTCGTTGCAACT-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9914231,B cell,12841
+ATTCACTAGAAGGCTC-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9427076,T cell,10486
+ATTCACTTCTCCGCAT-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.99848384,NK cell,8164
+ATTCAGGCAAGTATCC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9942561,Monocyte,8706
+ATTCAGGCATAGCTGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9958549,Monocyte,22611
+ATTCAGGTCTTCGTGC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.83495635,T cell,9149
+ATTCCATCACGACTAT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.74440944,T cell,7317
+ATTCCCGAGTCACTCA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9980628,T cell,10282
+ATTCCTACATGAGATA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9968273,Monocyte,16173
+ATTCGTTCAGTCTTCC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.9015816,T cell,13025
+ATTCGTTGTAACACCT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99927276,T cell,12644
+ATTCGTTGTGTAGCAG-1,Immune cell,B cell,Plasma cell,Immune cell|Lymphoid cell|B cell|Plasma cell,0.9942701,B cell,24145
+ATTCGTTGTGTTCAGT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.9351496,T cell,9414
+ATTCGTTGTTCTTGTT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99001443,Monocyte,12184
+ATTCTACTCTCGTGAA-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.99050856,T cell,10565
+ATTCTTGAGTTCCAGT-1,Immune cell,T cell,abT (entry) cell,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell,0.7968192,T cell,4781
+ATTCTTGGTACAATAG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9701052,T cell,9317
+ATTTCACAGTGCAAAT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.6745216,Monocyte,15347
+ATTTCACGTGGATACG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9966024,Monocyte,20630
+ATTTCTGCAAGGTCTT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.994618,Monocyte,25194
+ATTTCTGGTATCCTCC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.8391143,B cell,12925
+ATTTCTGTCGATGCAT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9962203,Monocyte,10593
+ATTTCTGTCGGCCAAC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.9157969,T cell,13909
+CAAAGAACACATATCG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.7699991,T cell,9516
+CAAAGAACAGCTGTTA-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9064865,T cell,10893
+CAAAGAAGTTCTCCCA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9991177,Monocyte,12746
+CAACAACTCGATACTG-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMK CD8 T cell,0.6135387,T cell,7680
+CAACAGTCATCCGTTC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9976023,T cell,11154
+CAACAGTTCGAGCACC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9805054,T cell,8720
+CAACCAAGTTAGAAAC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99901295,Monocyte,5625
+CAACCTCGTATCGGTT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.75575805,T cell,10064
+CAACGATAGACGGAAA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9962011,Monocyte,17875
+CAACGATAGCCTAGGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9554809,Monocyte,22821
+CAACGATCAAAGCACG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.7831909,T cell,10787
+CAACGATTCAAGCCCG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9947842,Monocyte,15499
+CAAGACTAGTGGAAAG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.97057897,T cell,10980
+CAAGACTTCAATCGGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99818593,Monocyte,22671
+CAAGAGGTCTTCACGC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.98746526,Monocyte,25232
+CAAGCTAGTGGCTGCT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.82935554,Monocyte,28658
+CAAGGGAAGAGTCGAC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.93065494,T cell,11265
+CAATACGAGGCAGCTA-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMK CD8 T cell,0.94688225,T cell,4981
+CAATACGTCTCGACCT-1,Unassigned,Unassigned,Unassigned,Unassigned,0.9950787,Unassigned,728
+CAATCGAAGAGGATCC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.8923809,T cell,11003
+CAATCGATCCGTACGG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.9850891,T cell,9491
+CAATGACTCAAGCCCG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9990429,T cell,13336
+CAATTTCAGATTGCGG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.52926767,B cell,9367
+CACACAACAAGAAACT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9993037,T cell,11493
+CACACAACACGAGGAT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9883603,Monocyte,6277
+CACAGATCACTCCGAG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.8185485,Monocyte,17430
+CACAGATCATCATGAC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9987367,Monocyte,9094
+CACAGATGTTCCGTTC-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.99453557,Monocyte,16632
+CACAGGCCAACGATCT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9973636,Monocyte,12927
+CACATGAGTTTCGACA-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.7393238,T cell,9908
+CACCAAAAGGACATCG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99320894,Monocyte,21024
+CACCGTTCACCCTAGG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.998437,T cell,11736
+CACGAATCACATAGCT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.96128154,T cell,14834
+CACGAATTCAAGTCGT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.8972881,T cell,11826
+CACGGGTAGCATTTGC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9959876,Monocyte,23123
+CACGGGTTCCCGATCT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.90373105,B cell,7857
+CACGTTCCAGCTTCCT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9957281,Monocyte,21500
+CACGTTCTCTATCACT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.89120936,T cell,17447
+CACTAAGGTGATAGTA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.97429436,T cell,10729
+CACTGAAGTCTTTCTA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.91239333,B cell,11013
+CACTGAATCCTGATAG-1,Immune cell,Dendritic cell,cDC2,Immune cell|Myeloid cell|Dendritic cell,0.9979685,Dendritic cell,29834
+CACTGGGAGGCGACAT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9977925,Monocyte,17745
+CACTGGGAGTTACTCG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9992298,Monocyte,11312
+CACTGGGGTCGCACAC-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.514547,Coarse Not Confidently Annotated,24226
+CACTGTCCACATATGC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.84658664,B cell,13729
+CACTTCGTCACCTACC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99883884,Monocyte,33288
+CAGAGCCGTGCCCGTA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9929755,T cell,7161
+CAGATACTCGTTCCCA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.6029677,T cell,11085
+CAGATTGAGAACGTGC-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.80640495,T cell,10563
+CAGATTGAGCTGAGCA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.81235635,T cell,9852
+CAGATTGGTGACTAAA-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9866197,B cell,13356
+CAGCAATGTATCGTTG-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.9879359,Monocyte,19531
+CAGCAGCTCAGAGTTC-1,Immune cell,T cell,GZMB CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMB CD8 T cell,0.69528925,T cell,7247
+CAGCCAGGTGGGTTGA-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.98380893,Monocyte,17658
+CAGCGTGTCCATCACC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9617002,B cell,8584
+CAGGCCAGTTCAATCG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.745305,T cell,16382
+CAGGCCATCACTCACC-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.46093825,T cell,6323
+CAGGCCATCCACTAGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99648714,Monocyte,13596
+CAGGGCTAGATTGGGC-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.92090607,T cell,8430
+CAGGGCTTCGACGAGA-1,Immune cell,B cell,Plasma cell,Immune cell|Lymphoid cell|B cell|Plasma cell,0.9906515,B cell,22330
+CAGGTATGTCAGTCTA-1,Immune cell,Dendritic cell,cDC1,Immune cell|Myeloid cell|Dendritic cell|cDC|cDC1,0.9130513,Dendritic cell,35532
+CAGGTATGTGTAAATG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9132783,B cell,9497
+CAGTTAGTCGGCCCAA-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.7214567,T cell,4206
+CAGTTCCCAATCGTCA-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9452633,T cell,8650
+CATAAGCGTAGCGCTC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9988513,T cell,11196
+CATAAGCTCCGTGTGG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99399626,Monocyte,16473
+CATACTTTCAACGAGG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.6589101,T cell,9996
+CATAGACCATCTCAAG-1,Unassigned,Unassigned,Unassigned,Unassigned,0.6764438,Unassigned,1209
+CATAGACGTACCTTCC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99719125,T cell,4902
+CATCAAGAGCGCCGTT-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.9966299,Monocyte,5010
+CATCAAGGTATGGTTC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.74277186,B cell,13200
+CATCAAGGTCTAACTG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9940064,B cell,3400
+CATCAAGGTTGTCCCT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9868015,B cell,8331
+CATCCGTGTATCGCTA-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.9304967,T cell,10245
+CATCGCTTCTTTGCAT-1,Immune cell,B cell,Plasma cell,Immune cell|Lymphoid cell|B cell|Plasma cell,0.85212076,B cell,726
+CATCGGGTCGCTACAA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9097998,B cell,7012
+CATCGTCTCCGTTGAA-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.98888016,T cell,21335
+CATGAGTCACCATTCC-1,Immune cell,T cell,GZMB CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMB CD8 T cell,0.7938621,T cell,10380
+CATGCCTCAATTGCTG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.96210533,B cell,12566
+CATGCCTCAGGCTATT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99442697,Monocyte,9689
+CATGCCTGTTCCGCAG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.995644,Monocyte,20799
+CATGCGGTCGGTCGAC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9768093,T cell,2867
+CATGCTCGTCTCTCAC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.61278635,B cell,6109
+CATTCTAGTAGCTTGT-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9455197,T cell,11424
+CATTCTATCAGTAGGG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99888116,Monocyte,17391
+CATTGAGAGGGACCAT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.94764835,Monocyte,20666
+CATTTCATCTCTCTTC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.993739,Monocyte,24392
+CCAAGCGAGCTAATCC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99726605,T cell,8106
+CCAAGCGAGGTTCATC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99894243,Monocyte,11562
+CCAATGAAGGTCACTT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9885703,B cell,8095
+CCAATTTCAAAGGCTG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.98839056,T cell,10783
+CCAATTTCATTCGATG-1,Immune cell,T cell,GZMB CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMB CD8 T cell,0.72938204,T cell,8171
+CCACACTCAGGACTTT-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.99585694,Monocyte,24456
+CCACCATAGGTCATCT-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.9864966,T cell,9122
+CCACGAGGTAATCAAG-1,Immune cell,T cell,abT (entry) cell,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell,0.98416835,T cell,1657
+CCACGAGTCTTCCTAA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9956092,Monocyte,20289
+CCACGTTTCATCAGTG-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9852507,B cell,13286
+CCACGTTTCGTGAGAG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.7574579,T cell,9624
+CCACGTTTCTGCTGAA-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9855574,B cell,17305
+CCACTTGCAGCTATTG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9466141,T cell,6787
+CCACTTGTCGCAGAGA-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.9938518,Monocyte,21660
+CCATAAGGTGAGGAAA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9957896,Monocyte,14042
+CCATCACCATTAAAGG-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9651387,B cell,12474
+CCATCACTCTAACACG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.999127,Monocyte,12972
+CCCGGAATCAAACCCA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99721766,T cell,9152
+CCCTAACCAGGTTCGC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9989837,T cell,11310
+CCCTAACGTAACTGCT-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.45207813,Coarse Not Confidently Annotated,22669
+CCCTTAGGTTTCCAAG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.72173274,T cell,9974
+CCGAACGAGCTAAGTA-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.9769363,T cell,5964
+CCGAACGAGGAACGCT-1,Immune cell,Dendritic cell,cDC2,Immune cell|Myeloid cell|Dendritic cell,0.9526858,Dendritic cell,26320
+CCGATCTGTGGAGGTT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9977822,Monocyte,13314
+CCGATGGGTTCTCGCT-1,Immune cell,Dendritic cell,cDC2,Immune cell|Myeloid cell|Dendritic cell|cDC,0.9884543,Dendritic cell,33909
+CCGATGGTCACCTCTG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9957391,Monocyte,7214
+CCGATGGTCTGTCGCT-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.99279517,B cell,12707
+CCGCAAGCATTCAGGT-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.71241146,T cell,10349
+CCGCAAGGTACCAGAG-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.5305858,Coarse Not Confidently Annotated,10716
+CCGGACAGTGATACCT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.63488114,Monocyte,19488
+CCGGGTACACTCCGAG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99243027,Monocyte,23706
+CCGGGTACATACCAGT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.6271853,T cell,5933
+CCGGTAGGTAGTACGG-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9984445,NK cell,6300
+CCGTAGGGTTCCCACT-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9745753,NK cell,8450
+CCGTAGGTCATACAGC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.7326335,B cell,9575
+CCGTGAGAGAGGTCAC-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|CD16 NK cell,0.58383816,Coarse Not Confidently Annotated,9103
+CCGTGAGTCGCCTTTG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.7080801,B cell,6295
+CCGTTCACAGAAGCTG-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.9726213,T cell,5090
+CCTAAGAAGACTCTAC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.5632421,T cell,26728
+CCTATCGAGACAGCGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99703145,Monocyte,19022
+CCTCAACTCTTAGCCC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9974687,T cell,11659
+CCTCAGTAGCAAGGAA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.87824565,Monocyte,2686
+CCTCAGTCATGATGCT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99957067,T cell,11514
+CCTCAGTTCCGAGCTG-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.58243984,B cell,10469
+CCTCATGCACTATGTG-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.95947504,NK cell,9355
+CCTCATGGTTTCGCTC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.5546747,T cell,14825
+CCTCATGTCTCTCAAT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99659616,Monocyte,16908
+CCTCCAAAGGCCCGTT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9201816,Monocyte,35258
+CCTCCAAAGTATGATG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9826124,B cell,3211
+CCTCCAACAACCCTCT-1,Immune cell,T cell,GZMB CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMB CD8 T cell,0.75605667,T cell,9055
+CCTCCAACACAATGAA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.93708605,B cell,12548
+CCTCCTCAGTCCCGAC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.76750916,B cell,10582
+CCTCCTCCATTCAGGT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9962281,T cell,10626
+CCTCCTCTCAAGCGTT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9970638,T cell,11013
+CCTCTAGCAGACCTAT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99061173,Monocyte,16987
+CCTCTCCGTGTGCTTA-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.41584432,T cell,2208
+CCTCTCCTCGTTCCTG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9924429,Monocyte,25812
+CCTGCATAGTGGTGAC-1,Immune cell,Dendritic cell,cDC2,Immune cell|Myeloid cell|Dendritic cell,0.99802667,Dendritic cell,25238
+CCTGCATCAACGGGTA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9970879,T cell,9576
+CCTGCATGTTCTTAGG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.9221876,T cell,12406
+CCTGTTGGTGTGCCTG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9991406,Monocyte,19419
+CCTGTTGTCAAGAGTA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.96123123,B cell,7899
+CCTTCAGAGGAACGTC-1,Immune cell,Platelet,Platelet,Immune cell|Erythrocyte/Megakaryocyte|Megakaryocyte,0.999493,Platelet,3957
+CCTTCAGCACAGAGCA-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9911781,B cell,19955
+CGAAGGATCGACGCGT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.799633,T cell,10197
+CGAATTGGTCTGTTAG-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.9798504,T cell,10638
+CGAGAAGTCAAGTTGC-1,Immune cell,B cell,Plasma cell,Immune cell|Lymphoid cell|B cell|Plasma cell,0.9949018,B cell,70021
+CGAGAAGTCCAATGCA-1,Immune cell,Dendritic cell,cDC2,Immune cell|Myeloid cell|Dendritic cell,0.9915468,Dendritic cell,32288
+CGAGGAAAGTCGCGAA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99922824,T cell,8279
+CGAGGAACACTGATTG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.88648516,B cell,11808
+CGAGGAAGTCCTGGGT-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Myeloid cell|Dendritic cell|cDC|cDC2,0.36870894,Coarse Not Confidently Annotated,3861
+CGAGGCTCAGATCACT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.99186045,B cell,8426
+CGAGGCTCAGCATGCC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9976332,Monocyte,11158
+CGAGTGCGTTCCGCGA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.9314322,T cell,12179
+CGAGTTAGTCGAGTTT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9974648,Monocyte,10536
+CGATCGGCAATTGGTC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9980495,Monocyte,8935
+CGATCGGCAGCGTGAA-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.94545424,T cell,7514
+CGATGCGAGCAGAAAG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99829775,T cell,8830
+CGATGCGTCGAACCAT-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.7061873,B cell,6473
+CGATGGCCACTCGATA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.94372857,T cell,13827
+CGATGGCGTAGCGTCC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.98530674,T cell,11434
+CGCAGGTGTGCTTCAA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.76614153,B cell,6189
+CGCATAAAGTGATGGC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9673575,Monocyte,21888
+CGCATGGAGGCCACTC-1,Immune cell,Dendritic cell,cDC2,Immune cell|Myeloid cell|Dendritic cell|cDC|cDC2,0.94841635,Dendritic cell,1680
+CGCGTGAGTACAATAG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9829691,B cell,7348
+CGGAACCGTATCACGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99847525,Monocyte,9827
+CGGAACCGTTTGCAGT-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9876512,B cell,10754
+CGGACACAGGACAGCT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9960582,Monocyte,15379
+CGGGACTGTTTCACTT-1,Immune cell,NK cell,CD56 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD56 NK cell,0.9518857,NK cell,9563
+CGGGTGTTCCGTGACG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9991091,Monocyte,16787
+CGTAAGTGTGATAGTA-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD8 T cell,0.41924196,Coarse Not Confidently Annotated,11024
+CGTAGTATCAGCCCAG-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMK CD8 T cell,0.8834022,T cell,5704
+CGTCAAACAGAATGTA-1,Immune cell,NK cell,CD56 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD56 NK cell,0.9094588,NK cell,9583
+CGTCCATGTTTGGAAA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99894387,T cell,8765
+CGTGAATAGTCGGCCT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.6028973,T cell,9133
+CGTGATATCTGGTGGC-1,Immune cell,T cell,abT (entry) cell,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell,0.58242536,T cell,2592
+CGTGCTTAGCTTTGTG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9983835,Monocyte,12830
+CGTGCTTCAAGCGCTC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99258727,Monocyte,19404
+CGTGCTTGTTTAGACC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.9089798,T cell,9260
+CGTGTCTCACAGTACT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.8437012,T cell,9180
+CGTGTCTCATGGGTTT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.3180597,T cell,8481
+CGTGTCTGTCAGTTTG-1,Immune cell,Monocyte,CD14/CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD14/CD16 monocyte,0.5065434,Monocyte,12278
+CGTTAGATCAGCCTCT-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.9944448,Monocyte,19821
+CGTTAGATCATTATCC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9969618,Monocyte,28128
+CGTTAGATCCAAGAGG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.998078,Monocyte,5033
+CGTTCTGTCAGCGCAC-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.80026543,T cell,8294
+CGTTCTGTCCCGAACG-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.99899083,NK cell,7299
+CTAACCCAGCCGCTTG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.97791153,T cell,6460
+CTAACCCCACTTCAAG-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.7371169,T cell,12351
+CTAACTTAGCCTCACG-1,Immune cell,T cell,abT (entry) cell,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell,0.6131586,T cell,5015
+CTAAGTGCACAATGCT-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.98821056,B cell,10884
+CTAAGTGGTCCACTCT-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.98311484,T cell,9586
+CTACAGACAACAAAGT-1,Immune cell,B cell,Plasma cell,Immune cell|Lymphoid cell|B cell|Plasma cell,0.9929985,B cell,55234
+CTACAGACAGGAATAT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.94631314,T cell,5966
+CTACAGATCAGGAGAC-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9010015,T cell,5036
+CTACCTGTCTCGAACA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99780005,Monocyte,14638
+CTACGGGTCACCATAG-1,Unassigned,Unassigned,Unassigned,Unassigned,0.99666697,Unassigned,947
+CTACGGGTCGTTCAGA-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.9880398,T cell,8433
+CTAGACAGTCGTGGTC-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.9967174,Monocyte,10155
+CTAGACAGTCTAACTG-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.52245694,Coarse Not Confidently Annotated,18226
+CTAGGTATCTAACGCA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.98338497,B cell,9199
+CTATCCGAGCTGTTAC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9983342,T cell,11648
+CTCAACCGTGGATGAC-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.94503456,B cell,14505
+CTCAACCGTGTGTCGC-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.97801363,B cell,5472
+CTCAAGAAGATTACCC-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.9306982,T cell,12663
+CTCAAGACATCCTGTC-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Myeloid cell|Monocyte|Neutrophil,0.40976655,Coarse Not Confidently Annotated,8591
+CTCAAGAGTCAAAGAT-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.99090135,NK cell,11120
+CTCAATTTCGGAAGGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9986475,Monocyte,14810
+CTCACTGCACCTTCCA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9991689,T cell,11351
+CTCAGAACAATTGTGC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.8980461,B cell,8631
+CTCAGGGGTCATCGCG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9973284,Monocyte,13498
+CTCAGGGTCTCACCCA-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.9974611,Monocyte,19262
+CTCAGTCAGGGACAGG-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9985221,NK cell,6999
+CTCATCGAGAGGCGTT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9973488,T cell,11638
+CTCATCGTCGTACCTC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.93566966,B cell,8517
+CTCATTAAGGAAGTGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9985569,Monocyte,11523
+CTCATTATCGTACACA-1,Immune cell,Dendritic cell,cDC1,Immune cell|Myeloid cell|Dendritic cell|cDC|cDC1,0.48873565,Dendritic cell,21978
+CTCCAACCAATCTCTT-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.93778324,T cell,11217
+CTCCAACGTAGTGTGG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.54508746,T cell,11314
+CTCCATGAGACAGCTG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9343155,B cell,10677
+CTCCATGGTGTTGACT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99581736,Monocyte,6015
+CTCCATGTCATCGTAG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99497104,T cell,11601
+CTCCATGTCGTCGATA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99277943,Monocyte,23890
+CTCCCAATCAATCAGC-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.99209666,NK cell,11504
+CTCCCTCAGCGCGTTC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.34984282,Monocyte,19955
+CTCCCTCCACCGGAAA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.93558484,Monocyte,27062
+CTCCCTCGTTTACGAC-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.74857754,T cell,8434
+CTCCCTCTCATCGCTC-1,Immune cell,T cell,GZMB CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.87775904,T cell,9577
+CTCCGATTCCTTTAGT-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.7678925,T cell,11003
+CTCCGATTCTTTCTAG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9933031,T cell,9366
+CTCCTCCTCACCTCTG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99875,T cell,13532
+CTCCTTTAGATGCTGG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.46500435,Monocyte,25696
+CTCCTTTTCTACACTT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99730885,T cell,13659
+CTCGAGGAGCCTATTG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.87173116,B cell,6578
+CTCGAGGAGGAAAGGT-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.8945999,T cell,9906
+CTCTCAGGTTAAGCAA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99820507,T cell,10138
+CTCTCGATCCATAGGT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.897747,B cell,8499
+CTCTGGTAGTAGGATT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9991302,Monocyte,2347
+CTGAATGAGCTCTATG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.98007697,Monocyte,12458
+CTGAATGAGGCGAACT-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.6693727,T cell,8401
+CTGAGGCGTTCAGCGC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.99486095,B cell,6826
+CTGATCCGTCGCGTCA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.8902219,T cell,6457
+CTGATCCTCCCTCTAG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.95322716,T cell,9502
+CTGATCCTCTCTCCGA-1,Immune cell,Platelet,Platelet,Immune cell|Erythrocyte/Megakaryocyte|Megakaryocyte,0.99812466,Platelet,1067
+CTGCAGGAGCCATTGT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9692266,T cell,9689
+CTGCATCAGCGTCAAG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99578434,Monocyte,3920
+CTGCATCGTAAGCTCT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.68946654,T cell,8360
+CTGCCATTCAGTGTTG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.882016,T cell,13214
+CTGCCATTCGGAACTT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9881287,Monocyte,22007
+CTGCCTACAAGACTGG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.98519474,Monocyte,6667
+CTGCCTATCTTGATTC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.85435146,B cell,10263
+CTGCGAGAGATTAGAC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.995538,Monocyte,8400
+CTGCGAGAGTGCACTT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte|MHCII high CD14 monocyte,0.7026371,Monocyte,16605
+CTGCGAGCAGATTCGT-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.94218284,B cell,10505
+CTGCGAGGTAGGTTTC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9889178,Monocyte,6590
+CTGCTCACAGCGTTTA-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.72966605,Monocyte,23304
+CTGGACGCAACGATTC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.9028336,T cell,15146
+CTGGACGCACACGGTC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99838626,Monocyte,13360
+CTGGACGGTTCCCAAA-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.8032254,T cell,12752
+CTGGACGTCTCATTTG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.89432544,Monocyte,19780
+CTGGCAGGTTGCAAGG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte|MHCII low CD14 monocyte,0.56363577,Monocyte,2852
+CTGGCAGTCGTCTCAC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.6186476,T cell,9254
+CTGTCGTAGCTGGCCT-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.95910853,T cell,10660
+CTGTGAAAGGAACGCT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9749698,Monocyte,13382
+CTGTGAATCATCGCTC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99914634,Monocyte,10337
+CTGTGGGGTCGTGATT-1,Immune cell,B cell,Plasma cell,Immune cell|Lymphoid cell|B cell|Plasma cell,0.9966769,B cell,20935
+CTTAGGAGTCTGTGGC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9493319,B cell,6488
+CTTCAATGTTGGACTT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9984701,T cell,12328
+CTTCGGTCACGTTCGG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.7279963,B cell,9037
+CTTCGGTTCCAAGAGG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9751844,B cell,7652
+CTTCTCTTCCTACAAG-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.53694963,Coarse Not Confidently Annotated,12220
+CTTGAGAAGAATTGCA-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.92333007,T cell,11608
+CTTGAGATCCCGAGGT-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|Plasma cell,0.59855556,Coarse Not Confidently Annotated,869
+CTTGATTAGGTAGGCT-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.38345376,Coarse Not Confidently Annotated,7105
+GAAACCTAGGAGGTTC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9805593,Monocyte,5732
+GAACACTGTTGGACTT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.52912056,B cell,9304
+GAACGTTGTCAGGAGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9659548,Monocyte,9300
+GAACTGTCATCGAACT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9974381,T cell,12090
+GAACTGTTCTCAAAGC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.8252865,T cell,12503
+GAAGAATAGGTACAAT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9976306,Monocyte,15898
+GAAGCCCCAGGAACCA-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.94768476,Monocyte,28781
+GAAGCGATCAGTAGGG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9074348,T cell,3774
+GAAGGACGTCTGCCTT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99887544,Monocyte,16298
+GAAGGGTTCGCAGATT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.9480256,T cell,3924
+GAAGTAAGTCTAGATC-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.55492896,T cell,10891
+GAATCACCAGTGGTGA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.8602859,T cell,12086
+GACACGCCAGTCCGTG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.62709415,B cell,8301
+GACACGCGTTCCAAAC-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9845524,B cell,9907
+GACAGCCGTATCGTGT-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9856695,T cell,8870
+GACATCAGTAACGATA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9936785,Monocyte,1074
+GACCCTTCAGCGTATT-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.9939926,Monocyte,21188
+GACCCTTCATCATCTT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.900319,T cell,10535
+GACCTTCCACCTGCGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99489516,Monocyte,12873
+GACCTTCGTCGAGCTC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99927336,T cell,8019
+GACTATGCAGTCCCGA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9815942,T cell,1704
+GACTATGCATCATTGG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9982285,Monocyte,19731
+GACTATGTCCAAGGGA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.756613,T cell,13190
+GACTCAATCTAGTGAC-1,Unassigned,Unassigned,Unassigned,Unassigned,0.9752476,Unassigned,940
+GACTCAATCTCCCAAC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9971008,Monocyte,17215
+GACTGATTCATCCTAT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9988834,T cell,12451
+GACTTCCTCCTCTAGC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.6249519,T cell,12306
+GAGAAATCATTGGATC-1,Immune cell,T cell,Tfh cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Tfh cell,0.64599717,T cell,9333
+GAGACCCAGTAGGATT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9943293,Monocyte,19367
+GAGACTTAGTCACTCA-1,Immune cell,NK cell,CD56 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD56 NK cell,0.8811649,NK cell,11088
+GAGACTTCAGGCTATT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.995436,Monocyte,17067
+GAGAGGTTCATAGACC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.998934,T cell,11597
+GAGATGGCATGTAACC-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.9194531,T cell,9877
+GAGCCTGAGCGCACAA-1,Unassigned,Unassigned,Unassigned,Unassigned,0.99121314,Unassigned,874
+GAGCCTGAGGCAGCTA-1,Immune cell,Dendritic cell,pDC,Immune cell|Myeloid cell|Dendritic cell|pDC,0.9985399,Dendritic cell,21152
+GAGCCTGCAGTCTCTC-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.9629469,T cell,8644
+GAGCCTGGTCCACGCA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.6651196,T cell,9697
+GAGCTGCGTCGGATTT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9981527,Monocyte,18058
+GAGGCAAAGTCACGAG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.63752484,T cell,7098
+GAGGGATCACTTGGCG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.992088,T cell,11914
+GAGGGTACAGTTTCAG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.6572545,T cell,13045
+GAGGGTAGTCAACACT-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.9870133,T cell,9951
+GAGGGTATCTGTCCCA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.8267728,T cell,12211
+GAGTCATAGGGTTGCA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9746854,B cell,6618
+GAGTGAGGTCGGCTAC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.95420414,B cell,8407
+GAGTGTTCACAAGCTT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9558846,B cell,7574
+GAGTGTTGTACGTAGG-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMK CD8 T cell,0.8544915,T cell,7725
+GAGTTACAGACGACGT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.5726878,T cell,11313
+GAGTTGTAGCGTTACT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.998055,Monocyte,22148
+GAGTTGTAGTGCGTCC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9986203,Monocyte,7226
+GAGTTGTCACGGTGCT-1,Immune cell,T cell,GZMB CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMB CD8 T cell,0.69934005,T cell,7732
+GATAGCTGTCGGAAAC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.98480123,Monocyte,19853
+GATAGCTGTCTGTTAG-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.9972209,T cell,8673
+GATAGCTTCGTGCAGC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9953685,B cell,4524
+GATCACACACCCTGTT-1,Immune cell,Cycling T/NK cell,Cycling T/NK cell,Immune cell|Lymphoid cell,0.9998233,Cycling T/NK cell,69324
+GATCAGTAGGAACATT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9822465,B cell,8983
+GATCAGTAGTGCGCTC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9957482,T cell,11433
+GATCAGTGTTACAGCT-1,Immune cell,Dendritic cell,cDC2,Immune cell|Myeloid cell|Dendritic cell|cDC,0.9912949,Dendritic cell,5409
+GATCATGAGGCCTAAG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.88194907,T cell,12827
+GATCCCTAGAGGATGA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99320567,T cell,9842
+GATCCCTGTAATTAGG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9995478,T cell,9813
+GATCGTACAGCGCGTT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.89631057,T cell,11264
+GATCGTATCTCTGGTC-1,Immune cell,NK cell,CD56 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD56 NK cell,0.7699826,NK cell,6415
+GATGACTAGAGGTTAT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.95195127,B cell,2470
+GATGACTTCGTGGCGT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99870837,T cell,9923
+GATGACTTCTCTAGGA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.8410065,B cell,9198
+GATGAGGCAAATGCGG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9994825,T cell,7335
+GATGATCGTATGGAAT-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.92481005,T cell,7053
+GATGATCGTGTAACGG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9133232,B cell,8793
+GATGCTAGTACAGGTG-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.9726193,T cell,8192
+GATGCTATCCTACGAA-1,Immune cell,T cell,abT (entry) cell,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell,0.84266764,T cell,4589
+GATGGAGAGCCAGACA-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9580827,B cell,16894
+GATGGAGCACTTGAAC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.9759102,T cell,12360
+GATGGAGTCTGCGGCA-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.84144455,T cell,8969
+GATGGAGTCTTCCAGC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9918977,Monocyte,8793
+GATTCGAGTCGCACGT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell,0.98538476,T cell,872
+GATTCTTGTACAGTCT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.8769775,T cell,11043
+GATTGGTAGGCTGGAT-1,Immune cell,T cell,abT (entry) cell,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell,0.9062832,T cell,3946
+GATTGGTGTTGAGAGC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.8222136,T cell,9880
+GATTTCTCAAGTGGGT-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMK CD8 T cell,0.96264017,T cell,9137
+GATTTCTGTCGTCGGT-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.34586486,Coarse Not Confidently Annotated,2001
+GATTTCTTCCTTCAGC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.6448036,B cell,9637
+GCAACCGTCATTTCCA-1,Immune cell,T cell,GZMB CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMB CD8 T cell,0.6111238,T cell,8453
+GCAACCGTCGAACGGA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9750006,B cell,8344
+GCACGGTAGTAGTCTC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.64543253,T cell,11639
+GCACGGTCACCCAACG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.94434774,B cell,7783
+GCACGTGTCAGACATC-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9969529,NK cell,8245
+GCAGCCAAGAGGTCAC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.89921635,B cell,10067
+GCAGCCACATACATCG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9676837,B cell,9048
+GCAGCCAGTTGCGTAT-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.98215586,B cell,11882
+GCAGCCATCACCGGGT-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9819511,T cell,8737
+GCAGCTGGTAAGTTAG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.992463,Monocyte,24678
+GCAGCTGGTGGGTCAA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.8813968,B cell,8468
+GCAGCTGTCAAAGCCT-1,Immune cell,Dendritic cell,pDC,Immune cell|Myeloid cell|Dendritic cell|pDC,0.99983,Dendritic cell,23291
+GCAGCTGTCCTTCTGG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9758395,T cell,10399
+GCAGTTACACATTCTT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.98546416,Monocyte,7329
+GCAGTTATCTCTCTTC-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.9946148,Monocyte,21778
+GCATCGGGTAACGATA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99579656,Monocyte,17966
+GCCAACGTCTAACGCA-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9927417,NK cell,10048
+GCCAACGTCTGCATAG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99626666,Monocyte,17018
+GCCAGGTGTTAGAAAC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9936639,T cell,12545
+GCCAGTGAGTCCTACA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9452234,B cell,7079
+GCCGATGAGGCGAAGG-1,Unassigned,Unassigned,Unassigned,Unassigned,0.9777084,Unassigned,1833
+GCCGATGAGTAACCTC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9993536,T cell,7913
+GCCGATGCATCTTTCA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9437065,B cell,8774
+GCCGTGACAACGACTT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9972452,Monocyte,9335
+GCCGTGACATGCCGGT-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.76970863,T cell,10292
+GCCGTGAGTCAGTCCG-1,Immune cell,Platelet,Platelet,Immune cell|Erythrocyte/Megakaryocyte|Megakaryocyte,0.99423015,Platelet,3098
+GCCTGTTCACAGTCAT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.5214988,Monocyte,19179
+GCGAGAAAGTTGTAGA-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.98952127,Monocyte,15523
+GCGAGAATCCTCAGAA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9991875,T cell,8795
+GCGGAAAGTGTGTCCG-1,Immune cell,T cell,GZMB CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMB CD8 T cell,0.9903285,T cell,7999
+GCGGATCAGCAACTTC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9990802,Monocyte,9071
+GCGTTTCAGTCTAGCT-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.70670414,T cell,3157
+GCTACAAGTCAGCTTA-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.75142056,B cell,4205
+GCTACCTCACGCACCA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9950995,Monocyte,19112
+GCTACCTGTCCTACAA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9989177,Monocyte,20427
+GCTGAATAGCACTCTA-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.99295145,B cell,12712
+GCTGAATCACACGGAA-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.5557031,B cell,10923
+GCTGAATTCGTTAGTG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99539846,Monocyte,15461
+GCTGCAGAGGGCAGAG-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9744621,B cell,13345
+GCTGCAGGTGCTGATT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.51814437,T cell,11590
+GCTGCAGGTTGACGGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9994803,Monocyte,14700
+GCTGGGTAGTACAACA-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.99751604,NK cell,7267
+GCTTCACCAACACGAG-1,Immune cell,Dendritic cell,cDC2,Immune cell|Myeloid cell|Dendritic cell,0.9854708,Dendritic cell,29623
+GCTTGGGAGAAGGTAG-1,Immune cell,Monocyte,CD14/CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD14/CD16 monocyte,0.93081677,Monocyte,24323
+GCTTTCGAGTGCAAAT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9966478,Monocyte,15883
+GCTTTCGGTTCGGGTC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.6763341,T cell,8895
+GCTTTCGTCCGGTAGC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.9228688,T cell,10803
+GCTTTCGTCTGGGTCG-1,Immune cell,Monocyte,CD14/CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD14/CD16 monocyte,0.46111435,Monocyte,25152
+GGAACCCAGCCATTTG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9963223,Monocyte,21450
+GGAACCCTCTAATTCC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.82478917,B cell,9274
+GGAAGTGCAACCCTCT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99764663,Monocyte,8387
+GGAATCTCAAACTGCT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9953962,T cell,11703
+GGAATCTTCAATCTCT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.9690323,T cell,16086
+GGAATGGAGGACTAAT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.64465225,Monocyte,18154
+GGAATGGCACGACGCT-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.73453724,T cell,4319
+GGACGTCGTTCAACGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99569833,Monocyte,17697
+GGAGAACGTGCCCACA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9962405,Monocyte,4312
+GGAGGATGTATGAAAC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9973048,Monocyte,12057
+GGAGGTAAGGCGTTGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9973225,Monocyte,13558
+GGAGGTATCTGGTGCG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9931323,Monocyte,5314
+GGATCTAAGCAATTCC-1,Immune cell,T cell,abT (entry) cell,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell,0.9834874,T cell,780
+GGATCTAGTGCCTGCA-1,Immune cell,Platelet,Platelet,Immune cell|Erythrocyte/Megakaryocyte|Megakaryocyte,0.9994659,Platelet,846
+GGATCTATCACCTACC-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.501456,T cell,9730
+GGATCTATCATAAGGA-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9907088,T cell,9278
+GGATGTTAGCCGGATA-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.99268615,T cell,7454
+GGCACGTAGGCCCGTT-1,Unassigned,Unassigned,Unassigned,Unassigned,0.9721877,Unassigned,713
+GGCGTCACATTGTGCA-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMK CD8 T cell,0.9250798,T cell,5989
+GGCTGTGCAAAGCTAA-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9988054,NK cell,3480
+GGCTGTGCACGGTGAA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.87049115,B cell,8965
+GGCTGTGGTCCACATA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte|MHCII high CD14 monocyte,0.5525156,Monocyte,8967
+GGCTTGGCACCGAATT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.8919612,B cell,7716
+GGCTTGGGTAGATCGG-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.92083764,B cell,9494
+GGCTTGGTCTTCTTCC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte|MHCII high CD14 monocyte,0.9063346,Monocyte,4408
+GGGACAATCCGATCTC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.993536,Monocyte,24024
+GGGACCTGTTAGGGAC-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMK CD8 T cell,0.4381264,T cell,4567
+GGGACCTGTTCTTGTT-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.93847495,T cell,15073
+GGGACTCCACATATCG-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.9559297,T cell,8984
+GGGACTCCACGGGCTT-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Myeloid cell|Dendritic cell|cDC,0.49429098,Coarse Not Confidently Annotated,23674
+GGGAGATCACGGGTAA-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.9726261,T cell,8824
+GGGAGATTCACGGACC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9614446,B cell,7712
+GGGAGTAAGCAGGCAT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9805368,Monocyte,12588
+GGGAGTATCACCTCGT-1,Immune cell,Dendritic cell,cDC2,Immune cell|Myeloid cell|Dendritic cell|cDC|cDC2,0.92026705,Dendritic cell,3276
+GGGAGTATCTTAGCCC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99596417,Monocyte,10437
+GGGATCCAGGGCAATC-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9945484,NK cell,6209
+GGGATGAAGGGAGGGT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99813545,T cell,9334
+GGGATGAAGTCCCGAC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.75157267,T cell,16361
+GGGCCATTCAGACCGC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9989064,Monocyte,20037
+GGGCTACAGACCAAAT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.997463,T cell,10433
+GGGCTACAGGCAGTCA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.76130635,T cell,8254
+GGGCTCATCGCAATTG-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD8 T cell,0.4492987,Coarse Not Confidently Annotated,11850
+GGGTAGAAGTAGGGTC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9984549,T cell,8109
+GGGTCACCAGGAGGTT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.85505104,T cell,8190
+GGGTCACGTCCTTAAG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.98831475,Monocyte,22302
+GGGTCACTCACAAGGG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9979735,Monocyte,14196
+GGGTCTGAGTCAACAA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9946449,Monocyte,1923
+GGGTCTGGTTTGAAAG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.9125293,T cell,8055
+GGGTCTGTCCCGTTCA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99831367,Monocyte,8853
+GGGTGAACATAAGCAA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.57796013,T cell,11415
+GGGTTATCAGCCATTA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.9426278,T cell,11939
+GGGTTTACACAGAGCA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99936384,Monocyte,13200
+GGGTTTACACTAAACC-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.99439573,B cell,9787
+GGTAATCCAAAGGAGA-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9347126,T cell,6382
+GGTAATCCACAGCATT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99222964,Monocyte,11948
+GGTAATCCATACCACA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9945024,Monocyte,10542
+GGTAATCTCAAGTTGC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9838229,Monocyte,19738
+GGTAGAGAGACCAGCA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99726856,Monocyte,10790
+GGTCACGCAATGGCCC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.606869,T cell,14180
+GGTCACGGTCGTGATT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9984675,T cell,9325
+GGTCTGGTCAGACATC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9560096,B cell,9092
+GGTCTGGTCTCCCAAC-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.99110436,T cell,13256
+GGTGATTAGCTGTACT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9539766,B cell,8170
+GGTGATTCAGCTCGGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9983773,Monocyte,15774
+GGTGGCTGTGCGCTCA-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9951997,NK cell,7252
+GGTGTCGCAACGATCT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9985201,Monocyte,17339
+GGTGTCGGTGTTATCG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.87581795,B cell,9117
+GGTGTTAGTGGATTTC-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9868852,B cell,27608
+GGTTAACTCACTCACC-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell|Naive CD4 T cell,0.5271595,Coarse Not Confidently Annotated,2169
+GGTTCTCCAGGTTCCG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9988343,Monocyte,7165
+GGTTGTATCGAAGGAC-1,Immune cell,B cell,Plasma cell,Immune cell|Lymphoid cell|B cell|Plasma cell,0.9990621,B cell,44684
+GTAACACAGAAAGCGA-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.8355425,T cell,5902
+GTAACACAGCTCCGAC-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.9945696,Monocyte,19070
+GTAACACGTAGATGTA-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMK CD8 T cell,0.5881695,T cell,9187
+GTAACACGTGGCGTAA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte|MHCII low CD14 monocyte,0.7025245,Monocyte,2873
+GTAAGTCTCGATTGGT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9976732,T cell,9901
+GTAATCGCAGTTTCGA-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.6314764,T cell,12079
+GTAATCGGTTGCGAAG-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.99551743,NK cell,9104
+GTAATGCCACCAGTAT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9968464,Monocyte,16588
+GTACAACAGATAGCTA-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.99695885,NK cell,7389
+GTAGAAACATGGACAG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9986319,Monocyte,11181
+GTAGAAATCTGAGATC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99793637,Monocyte,19512
+GTAGAGGCAACTTCTT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9901642,T cell,6422
+GTAGATCCATCCCGTT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.8672551,T cell,12951
+GTAGATCTCCCGAAAT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9670174,B cell,2568
+GTAGCTATCTCATGGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9967483,Monocyte,18220
+GTAGGAGTCCGTCACT-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.99812645,NK cell,4809
+GTAGGTTCAGAAGCGT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99936074,T cell,7887
+GTAGGTTGTGTTCGTA-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMK CD8 T cell,0.6746916,T cell,7786
+GTAGTACCACCCTATC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9918901,Monocyte,21034
+GTAGTACTCTGTGTGA-1,Immune cell,Dendritic cell,cDC1,Immune cell|Myeloid cell|Dendritic cell|cDC|cDC1,0.7978861,Dendritic cell,27402
+GTATTTCAGAAGAGCA-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.95700574,T cell,9015
+GTCAAACCAAGCACCC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.885087,T cell,11821
+GTCAAACTCAATGCAC-1,Immune cell,T cell,abT (entry) cell,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell,0.9241236,T cell,2855
+GTCAAGTCAATACCTG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.91491205,T cell,3845
+GTCACGGAGCGGGTTA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9997236,T cell,10196
+GTCACGGCACCGTACG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.8369807,T cell,11823
+GTCACTCTCTTGAACG-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.86674774,T cell,10230
+GTCATGAAGACTCATC-1,Immune cell,T cell,abT (entry) cell,Immune cell|Lymphoid cell|T/NK cell|T cell,0.99665195,T cell,1591
+GTCATGAAGTTTGGCT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9977366,Monocyte,17197
+GTCATGACATTGGATC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.8625262,B cell,7498
+GTCATTTCAAGAGAGA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99874675,T cell,6795
+GTCATTTGTACGACTT-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.35476598,T cell,2957
+GTCATTTTCCTAGAGT-1,Immune cell,NK cell,CD56 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD56 NK cell,0.99405295,NK cell,6396
+GTCCCATCATGCCGAC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99368954,T cell,7800
+GTCCTCAAGTCACGAG-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.99532723,B cell,13838
+GTCGAATAGGAGTATT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9706195,B cell,7013
+GTCGAATCAGAACCGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99551374,Monocyte,8330
+GTCGAATGTCAAGCGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99943405,Monocyte,6866
+GTCGCGAAGCAGCGAT-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.96682805,T cell,6266
+GTCGCGAGTTTACCTT-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9300468,NK cell,7857
+GTCTACCCAGGAAGTC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99771464,T cell,8660
+GTCTAGACAATGCAGG-1,Unassigned,Unassigned,Unassigned,Unassigned,0.9491682,Unassigned,1031
+GTCTAGAGTATGTCAC-1,Immune cell,Dendritic cell,cDC2,Immune cell|Myeloid cell|Dendritic cell,0.99074054,Dendritic cell,26320
+GTCTAGATCGAGAGAC-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.8774302,B cell,12014
+GTCTGTCAGATACGAT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.6846578,T cell,10590
+GTCTGTCTCGAGCCTG-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9991068,NK cell,7826
+GTGAGCCCATCTTCGC-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD8 T cell|GZMK CD8 T cell,0.31394368,Coarse Not Confidently Annotated,1963
+GTGAGCCGTGATCGTT-1,Immune cell,NK cell,CD56 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD56 NK cell,0.7949804,NK cell,4753
+GTGAGCCTCTGGAAGG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9981981,Monocyte,12649
+GTGAGGAAGCATTGAA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.3296858,T cell,8550
+GTGAGGACACAACATC-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9561775,T cell,9928
+GTGAGGACACTTTAGG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9933924,T cell,8943
+GTGAGTTTCCAATGCA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.89522046,T cell,9056
+GTGATGTAGACATCAA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.9586703,T cell,9869
+GTGCGTGAGCTTCTAG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9961641,Monocyte,23677
+GTGCTGGCAGGCTACC-1,Immune cell,NK cell,CD56 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD56 NK cell,0.99523586,NK cell,8802
+GTGCTGGTCAAACCTG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.999102,T cell,12571
+GTGCTTCAGACCATAA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99845564,Monocyte,12515
+GTGCTTCCACTCATAG-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9927725,NK cell,8640
+GTGCTTCGTCGCTTGG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9984561,Monocyte,9743
+GTGGAAGAGCCAAGTG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9018649,B cell,15409
+GTGGAGAAGATCCGAG-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell,0.40341923,Coarse Not Confidently Annotated,834
+GTGGCGTAGAATAACC-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMK CD8 T cell,0.891508,T cell,8425
+GTGGCGTCAATCGAAA-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.8461238,T cell,7599
+GTGGGAAAGGTCGTAG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.67257196,B cell,8288
+GTGGGAACATGAGTAA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.7325754,T cell,9791
+GTGGTTAAGTAACCGG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.97657573,T cell,3934
+GTGTAACTCTTGGTGA-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.41783977,T cell,6754
+GTGTCCTAGTCGGCCT-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9966934,NK cell,6693
+GTGTCCTCAGTTGTTG-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.98602194,B cell,15553
+GTGTCCTGTGGCCTCA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99734586,T cell,11229
+GTGTGATCACTACGGC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.95315784,T cell,11079
+GTGTGATTCTTACGTT-1,Immune cell,NK cell,CD56 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD56 NK cell,0.8332608,NK cell,7571
+GTGTGGCAGGTACTGG-1,Immune cell,Dendritic cell,cDC2,Immune cell|Myeloid cell|Dendritic cell,0.9986953,Dendritic cell,27843
+GTGTGGCAGGTAGTCG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.99110305,T cell,9839
+GTGTGGCGTAAGTTGA-1,Immune cell,B cell,Plasma cell,Immune cell|Lymphoid cell|B cell|Plasma cell|Plasma cell precursor,0.30100277,B cell,1613
+GTGTGGCTCACCACAA-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.7621715,T cell,11454
+GTGTTCCAGGTGCCTC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.6839297,B cell,4703
+GTGTTCCGTAGTTCCA-1,Immune cell,Platelet,Platelet,Immune cell|Erythrocyte/Megakaryocyte|Megakaryocyte,0.9992716,Platelet,4191
+GTTACAGAGGGCTAAC-1,Immune cell,T cell,abT (entry) cell,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell,0.542198,T cell,797
+GTTACAGAGTGTAGTA-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.68805254,T cell,7823
+GTTACAGCAAATCAGA-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.82751167,T cell,8795
+GTTACGAGTATGAGAT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9984793,Monocyte,18412
+GTTAGTGAGAACGTGC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.54830855,T cell,11377
+GTTAGTGCACCTCTAC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99280643,Monocyte,27131
+GTTATGGTCGTTCCTG-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.9635816,T cell,3340
+GTTCATTTCCGATGCG-1,Immune cell,Platelet,Platelet,Immune cell|Erythrocyte/Megakaryocyte|Megakaryocyte,0.9975667,Platelet,860
+GTTCCGTAGTTGCCCG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99656576,Monocyte,12039
+GTTCCGTCACCCGTAG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.6976099,T cell,9538
+GTTCTATCAAATGAGT-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.96233326,B cell,9378
+GTTCTATCACGTGTGC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.983842,Monocyte,9325
+GTTCTATTCTACACTT-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9911246,NK cell,9259
+GTTGAACAGGAACATT-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.999443,NK cell,8597
+GTTGAACGTACCCGCA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9888982,Monocyte,23355
+GTTGCGGAGCTGCCTG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.999671,T cell,10452
+GTTGCTCAGTTTCGAC-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9960432,NK cell,8024
+GTTGCTCTCATTTCCA-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.9947919,T cell,11527
+GTTGTAGCAGTTCTAG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.97048527,T cell,9068
+GTTGTGAAGACCTTTG-1,Unassigned,Unassigned,Unassigned,Unassigned,0.97495097,Unassigned,681
+GTTGTGATCTCGGTCT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.999678,T cell,9628
+GTTTGGAGTGTATACC-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.982545,T cell,7542
+TAACGACCACATATGC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9988053,T cell,10906
+TAACGACGTGCCTACG-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.75751156,T cell,3786
+TAACTTCGTTGTGGAG-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9951402,NK cell,7269
+TAAGCACAGAAGCTGC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.98601717,T cell,10158
+TAAGCACTCACCATAG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9542546,B cell,8085
+TAAGCCAGTCCAACGC-1,Immune cell,T cell,abT (entry) cell,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell,0.9684133,T cell,2563
+TAAGCCATCTGGCCTT-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.5732719,B cell,8509
+TAAGCGTTCGTTGCCT-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.6823117,B cell,5131
+TAAGCGTTCTGTCGTC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.92579335,T cell,8572
+TAATTCCCACTCCGGA-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMK CD8 T cell,0.39725673,Coarse Not Confidently Annotated,11800
+TAATTCCGTATTGACC-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.9898481,Monocyte,21161
+TAATTCCGTCAGTCCG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.8261701,T cell,12079
+TACAACGCAAAGGTTA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9964707,T cell,10152
+TACAACGCATAGATCC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.8749399,T cell,10591
+TACACCCTCGACTCCT-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.9346064,T cell,12641
+TACAGGTTCCTTACCG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.6805906,T cell,14625
+TACATTCGTGGCTTAT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.66977674,T cell,14568
+TACCGGGTCCTCGATC-1,Immune cell,Platelet,Platelet,Immune cell|Erythrocyte/Megakaryocyte|Megakaryocyte,0.99982446,Platelet,1036
+TACCTCGCACCCAACG-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.8560412,T cell,11700
+TACCTGCAGTCACGCC-1,Unassigned,Unassigned,Unassigned,Unassigned,0.98510355,Unassigned,1673
+TACCTGCAGTCTGCAT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.7229029,T cell,13448
+TACCTGCTCCAAGCTA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9833017,B cell,9622
+TACGCTCGTCAATCTG-1,Unassigned,Unassigned,Unassigned,Unassigned,0.99323165,Unassigned,841
+TACGCTCTCTCGGTCT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.97178644,Monocyte,26423
+TACGCTCTCTTAAGGC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9591683,B cell,9836
+TACGGGCTCAACGAGG-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.9323593,T cell,10446
+TACGGGCTCTACCACC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.8466893,T cell,9973
+TACGTCCCAAGTGATA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9950014,Monocyte,12881
+TACGTCCCATGTGTCA-1,Immune cell,T cell,GZMB CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMB CD8 T cell,0.9357684,T cell,7061
+TACTTACAGGCATCTT-1,Unassigned,Unassigned,Unassigned,Unassigned,0.99798906,Unassigned,760
+TACTTCATCATGCCGG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9894308,T cell,10278
+TAGACCAGTCTCGGGT-1,Immune cell,T cell,abT (entry) cell,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell,0.69294983,T cell,6443
+TAGACTGAGATTGTGA-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9932352,B cell,10341
+TAGACTGGTCTTGAAC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99684876,Monocyte,12565
+TAGACTGTCGCCGAGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9982981,Monocyte,19328
+TAGAGTCGTTGTGTAC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99832493,Monocyte,15527
+TAGATCGCAAATGGTA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99774927,Monocyte,10113
+TAGATCGCACACGCCA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99813795,T cell,8860
+TAGATCGTCACAACCA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99694365,Monocyte,21270
+TAGCACAAGTACTCGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99630946,Monocyte,7226
+TAGGAGGCAAGACCTT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.95901734,B cell,5549
+TAGGAGGGTTCCAGGC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.6922867,B cell,10359
+TAGGGTTAGAGAGCGG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.69032633,T cell,10559
+TAGGGTTAGGAACATT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9896394,B cell,9098
+TAGGGTTCAAGAAACT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9943593,B cell,4601
+TAGGTACGTGTCATCA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99506515,Monocyte,22100
+TAGGTACTCGAAGCAG-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9984156,NK cell,8314
+TAGTGCACACTCGATA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.96861637,Monocyte,14589
+TAGTGCACAGAGGAAA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9980987,Monocyte,23360
+TATACCTGTTCTCGTC-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.99310595,T cell,10586
+TATACCTTCTGTCCGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99791926,Monocyte,15021
+TATATCCCATGCGTGC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9887144,B cell,7149
+TATCGCCTCTCCCAAC-1,Immune cell,Dendritic cell,cDC2,Immune cell|Myeloid cell|Dendritic cell|cDC,0.7870426,Dendritic cell,32432
+TATCTTGTCCATCTCG-1,Immune cell,Dendritic cell,cDC2,Immune cell|Myeloid cell|Dendritic cell|cDC|cDC2,0.8993181,Dendritic cell,41633
+TATCTTGTCGGCTTGG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9640804,Monocyte,1224
+TATGTTCAGTATGGAT-1,Immune cell,T cell,GZMB CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMB CD8 T cell,0.5442393,T cell,8854
+TATTGCTTCTCGAACA-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9931797,NK cell,8635
+TCAAGCATCCACTTTA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.7682515,T cell,13537
+TCAATCTAGAGGTTTA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.997609,T cell,10230
+TCAATCTGTTTCCCAC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.94880027,B cell,9844
+TCACAAGGTAGTGGCA-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.96736497,T cell,11093
+TCACAAGGTGGATACG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99735594,Monocyte,17038
+TCACACCCACCAGCCA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9776048,Monocyte,28630
+TCACACCGTCTCACGG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.991452,T cell,11633
+TCACACCGTTAAACCC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.8777922,Monocyte,21815
+TCACACCTCTGGGAGA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.81160194,T cell,6883
+TCACACCTCTTACCAT-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.59454083,Coarse Not Confidently Annotated,11444
+TCACATTCAGAACTAA-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.9949092,Monocyte,21978
+TCACATTCATGCCATA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.6565935,T cell,13383
+TCACGCTAGGACATCG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9904142,T cell,10666
+TCACGCTGTCTGCCTT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9968124,T cell,10029
+TCACGCTTCACTAGCA-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.9900115,T cell,12050
+TCACGCTTCGCTGACG-1,Immune cell,Platelet,Platelet,Immune cell|Erythrocyte/Megakaryocyte|Megakaryocyte,0.98955756,Platelet,559
+TCACGCTTCGGACTGC-1,Immune cell,T cell,Tfh cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Tfh cell,0.7788365,T cell,10210
+TCACGGGCAACCGACC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99765587,Monocyte,23375
+TCACTATGTTTAGACC-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.80240756,T cell,11274
+TCACTCGCAAAGCAAT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9375558,Monocyte,22065
+TCACTCGGTCAACCAT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99909484,T cell,11666
+TCACTCGTCGGTCATA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.7691388,Monocyte,19132
+TCAGCAACAAATCAAG-1,Immune cell,Monocyte,CD14/CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD14/CD16 monocyte,0.68934774,Monocyte,20221
+TCAGCAAGTATGACAA-1,Immune cell,Dendritic cell,cDC2,Immune cell|Myeloid cell|Dendritic cell,0.9960471,Dendritic cell,27557
+TCAGGGCTCATGCGGC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9953818,T cell,13306
+TCAGGTACAATCGCAT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.7010131,B cell,7799
+TCAGGTAGTATGGTAA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.98080945,T cell,11056
+TCAGTCCGTAAGATCA-1,Immune cell,Dendritic cell,cDC2,Immune cell|Myeloid cell|Dendritic cell,0.5842631,Dendritic cell,20844
+TCAGTCCGTCTCTCAC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.58161414,T cell,14828
+TCAGTTTAGGATATAC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.57157713,Monocyte,18058
+TCATACTCAGGTACGA-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.55639064,Coarse Not Confidently Annotated,8882
+TCATACTTCAGAGCAG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.8946757,T cell,8912
+TCATATCCATGCTGCG-1,Immune cell,Dendritic cell,pDC,Immune cell|Myeloid cell|Dendritic cell|pDC,0.9997694,Dendritic cell,18709
+TCATCATAGCACACAG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99000365,Monocyte,19925
+TCATCATGTTGCACGC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9951551,Monocyte,12384
+TCATCCGTCCAACTGA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.82661,B cell,9210
+TCATGCCCAAAGCGTG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.94842654,T cell,8942
+TCATGCCGTGTCTTAG-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.78848,T cell,10748
+TCATGTTAGAGGCGGA-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.8139434,B cell,8639
+TCATGTTGTGTGTGTT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99870193,T cell,6384
+TCATTACGTGCATGAG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.8748151,T cell,7922
+TCATTGTGTGAGCAGT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9969688,T cell,8948
+TCCATCGGTTTAGTCG-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.99158293,B cell,10556
+TCCCACACACTAGAGG-1,Unassigned,Unassigned,Unassigned,Unassigned,0.98706114,Unassigned,901
+TCCCACACAGACCAAG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.998178,Monocyte,15743
+TCCCACAGTTGACGGA-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell,0.9966948,T cell,629
+TCCCAGTAGACCGTTT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99740714,Monocyte,12934
+TCCCAGTTCGACATAC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9917428,Monocyte,14502
+TCCCATGTCGGCCCAA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9974837,T cell,5195
+TCCGATCTCAAACCTG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.8066168,T cell,11521
+TCCTCCCAGTCTAACC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99828416,Monocyte,14560
+TCCTCGATCTCTCGAC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.8316566,T cell,8777
+TCCTCTTAGAGTGAAG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99640924,Monocyte,18371
+TCCTCTTAGCCAAGGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.7413557,Monocyte,30651
+TCCTTCTCAACTCGTA-1,Immune cell,Dendritic cell,cDC2,Immune cell|Myeloid cell|Dendritic cell|cDC|cDC2,0.6326044,Dendritic cell,30155
+TCCTTTCTCGCTGTCT-1,Immune cell,Dendritic cell,pDC,Immune cell|Myeloid cell|Dendritic cell|pDC,0.9998914,Dendritic cell,23539
+TCGAAGTGTATCAGGG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.988143,T cell,8583
+TCGACCTCAAAGACTA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99924856,T cell,9926
+TCGACCTCAAGTAGTA-1,Immune cell,B cell,Plasma cell,Immune cell|Lymphoid cell|B cell|Plasma cell,0.9925983,B cell,38652
+TCGACGGTCGAAGTGG-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.9496378,T cell,9461
+TCGATTTGTACGCTTA-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.51975334,T cell,12739
+TCGCAGGAGATTGACA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.92944413,T cell,11179
+TCGCAGGGTAGGCTCC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99861157,T cell,9375
+TCGCAGGGTTCTAACG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99715674,T cell,11663
+TCGCTCACAAGATTGA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9973164,T cell,8901
+TCGCTTGAGAGACAAG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9695282,T cell,9323
+TCGCTTGAGCATTTGC-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.8974906,T cell,9763
+TCGGGACGTAACGGTG-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.94819164,Monocyte,2164
+TCGGGACTCTAGATCG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.999038,T cell,11002
+TCGGGCACAGTTACCA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99272126,T cell,3912
+TCGGGCATCCGATTAG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.8781207,T cell,10151
+TCGGGCATCTGAACGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99832743,Monocyte,17289
+TCGGGTGCAGTCTGGC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9983247,Monocyte,4935
+TCGGTCTTCATTGCTT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.7740393,T cell,10334
+TCGGTCTTCGACATAC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.63006216,T cell,10291
+TCGTAGACAATGAAAC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9982317,Monocyte,15648
+TCGTGCTGTAAGGAGA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9953532,T cell,5851
+TCGTGCTGTGATCATC-1,Immune cell,Dendritic cell,pDC,Immune cell|Myeloid cell|Dendritic cell|pDC,0.99995255,Dendritic cell,13425
+TCTAACTAGGTCCAGA-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.91996926,T cell,8088
+TCTACCGCAGTCGTTA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.62389004,T cell,9777
+TCTACCGTCCACGGAC-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.9532118,T cell,8405
+TCTATACGTTATCCAG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9977423,Monocyte,20203
+TCTATCAGTATGCTAC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9983182,Monocyte,16105
+TCTATCAGTTGCCGAC-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|CD16 NK cell,0.24737206,Coarse Not Confidently Annotated,6883
+TCTCACGAGGCTCCCA-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9663353,T cell,8858
+TCTCCGAAGTCAATCC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.87745047,Monocyte,28910
+TCTCCGATCTCTCTTC-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9726964,B cell,21251
+TCTCTGGCAAAGCAAT-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.9876639,Monocyte,21319
+TCTGCCAAGTTACGGG-1,Immune cell,B cell,Plasma cell,Immune cell|Lymphoid cell|B cell|Plasma cell,0.92077154,B cell,6256
+TCTGCCAGTAACGCGA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.998237,T cell,9097
+TCTGCCAGTAGATGTA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.98556364,Monocyte,24164
+TCTGGCTCATCCTGTC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.8714752,T cell,13489
+TCTGTCGAGACTAGAT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9973864,Monocyte,11228
+TCTGTCGCACCAGCGT-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.937454,NK cell,11517
+TCTTAGTAGGCCTGCT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.93285084,T cell,12828
+TCTTAGTCAACACGAG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9936187,Monocyte,20099
+TCTTAGTGTTGCCAAT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9834906,Monocyte,22897
+TCTTAGTTCAGAATAG-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMK CD8 T cell,0.60742277,T cell,9076
+TCTTCCTCACCAAAGG-1,Unassigned,Unassigned,Unassigned,Unassigned,0.9850145,Unassigned,708
+TCTTGCGAGATGAAGG-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.86666507,T cell,8319
+TCTTGCGCACTACTTT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.935173,B cell,9033
+TCTTGCGCAGAGGAAA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.89150584,T cell,10485
+TCTTGCGGTCCAGCCA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.920882,T cell,12298
+TCTTTGAGTGGAGAAA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.85988456,B cell,7586
+TGAACGTCAAATGAAC-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.98924655,T cell,8697
+TGAACGTGTAACTAAG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.70334816,T cell,13626
+TGAACGTGTCCATAGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9953193,Monocyte,2796
+TGAATGCGTGGACTAG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9213236,B cell,7963
+TGAATGCTCGACGAGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99399936,Monocyte,20075
+TGAATGCTCGCCGTGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9946355,Monocyte,17278
+TGACAGTAGAGGTGCT-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.97661316,T cell,3424
+TGACAGTTCGAGATGG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.98776555,B cell,7305
+TGACCCTTCTCATTGT-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.98952323,Monocyte,16204
+TGACGCGGTGGCTTAT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99797064,Monocyte,6575
+TGACTCCAGTCTCCTC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9991091,T cell,11891
+TGACTCCCACCATAAC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9633376,Monocyte,13226
+TGAGACTAGGCTGAAC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99874425,T cell,9745
+TGAGCATTCCATTGCC-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.8686682,T cell,9406
+TGAGCATTCCTTCACG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.91211075,T cell,9768
+TGAGCATTCGATACTG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.7499362,T cell,10781
+TGAGCATTCTGTCTCG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99570113,Monocyte,12903
+TGAGCGCCACTATGTG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99303776,Monocyte,20961
+TGAGCGCCAGCATACT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9268439,Monocyte,23476
+TGAGCGCTCGTCTAAG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.82664645,T cell,8527
+TGAGGAGTCCATCGTC-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9808945,B cell,17693
+TGAGGGATCAAACGTC-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.96254337,B cell,9845
+TGAGGGATCATAAGGA-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.9736264,Monocyte,6239
+TGAGGTTCAAACTAGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9968196,Monocyte,8323
+TGAGGTTCAGGACATG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9751271,Monocyte,25415
+TGAGGTTGTAGCTTTG-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Myeloid cell|Dendritic cell|cDC,0.80925983,Coarse Not Confidently Annotated,25661
+TGAGTCACAGAACGCA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9893968,Monocyte,20307
+TGAGTCAGTAACCCTA-1,Immune cell,T cell,GZMB CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMB CD8 T cell,0.6956618,T cell,7371
+TGAGTCAGTCACTCTC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99857986,Monocyte,14516
+TGATCAGAGGATTCAA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.939036,Monocyte,25212
+TGATGCACAGGGCTTC-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMB CD8 T cell,0.36790803,Coarse Not Confidently Annotated,9474
+TGATGGTAGACCCGCT-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.91618186,NK cell,11506
+TGATTCTGTAGGTACG-1,Unassigned,Unassigned,Unassigned,Unassigned,0.9956726,Unassigned,651
+TGCACGGTCGAGTACT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9877987,B cell,6005
+TGCAGGCAGCGTTCAT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.75200415,T cell,5812
+TGCAGGCCAGGAATAT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99811965,T cell,8655
+TGCAGTAAGTAGTCCT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9210521,B cell,7423
+TGCAGTATCCACATAG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.98966485,Monocyte,15868
+TGCATCCCACCCAACG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9549294,B cell,5718
+TGCATGAAGCACCCAC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.997823,T cell,12730
+TGCGACGAGCGACAGT-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9989047,NK cell,7463
+TGCGATAAGAATCGCG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.94965035,T cell,10529
+TGCGGCAAGTGGTGAC-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.6236383,Coarse Not Confidently Annotated,9875
+TGCGGCACAAAGACGC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.8566905,T cell,11527
+TGCTCCACAATCTAGC-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9278988,T cell,10670
+TGCTCGTAGACGAGCT-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.8479829,T cell,10738
+TGCTCGTTCCCATTTA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9188376,B cell,8151
+TGCTGAACAGCACAAG-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.9514166,T cell,10882
+TGCTTCGCATAGCTGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9971853,Monocyte,5546
+TGCTTGCGTGAACTAA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9975465,T cell,8882
+TGGAACTAGCGTCTCG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9852093,Monocyte,12113
+TGGAGAGCAGTCAGTT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.95879155,Monocyte,5931
+TGGAGGAAGTAGGAAG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9925137,Monocyte,9728
+TGGAGGAGTCTTTATC-1,Immune cell,Platelet,Platelet,Immune cell|Erythrocyte/Megakaryocyte|Megakaryocyte,0.99736553,Platelet,1817
+TGGAGGATCGACATTG-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9887087,B cell,5259
+TGGATCAGTTCTCCCA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99940956,Monocyte,9634
+TGGATGTTCACGGGAA-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.81451446,T cell,7469
+TGGATGTTCTATCCAT-1,Unassigned,Unassigned,Unassigned,Unassigned,0.9929796,Unassigned,878
+TGGCGTGGTGGATTTC-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell|Memory CD4 T cell,0.51398635,Coarse Not Confidently Annotated,6030
+TGGGAAGTCGATTGGT-1,Immune cell,T cell,GZMK CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMK CD8 T cell,0.52906555,T cell,8073
+TGGGAGAAGCAAGTGC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9612579,B cell,6979
+TGGGAGAAGTGGTGGT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9982053,Monocyte,21306
+TGGGATTAGTCACGAG-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.97872853,NK cell,10553
+TGGGATTGTACGATGG-1,Immune cell,Dendritic cell,cDC2,Immune cell|Myeloid cell|Dendritic cell|cDC,0.73059547,Dendritic cell,23221
+TGGGCGTAGTGGAATT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9762596,B cell,7600
+TGGGCGTCAAATTGCC-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell,0.541667,NK cell,2943
+TGGGCTGAGAGGGTCT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9151935,T cell,8806
+TGGGCTGAGCGTTAGG-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.9956779,Monocyte,21327
+TGGGCTGCATCCGATA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9889559,B cell,19970
+TGGGCTGGTCGCGGTT-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.9982615,NK cell,7207
+TGGGTTAGTATTGAGA-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.9941514,Monocyte,21360
+TGGGTTAGTGCACGCT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9295089,B cell,6378
+TGGGTTATCAGTAGGG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9987324,Monocyte,16241
+TGGTACACAAAGGGTC-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.8945559,T cell,11024
+TGGTAGTCAGGCATGA-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.98762906,T cell,10661
+TGGTAGTCATCACAGT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9403857,T cell,7733
+TGGTAGTTCCCTCATG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9989536,Monocyte,8460
+TGGTTAGTCAACCTTT-1,Unassigned,Unassigned,Unassigned,Unassigned,0.95352244,Unassigned,1913
+TGTAACGGTTGCGTAT-1,Immune cell,Platelet,Platelet,Immune cell|Erythrocyte/Megakaryocyte|Megakaryocyte,0.9834426,Platelet,625
+TGTACAGAGACTCGAG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.993345,Monocyte,21503
+TGTACAGAGTGAGTTA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99763703,Monocyte,15158
+TGTACAGGTGGATTTC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9988568,T cell,9352
+TGTAGACTCCATTTAC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9966685,Monocyte,18540
+TGTCAGACAACTTGGT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.4846062,T cell,11707
+TGTCAGACACTCACTC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.77087903,T cell,12550
+TGTCCACCAACTGGTT-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.98022217,T cell,9258
+TGTCCACTCGCTTACC-1,Immune cell,B cell,Plasma cell,Immune cell|Lymphoid cell|B cell|Plasma cell,0.99363446,B cell,28840
+TGTCCCAAGCTCCATA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.87836415,T cell,8875
+TGTCCCAAGGTCATAA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9464937,B cell,7727
+TGTCCCACATACTTTC-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.8928866,T cell,9201
+TGTCCCAGTCAGGCAA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99756527,Monocyte,11115
+TGTCCCAGTCGGTGTC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99374914,Monocyte,12530
+TGTCCTGGTACTTGTG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9908591,T cell,8803
+TGTCCTGGTTGGCTAT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.96478283,B cell,9144
+TGTCCTGTCGGCTATA-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell,0.4230492,Coarse Not Confidently Annotated,4523
+TGTGATGAGCGACTGA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.8239373,B cell,7731
+TGTGATGCATTCTCTA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.60812575,T cell,12266
+TGTGCGGGTCGTCGGT-1,Immune cell,NK cell,CD56 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD56 NK cell,0.9963942,NK cell,10945
+TGTGCGGTCACATACG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9957575,Monocyte,23610
+TGTGGCGTCGTACCTC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99658316,Monocyte,4994
+TGTGTGATCTGACAGT-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9933689,T cell,8631
+TGTTCATAGCTGCCTG-1,Immune cell,HSC,HSC,Immune cell|Hematopoietic precursor cell|HSC,0.45030662,HSC,34658
+TGTTCATGTCCTGGGT-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.97645104,T cell,9276
+TGTTCCGCAAGTATAG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.7163714,B cell,6164
+TGTTGAGCACAACGAG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99869764,Monocyte,6719
+TGTTGAGTCTCGACCT-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9095965,B cell,8088
+TGTTTGTGTGGAAATT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9903724,Monocyte,31127
+TTAATCCAGCTACTAC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9990101,Monocyte,25890
+TTACAGGGTGATTCTG-1,Immune cell,T cell,GZMB CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell|GZMB CD8 T cell,0.625645,T cell,7722
+TTACCGCGTCCGAAAG-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.99612963,Monocyte,17302
+TTACGCCCACGTCGTG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99911934,Monocyte,10944
+TTACGCCTCAATGCAC-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.6977723,T cell,6609
+TTACGTTGTTTACGAC-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.8427388,T cell,23553
+TTACGTTTCTCGCTTG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99818254,T cell,13162
+TTACTGTCATACATCG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9612441,B cell,10878
+TTACTGTGTAAGAACT-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9989504,Monocyte,7552
+TTACTGTGTTAAGGGC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.8980552,B cell,9317
+TTAGGGTCAGGTCAGA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.99047405,B cell,2983
+TTAGGGTGTCACATTG-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9690382,T cell,9613
+TTAGTCTCACGTATAC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9993662,T cell,9854
+TTATTGCCAAACGGCA-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.90495694,B cell,9951
+TTATTGCGTACGTAGG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9739255,Monocyte,8004
+TTATTGCGTCAACACT-1,Immune cell,NK cell,CD16 NK cell,Immune cell|Lymphoid cell|T/NK cell|NK cell|CD16 NK cell,0.99921703,NK cell,7231
+TTATTGCGTGTCTTCC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9965153,Monocyte,14252
+TTCACCGCAGCCCAGT-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.79934233,B cell,9903
+TTCACGCGTTAAGTCC-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.9519071,T cell,10414
+TTCACGCTCTATCCAT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.6984655,T cell,10223
+TTCAGGAAGATTGGGC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99903405,T cell,7142
+TTCAGGAGTCTACAAC-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9511266,B cell,11445
+TTCATGTAGGTCATAA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.5508409,T cell,9553
+TTCATTGGTACGAAAT-1,Immune cell,T cell,Naive CD8 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Naive CD8 T cell,0.9117053,T cell,4039
+TTCCACGAGGAAGTGA-1,Immune cell,T cell,abT (entry) cell,Immune cell|Lymphoid cell|T/NK cell|T cell|abT (entry) cell,0.55469406,T cell,1905
+TTCCACGGTCAACACT-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9903086,B cell,17013
+TTCCGTGCACTCACTC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9982285,T cell,10895
+TTCCGTGGTTCCAGGC-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.95180666,B cell,12066
+TTCCTAAGTGACGTCC-1,Immune cell,Platelet,Platelet,Immune cell|Erythrocyte/Megakaryocyte|Megakaryocyte,0.98094064,Platelet,1001
+TTCCTCTGTACCTGTA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.98017335,Monocyte,17214
+TTCCTTCAGCCTCAAT-1,Unassigned,Unassigned,Unassigned,Unassigned,0.9951584,Unassigned,672
+TTCCTTCAGGTAGTCG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9965379,Monocyte,5597
+TTCCTTCAGTAGTCAA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.9380462,T cell,7750
+TTCCTTCGTGACACGA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9988961,Monocyte,13427
+TTCGATTTCTGACCCT-1,Unassigned,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Unassigned|Erythrocyte/Megakaryocyte|Megakaryocyte,0.70411706,Coarse Not Confidently Annotated,688
+TTCGCTGAGGGTTAGC-1,Immune cell,Cycling T/NK cell,Cycling T/NK cell,Immune cell|Lymphoid cell|T/NK cell|Cycling T/NK cell,0.5000661,Cycling T/NK cell,16349
+TTCGCTGAGGTTCCGC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.89760923,T cell,4139
+TTCGCTGCACTAGTAC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9633801,B cell,9117
+TTCGCTGTCGGACTGC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99757916,T cell,7961
+TTCTCTCGTATCGTAC-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.7880888,T cell,12145
+TTCTTGAGTCTTGCTC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99687815,Monocyte,10326
+TTGACCCGTCTCGGGT-1,Immune cell,T cell,MAIT cell,Immune cell|Lymphoid cell|T/NK cell|T cell|MAIT cell,0.9945299,T cell,8412
+TTGACCCTCGTAGTGT-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.97730917,T cell,9495
+TTGATGGCATAAGATG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9388209,B cell,6806
+TTGCATTGTGCCTTCT-1,Immune cell,Dendritic cell,pDC,Immune cell|Myeloid cell|Dendritic cell|pDC,0.9995709,Dendritic cell,18536
+TTGCCTGAGAGTGACC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9989272,Monocyte,17511
+TTGCCTGAGTGGAAAG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9993259,Monocyte,14730
+TTGCCTGGTAGCTGCC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9571002,Monocyte,24201
+TTGCGTCCACGCCACA-1,Immune cell,Platelet,Platelet,Immune cell|Erythrocyte/Megakaryocyte|Megakaryocyte,0.9963946,Platelet,556
+TTGCTGCCATTGCCGG-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.99609804,Monocyte,20119
+TTGGGATCAACGGGTA-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.6081141,Coarse Not Confidently Annotated,9903
+TTGGGATTCAGGAAGC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.8329611,Monocyte,19929
+TTGGGATTCTCTCTAA-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9991405,Monocyte,15475
+TTGGGCGCACGGTGAA-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.96616024,T cell,7508
+TTGGGCGGTCGGAAAC-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.96643716,B cell,6692
+TTGGGTAGTGCTAGCC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9969778,Monocyte,13631
+TTGGGTATCACCGACG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9975425,Monocyte,5658
+TTGGTTTCACTGGATT-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Lymphoid cell|T/NK cell|T cell|CD8 T cell|Memory CD8 T cell,0.5416454,Coarse Not Confidently Annotated,8884
+TTGTGGATCTAAGAAG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9978436,T cell,9612
+TTGTGTTGTGTGTCCG-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.99920005,T cell,7713
+TTGTTCACACTTGTGA-1,Immune cell,Coarse Not Confidently Annotated,Fine Not Confidently Annotated,Immune cell|Myeloid cell|Dendritic cell|cDC|cDC1,0.45250088,Coarse Not Confidently Annotated,34715
+TTGTTCACAGTCGCTG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99147755,Monocyte,17655
+TTGTTCATCTTTACAC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9976573,Monocyte,5258
+TTGTTTGAGGTCGACA-1,Immune cell,T cell,Naive CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Naive CD4 T cell,0.9926407,T cell,7591
+TTGTTTGTCCAACCGG-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99644035,Monocyte,4402
+TTTACTGTCACGGGAA-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.70483863,B cell,6140
+TTTATGCCAGTGGCTC-1,Unassigned,Unassigned,Unassigned,Unassigned,0.9992908,Unassigned,867
+TTTATGCGTAACATAG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.705623,T cell,15355
+TTTATGCGTTGATCGT-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.9910869,B cell,13926
+TTTATGCTCACTCGAA-1,Unassigned,Unassigned,Unassigned,Unassigned,0.99576193,Unassigned,707
+TTTCACATCGACGCTG-1,Immune cell,Dendritic cell,cDC2,Immune cell|Myeloid cell|Dendritic cell,0.9993849,Dendritic cell,2889
+TTTCACATCTCAGGCG-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.5837549,B cell,7426
+TTTCATGGTGCCTAAT-1,Immune cell,B cell,Memory B cell,Immune cell|Lymphoid cell|B cell|Memory B cell,0.99501824,B cell,11546
+TTTCATGTCACTCACC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.9755359,Monocyte,12356
+TTTCCTCCACAGAGCA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.56435275,B cell,8118
+TTTCCTCTCCTACACC-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.95721114,T cell,13148
+TTTCCTCTCTCTTGCG-1,Immune cell,Monocyte,CD16 monocyte,Immune cell|Myeloid cell|Monocyte|CD16 monocyte,0.99373686,Monocyte,18266
+TTTGATCTCTTTGGAG-1,Immune cell,T cell,Memory CD4 T cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Memory CD4 T cell,0.89845055,T cell,10650
+TTTGGTTAGTAACCTC-1,Immune cell,T cell,Treg cell,Immune cell|Lymphoid cell|T/NK cell|T cell|CD4 T cell|Treg cell,0.9949904,T cell,7493
+TTTGGTTGTAGAATAC-1,Immune cell,Monocyte,CD14 monocyte,Immune cell|Myeloid cell|Monocyte|CD14 monocyte,0.99611676,Monocyte,14966
+TTTGTTGCAATTAGGA-1,Immune cell,B cell,Naive B cell,Immune cell|Lymphoid cell|B cell|Naive B cell,0.9828766,B cell,7184

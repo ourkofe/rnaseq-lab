@@ -1,0 +1,9 @@
+{
+    "__mem_gb": 1,
+    "__threads": 1,
+    "__vmem_gb": 4,
+    "aggregate_and_annotate": null,
+    "analysis": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/SUMMARIZE_ANALYSIS/fork0/chnk0-u4e7f658572/files/analysis",
+    "umi_lower_threshold": null,
+    "umi_upper_threshold": null
+}

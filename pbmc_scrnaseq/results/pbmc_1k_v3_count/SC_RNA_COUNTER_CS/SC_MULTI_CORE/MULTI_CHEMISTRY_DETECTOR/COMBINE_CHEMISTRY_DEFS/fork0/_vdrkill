@@ -1,0 +1,19 @@
+{
+    "timestamp": "2026-07-26T13:00:06.883554544+09:00",
+    "paths": [
+        "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_CHEMISTRY_DETECTOR/COMBINE_CHEMISTRY_DEFS/fork0/chnk0-u4e7f657ffc/files/chemistry_defs.json"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2026-07-26T12:33:16.552707536+09:00",
+            "DeltaBytes": 8282
+        },
+        {
+            "Timestamp": "2026-07-26T13:00:06.883554544+09:00",
+            "DeltaBytes": -921
+        }
+    ],
+    "count": 1,
+    "size": 921
+}

@@ -1,0 +1,16 @@
+{
+    "antibody_histograms": null,
+    "antigen_histograms": null,
+    "barcode_rank_plots": null,
+    "barnyard_biplot": null,
+    "cloupe": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_REPORTER/CHOOSE_CLOUPE/fork0/chnk0-u4e7f658655/files/cloupe.cloupe",
+    "cmo_projection_plot": null,
+    "count_summary": {
+        "feature_reference": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_REPORTER/SUMMARIZE_REPORTS/fork0/join-u4e7f658640/files/feature_reference.csv",
+        "metrics_summary_csv": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_REPORTER/SUMMARIZE_REPORTS/fork0/join-u4e7f658640/files/metrics_summary_csv.csv",
+        "metrics_summary_json": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_REPORTER/SUMMARIZE_REPORTS/fork0/join-u4e7f658640/files/metrics_summary_json.json",
+        "web_summary": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_REPORTER/SUMMARIZE_REPORTS/fork0/join-u4e7f658640/files/web_summary.html",
+        "ws_data": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_REPORTER/SUMMARIZE_REPORTS/fork0/join-u4e7f658640/files/ws_data.json"
+    },
+    "jibes_biplot_histogram": null
+}

@@ -1,0 +1,186 @@
+{
+  "chunks": [
+    {
+      "__mem_gb": 5.0,
+      "__threads": 2,
+      "__vmem_gb": 42.0,
+      "range": {
+        "end": {
+          "cigar_hash": 3810711972,
+          "flags": 1040,
+          "is_unmapped": false,
+          "position": 97387950,
+          "read_name_hash": 12584421114607851282,
+          "target_id": 1
+        },
+        "start": null
+      },
+      "write_header": true
+    },
+    {
+      "__mem_gb": 5.0,
+      "__threads": 2,
+      "__vmem_gb": 42.0,
+      "range": {
+        "end": {
+          "cigar_hash": 3810711972,
+          "flags": 1024,
+          "is_unmapped": false,
+          "position": 32081983,
+          "read_name_hash": 12305438851526849525,
+          "target_id": 4
+        },
+        "start": {
+          "cigar_hash": 3810711972,
+          "flags": 1040,
+          "is_unmapped": false,
+          "position": 97387950,
+          "read_name_hash": 12584421114607851282,
+          "target_id": 1
+        }
+      },
+      "write_header": false
+    },
+    {
+      "__mem_gb": 5.0,
+      "__threads": 2,
+      "__vmem_gb": 42.0,
+      "range": {
+        "end": {
+          "cigar_hash": 3810711972,
+          "flags": 0,
+          "is_unmapped": false,
+          "position": 31532930,
+          "read_name_hash": 15639952683906693945,
+          "target_id": 8
+        },
+        "start": {
+          "cigar_hash": 3810711972,
+          "flags": 1024,
+          "is_unmapped": false,
+          "position": 32081983,
+          "read_name_hash": 12305438851526849525,
+          "target_id": 4
+        }
+      },
+      "write_header": false
+    },
+    {
+      "__mem_gb": 5.0,
+      "__threads": 2,
+      "__vmem_gb": 42.0,
+      "range": {
+        "end": {
+          "cigar_hash": 3810711972,
+          "flags": 1024,
+          "is_unmapped": false,
+          "position": 74086202,
+          "read_name_hash": 1173261150482859668,
+          "target_id": 11
+        },
+        "start": {
+          "cigar_hash": 3810711972,
+          "flags": 0,
+          "is_unmapped": false,
+          "position": 31532930,
+          "read_name_hash": 15639952683906693945,
+          "target_id": 8
+        }
+      },
+      "write_header": false
+    },
+    {
+      "__mem_gb": 5.0,
+      "__threads": 2,
+      "__vmem_gb": 42.0,
+      "range": {
+        "end": {
+          "cigar_hash": 3810711972,
+          "flags": 1040,
+          "is_unmapped": false,
+          "position": 195439782,
+          "read_name_hash": 17525419351145941152,
+          "target_id": 15
+        },
+        "start": {
+          "cigar_hash": 3810711972,
+          "flags": 1024,
+          "is_unmapped": false,
+          "position": 74086202,
+          "read_name_hash": 1173261150482859668,
+          "target_id": 11
+        }
+      },
+      "write_header": false
+    },
+    {
+      "__mem_gb": 5.0,
+      "__threads": 2,
+      "__vmem_gb": 42.0,
+      "range": {
+        "end": {
+          "cigar_hash": 1110344433,
+          "flags": 0,
+          "is_unmapped": false,
+          "position": 132815054,
+          "read_name_hash": 17956221100494264221,
+          "target_id": 18
+        },
+        "start": {
+          "cigar_hash": 3810711972,
+          "flags": 1040,
+          "is_unmapped": false,
+          "position": 195439782,
+          "read_name_hash": 17525419351145941152,
+          "target_id": 15
+        }
+      },
+      "write_header": false
+    },
+    {
+      "__mem_gb": 5.0,
+      "__threads": 2,
+      "__vmem_gb": 42.0,
+      "range": {
+        "end": {
+          "cigar_hash": 3810711972,
+          "flags": 0,
+          "is_unmapped": false,
+          "position": 7276,
+          "read_name_hash": 2260523059195589740,
+          "target_id": 22
+        },
+        "start": {
+          "cigar_hash": 1110344433,
+          "flags": 0,
+          "is_unmapped": false,
+          "position": 132815054,
+          "read_name_hash": 17956221100494264221,
+          "target_id": 18
+        }
+      },
+      "write_header": false
+    },
+    {
+      "__mem_gb": 5.0,
+      "__threads": 2,
+      "__vmem_gb": 42.0,
+      "range": {
+        "end": null,
+        "start": {
+          "cigar_hash": 3810711972,
+          "flags": 0,
+          "is_unmapped": false,
+          "position": 7276,
+          "read_name_hash": 2260523059195589740,
+          "target_id": 22
+        }
+      },
+      "write_header": false
+    }
+  ],
+  "join": {
+    "__mem_gb": 1.0,
+    "__threads": 4
+  }
+}

@@ -1,0 +1,5 @@
+2026-07-26 13:00:21 [time] __start__
+2026-07-26 13:00:21 [monitor] cgroup memory limit of 9223372036854771712 bytes detected
+2026-07-26 13:00:21 [info] Running appendtracks: appendtracks /BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/STRUCTIFY_CELL_ANNOTATION_OUTS/fork0/chnk0-u4e7f65858b/files/Azimuth_cloupe_cas_types.json /BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_REPORTER/APPEND_CELL_TYPES_CLOUPE/fork0/chnk0-u4e7f658655/files/temp.cloupe /BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_REPORTER/APPEND_CELL_TYPES_CLOUPE/fork0/chnk0-u4e7f658655/files/cell_annotation_sample_cloupe.cloupe --trackName Azimuth Cell Types (beta) --emptyName=Unknown --multiName=Multiple Labels
+2026-07-26 13:00:21 [info] appendtracks output: b''
+2026-07-26 13:00:21 [time] __end__
