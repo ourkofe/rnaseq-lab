@@ -29,8 +29,8 @@ bulk rna-seq은 조직/샘플에 있는 세포들을 다 섞어서 평균 발현
 
 지금 하는 건 발현량 비교(1번)고 이게 제일 기본. 나머지는 여기서 확장되는 것들.
 
-**1. 발현량 비교 (진행중)**
-- differential expression - 그룹 간 발현차이. DESeq2/edgeR/limma-voom
+**1. 발현량 비교 **
+- differential expression - 그룹 간 발현차이. DESeq2/edgeR/limma-voom (DESeq2는 진행 완료)
 - time-course - 시간별 발현 변화
 
 **2. 전사체 구조**
@@ -40,7 +40,7 @@ bulk rna-seq은 조직/샘플에 있는 세포들을 다 섞어서 평균 발현
 - RNA editing
 
 **3. 세포/공간**
-- single-cell (Seurat, Scanpy) - bulk는 평균이라 이질성 못 봄
+- single-cell (Seurat, Scanpy) - bulk는 평균이라 이질성 못 봄 (Cellranger, Seurat 진행 완료)
 - spatial transcriptomics
 - RNA velocity
 

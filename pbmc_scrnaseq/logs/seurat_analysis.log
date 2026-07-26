@@ -1,0 +1,262 @@
+=== 2026-07-26 14:22:30 | STEP: seurat_analysis ===
+CMD: docker run --rm --cpus=8 --memory=16g   --user 1041:1049   -v '/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq':/work -w /work   satijalab/seurat:latest   Rscript scripts/02_seurat_analysis.R
+Unable to find image 'satijalab/seurat:latest' locally
+latest: Pulling from satijalab/seurat
+01d7766a2e4a: Pulling fs layer
+5f4ee3bde4ec: Pulling fs layer
+5cb403304242: Pulling fs layer
+43f4fc599e42: Pulling fs layer
+0114d02f9b88: Pulling fs layer
+681e14291e80: Pulling fs layer
+8b2496b21467: Pulling fs layer
+eb7227778768: Pulling fs layer
+fe7240c76a04: Pulling fs layer
+23b4fce37044: Pulling fs layer
+d058f6286207: Pulling fs layer
+938a71695e78: Pulling fs layer
+a19f778455e6: Pulling fs layer
+7e5b9f9098c0: Pulling fs layer
+076af93a599e: Pulling fs layer
+7b0b0621e4bd: Pulling fs layer
+afc9fec88f83: Pulling fs layer
+7a5d64d429d3: Pulling fs layer
+fc628fdaeb29: Pulling fs layer
+7d5ca5a63767: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+aa9c0c7d9075: Pulling fs layer
+2900bf1276fc: Pulling fs layer
+ad3176fb107b: Pulling fs layer
+3825dd090686: Pulling fs layer
+b5f765eaa5c7: Pulling fs layer
+6c412e656d46: Pulling fs layer
+d058f6286207: Waiting
+43f4fc599e42: Waiting
+ee1bd60a4ea6: Pulling fs layer
+7e5b9f9098c0: Waiting
+d948b1ba282b: Pulling fs layer
+076af93a599e: Waiting
+0114d02f9b88: Waiting
+b0b009874f8a: Pulling fs layer
+681e14291e80: Waiting
+7b0b0621e4bd: Waiting
+ad3176fb107b: Waiting
+8b2496b21467: Waiting
+3825dd090686: Waiting
+eb7227778768: Waiting
+fe7240c76a04: Waiting
+6c412e656d46: Waiting
+23b4fce37044: Waiting
+afc9fec88f83: Waiting
+b0b009874f8a: Waiting
+fc628fdaeb29: Waiting
+7a5d64d429d3: Waiting
+2900bf1276fc: Waiting
+aa9c0c7d9075: Waiting
+7d5ca5a63767: Waiting
+4f4fb700ef54: Waiting
+d948b1ba282b: Waiting
+5f4ee3bde4ec: Verifying Checksum
+5f4ee3bde4ec: Download complete
+43f4fc599e42: Verifying Checksum
+43f4fc599e42: Download complete
+0114d02f9b88: Verifying Checksum
+0114d02f9b88: Download complete
+01d7766a2e4a: Verifying Checksum
+01d7766a2e4a: Download complete
+01d7766a2e4a: Pull complete
+5f4ee3bde4ec: Pull complete
+8b2496b21467: Verifying Checksum
+8b2496b21467: Download complete
+681e14291e80: Verifying Checksum
+681e14291e80: Download complete
+fe7240c76a04: Verifying Checksum
+fe7240c76a04: Download complete
+23b4fce37044: Verifying Checksum
+23b4fce37044: Download complete
+d058f6286207: Download complete
+938a71695e78: Download complete
+a19f778455e6: Verifying Checksum
+a19f778455e6: Download complete
+7e5b9f9098c0: Verifying Checksum
+7e5b9f9098c0: Download complete
+5cb403304242: Verifying Checksum
+5cb403304242: Download complete
+eb7227778768: Verifying Checksum
+eb7227778768: Download complete
+7b0b0621e4bd: Verifying Checksum
+7b0b0621e4bd: Download complete
+7a5d64d429d3: Download complete
+fc628fdaeb29: Verifying Checksum
+fc628fdaeb29: Download complete
+5cb403304242: Pull complete
+43f4fc599e42: Pull complete
+0114d02f9b88: Pull complete
+681e14291e80: Pull complete
+8b2496b21467: Pull complete
+7d5ca5a63767: Verifying Checksum
+7d5ca5a63767: Download complete
+4f4fb700ef54: Download complete
+aa9c0c7d9075: Download complete
+eb7227778768: Pull complete
+fe7240c76a04: Pull complete
+23b4fce37044: Pull complete
+d058f6286207: Pull complete
+938a71695e78: Pull complete
+a19f778455e6: Pull complete
+7e5b9f9098c0: Pull complete
+afc9fec88f83: Verifying Checksum
+afc9fec88f83: Download complete
+ad3176fb107b: Verifying Checksum
+ad3176fb107b: Download complete
+3825dd090686: Download complete
+076af93a599e: Verifying Checksum
+076af93a599e: Download complete
+076af93a599e: Pull complete
+7b0b0621e4bd: Pull complete
+afc9fec88f83: Pull complete
+2900bf1276fc: Verifying Checksum
+2900bf1276fc: Download complete
+7a5d64d429d3: Pull complete
+fc628fdaeb29: Pull complete
+7d5ca5a63767: Pull complete
+4f4fb700ef54: Pull complete
+aa9c0c7d9075: Pull complete
+ee1bd60a4ea6: Verifying Checksum
+ee1bd60a4ea6: Download complete
+2900bf1276fc: Pull complete
+ad3176fb107b: Pull complete
+3825dd090686: Pull complete
+d948b1ba282b: Verifying Checksum
+d948b1ba282b: Download complete
+b0b009874f8a: Download complete
+6c412e656d46: Verifying Checksum
+6c412e656d46: Download complete
+b5f765eaa5c7: Verifying Checksum
+b5f765eaa5c7: Download complete
+b5f765eaa5c7: Pull complete
+6c412e656d46: Pull complete
+ee1bd60a4ea6: Pull complete
+d948b1ba282b: Pull complete
+b0b009874f8a: Pull complete
+Digest: sha256:048d965487afc2961c450879692281a73e24f6de47360ed2f11b31112ebd844e
+Status: Downloaded newer image for satijalab/seurat:latest
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Loading required package: SeuratObject
+Loading required package: sp
+
+Attaching package: ‘SeuratObject’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, t
+
+Warning: Default search for "data" layer in "RNA" assay yielded no results; utilizing "counts" layer instead.
+null device 
+          1 
+필터링 전 세포 수: 1195 
+필터링 후 세포 수: 1135 
+Normalizing layer: counts
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Finding variable features for layer counts
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Centering and scaling data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |===                                                                   |   5%  |                                                                              |======                                                                |   9%  |                                                                              |==========                                                            |  14%  |                                                                              |=============                                                         |  18%  |                                                                              |================                                                      |  23%  |                                                                              |===================                                                   |  27%  |                                                                              |======================                                                |  32%  |                                                                              |=========================                                             |  36%  |                                                                              |=============================                                         |  41%  |                                                                              |================================                                      |  45%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================                                |  55%  |                                                                              |=========================================                             |  59%  |                                                                              |=============================================                         |  64%  |                                                                              |================================================                      |  68%  |                                                                              |===================================================                   |  73%  |                                                                              |======================================================                |  77%  |                                                                              |=========================================================             |  82%  |                                                                              |============================================================          |  86%  |                                                                              |================================================================      |  91%  |                                                                              |===================================================================   |  95%  |                                                                              |======================================================================| 100%
+PC_ 1 
+Positive:  LTB, CD69, IFITM1, BCL11B, CD247, TRAC, TC2N, TRBC2, BACH2, SYNE2 
+	   CD96, ISG20, RORA, CAMK4, IL32, IL7R, BCL2, INPP4B, ITK, CD6 
+	   IKZF3, STAT4, TXK, ANK3, CD27, THEMIS, LEF1, CD7, SAMD3, TESPA1 
+Negative:  FCN1, LYZ, LRMDA, S100A9, PLXDC2, MNDA, CST3, FGL2, CTSS, RBM47 
+	   VCAN, S100A8, CSF3R, CLEC7A, SERPINA1, AIF1, NCF2, CSTA, PSAP, KLF4 
+	   SLC8A1, CPVL, TYMP, MCTP1, GRN, MS4A6A, HCK, CD36, MPEG1, IFI30 
+PC_ 2 
+Positive:  CD247, BCL11B, IFITM1, IL32, TC2N, RORA, CD96, IL7R, STAT4, TRAC 
+	   ITK, INPP4B, CAMK4, CD7, SYNE2, TXK, CD6, GZMM, PRKCA, SAMD3 
+	   CTSW, S100A4, SRGN, THEMIS, PDE3B, ANXA1, TRBC1, TGFBR3, TCP10L, CDC14A 
+Negative:  BANK1, CD79A, PAX5, MS4A1, FCRL1, LINC00926, IGHM, HLA-DQA1, AFF3, NIBAN3 
+	   CD22, RALGPS2, GNG7, EBF1, OSBPL10, CD79B, IGHD, SWAP70, BLK, HLA-DQB1 
+	   BCL11A, CD74, COL19A1, MEF2C, PLEKHG1, RUBCNL, BLNK, HLA-DRB1, HVCN1, HLA-DPB1 
+PC_ 3 
+Positive:  CAVIN2, TUBB1, PF4, GP1BB, PPBP, GNG11, CD9, CMTM5, GP9, SPARC 
+	   CLU, TREML1, ENSG00000288882, NRGN, SEPTIN5, PF4V1, ITGA2B, CTTN, ENSG00000289621, TMEM40 
+	   PRKAR2B, CLDN5, ABCC3, ACRBP, C19orf33, ESAM, PDGFA-DT, SLC18A2-AS1, ITGB3, ENSG00000291236 
+Negative:  NKG7, PRF1, GNLY, CST7, KLRD1, GZMA, KLRF1, GZMB, C1orf21, HOPX 
+	   SPON2, ADGRG1, FGFBP2, MATK, CLIC3, TGFBR3, TTC38, CCL4, TRDC, MCTP2 
+	   BNC2, PDGFD, ADGRG5, NCR1, IL2RB, CTSW, UTRN, SAMD3, TBX21, RAP1GAP2 
+PC_ 4 
+Positive:  SERINC5, LEF1, CAMK4, LTB, INPP4B, SLC2A3, TRABD2A, NELL2, MAL, TSHZ2 
+	   IL7R, PRKCA, PDE3B, ANK3, BACH2, ENSG00000290067, ENSG00000249806, CSGALNACT1, CD6, BCL11B 
+	   BCL2, FHIT, TRAC, LINC01550, TESPA1, SESN3, PASK, CMTM8, THEMIS, CD27 
+Negative:  GZMB, CAVIN2, PPBP, PF4, GNG11, GP1BB, TUBB1, PTCRA, CLIC3, CLU 
+	   CD9, CCL5, GP9, PRKAR2B, SPARC, TREML1, CMTM5, MTURN, ENSG00000288882, C12orf75 
+	   DAB2, GNLY, NRGN, SEPTIN5, ITGA2B, NKG7, KLRD1, KLRF1, CTTN, PF4V1 
+PC_ 5 
+Positive:  GNLY, NKG7, MCTP2, KLRD1, KLRF1, PRF1, ADGRG1, CST7, FGFBP2, CCL5 
+	   GZMA, CCL4, HOPX, TTC38, C1orf21, BNC2, MATK, NCR1, TRDC, PDGFD 
+	   SPON2, CTSW, PTPN12, CD160, PDLIM1, TBX21, SH2D1B, MYOM2, GFOD1, ZBTB16 
+Negative:  SERPINF1, LILRA4, CUX2, LRRC26, LINC01478, SMPD3, COL26A1, SCT, CLEC4C, P3H2 
+	   EPHB1, SCAMP5, ENSG00000225885, ENSG00000290592, SCN9A, ENSG00000248991, FHIP1A, PTPRS, LINC01226, PACSIN1 
+	   DNASE1L3, TPM2, NRP1, TNFRSF21, ENSG00000271857, LINC01374, KCNG2, COL24A1, RHEX, ENSG00000291038 
+Computing nearest neighbor graph
+Computing SNN
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 1135
+Number of edges: 33276
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+*********************************************Maximum modularity in 10 random starts: 0.9012
+Number of communities: 11
+Elapsed time: 0 seconds
+*****|
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+05:25:48 UMAP embedding parameters a = 0.9922 b = 1.112
+05:25:48 Read 1135 rows and found 10 numeric columns
+05:25:48 Using Annoy for neighbor search, n_neighbors = 30
+05:25:48 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+05:25:48 Writing NN index file to temp file /tmp/RtmpKJ8CX5/file15dec2cc6
+05:25:48 Searching Annoy index using 1 thread, search_k = 3000
+05:25:48 Annoy recall = 100%
+05:25:49 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+05:25:49 Initializing from normalized Laplacian + noise (using RSpectra)
+05:25:49 Commencing optimization for 500 epochs, with 41466 positive edges
+05:25:49 Using rng type: pcg
+Using method 'umap'
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+05:25:51 Optimization finished
+null device 
+          1 
+클러스터 개수: 11 
+Calculating cluster 0
+Calculating cluster 1
+Calculating cluster 2
+Calculating cluster 3
+Calculating cluster 4
+Calculating cluster 5
+Calculating cluster 6
+Calculating cluster 7
+Calculating cluster 8
+Calculating cluster 9
+Calculating cluster 10
+null device 
+          1 
+완료. 결과는 results/seurat/ 확인
+=== 2026-07-26 14:26:13 | END: seurat_analysis (exit=0) ===
