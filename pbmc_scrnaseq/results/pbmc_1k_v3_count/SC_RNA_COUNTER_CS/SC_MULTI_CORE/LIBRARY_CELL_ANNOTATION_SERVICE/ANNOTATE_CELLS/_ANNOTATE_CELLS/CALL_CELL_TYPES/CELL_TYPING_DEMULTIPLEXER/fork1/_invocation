@@ -1,5 +1,0 @@
-@include "rna/_cell_annotation_common_stages.mro"
-
-call CELL_TYPING_DEMULTIPLEXER(
-    model_family = "10x_Cloud",
-)

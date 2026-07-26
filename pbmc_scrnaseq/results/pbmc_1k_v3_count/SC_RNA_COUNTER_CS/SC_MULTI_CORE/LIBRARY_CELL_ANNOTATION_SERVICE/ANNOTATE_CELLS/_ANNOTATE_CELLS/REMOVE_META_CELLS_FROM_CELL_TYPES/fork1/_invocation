@@ -1,6 +1,0 @@
-@include "rna/_cell_annotation_common_stages.mro"
-
-call REMOVE_META_CELLS_FROM_CELL_TYPES(
-    cell_types_in = null,
-    metacell_json = null,
-)

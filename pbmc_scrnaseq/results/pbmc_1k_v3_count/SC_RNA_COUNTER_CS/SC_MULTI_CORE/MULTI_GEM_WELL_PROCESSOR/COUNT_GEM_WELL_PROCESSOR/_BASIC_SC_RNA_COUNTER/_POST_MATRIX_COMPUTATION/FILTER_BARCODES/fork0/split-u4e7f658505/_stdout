@@ -1,2 +1,0 @@
-[stdout]
-FILTER_BARCODES.split: num_features=38606 num_barcodes=329735 nnz=5347713 n_samples=1 has_ab=False is_spatial=False chunk_mem_gib=4 join_mem_gib=4

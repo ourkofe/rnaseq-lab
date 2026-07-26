@@ -1,5 +1,0 @@
-{
-    "clustering_h5": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/LIBRARY_CELL_ANNOTATION_SERVICE/ANNOTATE_CELLS/_ANNOTATE_CELLS/SUMMARIZE_CELL_TYPES/CELL_TYPE_DIFF_EXP/WRITE_CELL_TYPES_H5/fork0/chnk0-u4e7f658581/files/cell_types.h5",
-    "is_antibody_only": false,
-    "matrix_h5": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_POST_MATRIX_COMPUTATION/FILTER_BARCODES/fork0/join-u4e7f658505/files/filtered_matrices_h5.h5"
-}

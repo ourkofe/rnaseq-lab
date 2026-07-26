@@ -1,6 +1,0 @@
-{
-    "is_visium_hd_main_run": false,
-    "no_secondary_analysis": false,
-    "parallel_umap": false,
-    "sketch_graphclust": false
-}

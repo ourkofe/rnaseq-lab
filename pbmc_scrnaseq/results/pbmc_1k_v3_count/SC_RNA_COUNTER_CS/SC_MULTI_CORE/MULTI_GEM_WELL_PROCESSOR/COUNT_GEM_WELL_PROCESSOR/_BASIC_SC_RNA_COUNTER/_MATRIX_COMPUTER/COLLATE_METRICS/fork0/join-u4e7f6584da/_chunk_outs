@@ -1,6 +1,0 @@
-[
-    {
-        "per_barcode_metrics": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/COLLATE_METRICS/fork0/chnk0-u4e7f6584da/files/per_barcode_metrics.csv",
-        "summary": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/COLLATE_METRICS/fork0/chnk0-u4e7f6584da/files/summary.json"
-    }
-]

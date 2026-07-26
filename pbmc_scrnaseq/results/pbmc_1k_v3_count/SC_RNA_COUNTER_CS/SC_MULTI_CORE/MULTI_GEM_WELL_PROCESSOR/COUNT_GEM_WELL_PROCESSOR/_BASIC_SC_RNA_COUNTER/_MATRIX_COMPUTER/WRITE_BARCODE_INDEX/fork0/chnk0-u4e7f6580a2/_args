@@ -1,9 +1,0 @@
-{
-    "__mem_gb": 1,
-    "__threads": 1,
-    "__vmem_gb": 4,
-    "barcode_counts": {
-        "Gene Expression": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/BARCODE_CORRECTION/fork0/join-u4e7f65809a/files/Gene Expression_corrected_barcode_counts.sbc.bincode"
-    },
-    "barcode_index_override": null
-}

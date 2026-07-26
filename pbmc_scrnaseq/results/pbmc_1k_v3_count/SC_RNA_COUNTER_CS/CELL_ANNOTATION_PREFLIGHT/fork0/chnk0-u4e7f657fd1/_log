@@ -1,5 +1,0 @@
-2026-07-26 12:32:33 [time] __start__
-2026-07-26 12:32:33 [monitor] cgroup memory limit of 9223372036854771712 bytes detected
-2026-07-26 12:32:47 [warn] No 10x cloud token defined. To enable cell annotation using the Automated Cell Annotation service on 10x Cloud via the 10x Cloud, please run `cellranger cloud auth setup`.
-2026-07-26 12:32:47 [warn] No 10x cloud token defined. To enable cell annotation via the 10x Cloud, please run `cellranger cloud auth setup`. Just running local cell annotation models.
-2026-07-26 12:32:47 [time] __end__

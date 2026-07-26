@@ -1,7 +1,0 @@
-{
-    "filter_probes": null,
-    "gene_index": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/FULL_COUNT_INPUTS/WRITE_GENE_INDEX/fork0/chnk0-u4e7f657feb/files/gene_index.json",
-    "is_antibody_only": false,
-    "target_set": null,
-    "target_set_name": null
-}

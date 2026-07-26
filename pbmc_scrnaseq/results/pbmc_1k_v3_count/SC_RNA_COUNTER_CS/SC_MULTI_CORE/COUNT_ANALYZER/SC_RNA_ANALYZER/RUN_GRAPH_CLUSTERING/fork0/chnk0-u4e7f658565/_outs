@@ -1,4 +1,0 @@
-{
-  "clusters_csv": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_GRAPH_CLUSTERING/fork0/chnk0-u4e7f658565/files/clusters_csv",
-  "clusters_h5": "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/results/pbmc_1k_v3_count/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_GRAPH_CLUSTERING/fork0/chnk0-u4e7f658565/files/clusters_h5.h5"
-}

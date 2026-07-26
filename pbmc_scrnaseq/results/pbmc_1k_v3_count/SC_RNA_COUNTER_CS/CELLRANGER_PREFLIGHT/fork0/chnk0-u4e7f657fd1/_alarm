@@ -1,6 +1,0 @@
-
-    WARNING: The glibc version of this operating system version will no longer
-    be supported in a future release:
-        glibc 2.27
-    Future releases of this pipeline will require libc version 2.28 or higher.
-    For more information, see https://support.10xgenomics.com/os-support.

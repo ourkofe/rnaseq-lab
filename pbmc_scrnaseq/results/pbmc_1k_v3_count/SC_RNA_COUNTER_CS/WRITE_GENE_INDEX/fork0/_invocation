@@ -1,5 +1,0 @@
-@include "rna/_cr_lib_stages.mro"
-
-call WRITE_GENE_INDEX(
-    reference_path = "/BiO/kbioman/kbiomanuser20/rnaseq_practice/pbmc_scrnaseq/ref/refdata-gex-GRCh38-2024-A",
-)
